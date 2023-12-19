@@ -1,0 +1,3 @@
+[submodule "themes/tsuji-website-theme"]
+	path = themes/tsuji-website-theme
+	url = git@github.com:kktsuji/tsuji-website-theme.git
