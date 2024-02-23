@@ -35,8 +35,8 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     weight = 10
   [[Languages.en.menu.main]]
     pageRef="posts"
-    name = 'Posts'
-    url = '/posts/'
+    name = 'Blog'
+    url = '/blog/'
     weight = 20
   [[Languages.en.menu.main]]
     pageRef="about"
@@ -96,9 +96,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     url = '/'
     weight = 10
   [[Languages.ja.menu.main]]
-    pageRef="posts"
-    name = 'Posts'
-    url = '/posts/'
+    pageRef="blog"
+    name = 'Blog'
+    url = '/blog/'
     weight = 20
   [[Languages.ja.menu.main]]
     pageRef="about"
@@ -149,3 +149,6 @@ url = "https://github.com/kktsuji"
 [[params.socialIcons]]
 name = "Rss"
 url = "index.xml"
+
+[permalinks]
+    blog = "/:sections/:slug/"
