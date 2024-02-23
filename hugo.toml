@@ -84,29 +84,29 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   display = "standalone"
 
 ############################## Japanese language ################################
-[Languages.ja]
+[Languages.jp]
   languageName = "Japanese"
   languageCode = "ja"
   contentDir = "content/jp"
   weight = 2
-  [Languages.ja.menu]
-  [[Languages.ja.menu.main]]
+  [Languages.jp.menu]
+  [[Languages.jp.menu.main]]
     pageRef="/"
     name = 'Home'
     url = '/'
     weight = 10
-  [[Languages.ja.menu.main]]
+  [[Languages.jp.menu.main]]
     pageRef="blog"
     name = 'Blog'
     url = '/blog/'
     weight = 20
-  [[Languages.ja.menu.main]]
+  [[Languages.jp.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
     weight = 30
 
-[Languages.ja.params]
+[Languages.jp.params]
   sitename = "tsuji.tech"
   defaultColor = "dark" # set color mode: dark, light, auto
   description = "Tsuji's personal website"
@@ -118,13 +118,13 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   dateFormat = "2 January 2006" # default date format used on various pages
   rssFeedDescription = "summary" # available options: 1) summary 2) full
 
-[Languages.ja.params.author]
+[Languages.jp.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   intro = "K. Tsuji"
   name = "K. Tsuji"
   description = "コンテンツ準備中。"
 
-[Languages.ja.params.webmanifest]
+[Languages.jp.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
   short_name = "sitename" # same as name
   start_url = "/" # will use homepage url by default
