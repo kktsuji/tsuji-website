@@ -34,7 +34,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     url = '/'
     weight = 10
   [[Languages.en.menu.main]]
-    pageRef="posts"
+    pageRef="blog"
     name = 'Blog'
     url = '/blog/'
     weight = 20
@@ -51,7 +51,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Tsuji's personal website"
-  mainSections = ['posts']
+  mainSections = ['blog']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
@@ -110,7 +110,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   sitename = "tsuji.tech"
   defaultColor = "dark" # set color mode: dark, light, auto
   description = "Tsuji's personal website"
-  mainSections = ['posts']
+  mainSections = ['blog']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
