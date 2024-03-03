@@ -70,9 +70,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [Languages.en.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "K. Tsuji"
+  intro = "Hi, I'm K. Tsuji."
   name = "K. Tsuji"
-  description = "Contents are in preparation."
+  description = "A software engineer specialized digital signal image processing technology about CMOS image sensors."
 
 # Allow to override webmanifest options
 [Languages.en.params.webmanifest]
@@ -120,9 +120,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 [Languages.jp.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
-  intro = "K. Tsuji"
+  intro = "Hi, I'm K. Tsuji."
   name = "K. Tsuji"
-  description = "コンテンツ準備中。"
+  description = "CMOSイメージセンサのデジタル信号/画像処理技術を開発するソフトウェアエンジニア。"
 
 [Languages.jp.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
