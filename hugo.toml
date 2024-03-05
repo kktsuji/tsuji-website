@@ -27,22 +27,15 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
   [Languages.en.menu]
   [[Languages.en.menu.main]]
-    # The page reference (pageRef) is useful for menu highlighting
-    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-    pageRef="/"
-    name = 'Home'
-    url = '/'
-    weight = 10
-  [[Languages.en.menu.main]]
     pageRef="blog"
     name = 'Blog'
     url = '/blog/'
-    weight = 20
+    weight = 10
   [[Languages.en.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
-    weight = 30
+    weight = 20
 
 [Languages.en.params]
   sitename = "tsuji.tech"
@@ -91,20 +84,15 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   weight = 2
   [Languages.jp.menu]
   [[Languages.jp.menu.main]]
-    pageRef="/"
-    name = 'Home'
-    url = '/'
-    weight = 10
-  [[Languages.jp.menu.main]]
     pageRef="blog"
     name = 'Blog'
     url = '/blog/'
-    weight = 20
+    weight = 10
   [[Languages.jp.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
-    weight = 30
+    weight = 20
 
 [Languages.jp.params]
   sitename = "tsuji.tech"
