@@ -7,6 +7,10 @@ theme = 'tsuji-website-theme'
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+# To disable Google Analytics, simply leave the field empty or remove the next line
+googleAnalytics = 'G-5GX94TGXTF' # G-MEASUREMENT_ID
+
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
   [markup.highlight]
