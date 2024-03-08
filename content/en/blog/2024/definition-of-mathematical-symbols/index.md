@@ -1,8 +1,8 @@
 ---
 title: 'Definition of Mathematical Symbols'
-slug: 'definition of mathematical symbols'
+slug: 'math-symbols'
 description: ''
-date: 2024-03-06T08:57:04+09:00
+date: 2024-03-08T08:57:04+09:00
 math: true
 draft: false
 ---
