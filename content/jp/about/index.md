@@ -3,6 +3,7 @@ title: 'About'
 slug: 'About'
 description: 'About me'
 date: 2024-02-03
+lastmod: 
 draft: false
 ---
 
