@@ -3,6 +3,7 @@ title: '数学記号の定義'
 slug: 'math-symbols'
 description: '数学記号の定義をまとめます。記号の意味に加え、英語の読み方、LaTeXのコマンドも記載します。随時更新して追記していきます。'
 date: 2024-03-08T08:57:04+09:00
+lastmod: 2024-03-09T08:57:04+09:00
 math: true
 draft: false
 ---
@@ -69,10 +70,6 @@ $\neg$: ``\neg``
 ### $\Rightarrow$ (論理包含, material conditional)
 
 ### $\wedge$ (論理和, logical and)
-
-## 更新履歴
-
-None for now.
 
 [^1]: [wikipedia.org/wiki/glossary_of_mathematical_symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 

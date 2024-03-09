@@ -3,6 +3,7 @@ title: 'Definition of Mathematical Symbols'
 slug: 'math-symbols'
 description: 'Some of the mathematical symbols are presented with their meanings, ways of reading, and LaTeX commands. The rest will be added later continuously.'
 date: 2024-03-08T08:57:04+09:00
+lastmod: 2024-03-09T12:33:00+09:00
 math: true
 draft: false
 ---
