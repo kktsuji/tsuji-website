@@ -22,7 +22,7 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
 
 * No image annotations required.
   * Some related works[^4] [^5] need labels of a target dataset to generate their embedding data.
-  * GAN-DL works without labels and annotations.
+  * On the other hand, GAN-DL works without labels and annotations.
 
 ## Which points are important?
 
@@ -49,6 +49,10 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
 ## Is dataset available?
 
 * Yes.
+
+## What I learned
+
+* NVIDIA's StyleGan2 is a Wasserstein Generative Adcersarial Networks family.
 
 ## Which paper should I read next?
 
