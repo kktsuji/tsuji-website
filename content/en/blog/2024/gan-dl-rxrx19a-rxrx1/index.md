@@ -23,19 +23,51 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
 * No image annotations required.
   * Some related works[^4] [^5] need labels of a target dataset to generate their embedding data.
   * On the other hand, GAN-DL works without labels and annotations.
+* Self-supervised learning.
+  * Baseline (mentioned later) is based on traditional transfer learning.
+  * GAN-DL is 
 
 ## Which points are important?
 
-* xxx
-
-## Summary of proposed methods
-
-* StyleGAN2
-  * First convolutional layer was modified.
+* StyleGan2 learning was used for pre-text task with RxRx19a dataset.
+* Features of the discriminator gave a new representation space that was used to solve some downstream tasks.
 
 ## How was this performance validated?
 
-* xxx
+### Compaired counterpart
+
+* Baseline
+  * A transfer learning-based image embedding for RxRx19a by Cuccarese *et al.*[^10] was used as a evaluation baseline in their paper by authors[^1].
+  * Baseline was trained by using RxRx1 dataset[^11] which is about 300GB of annotated microsopy images.
+  * Its downstream task is do something on RxRx19a dataset.
+  * Baseline's embedding data is available, but source code is not.
+
+### Evaluate ability to solve downstream tasks
+
+1. Controls classification
+2. Dose-response modelling
+3. Cell models clasisification
+
+### Evaluate generalization capability
+
+* GAN-DL's embedding learnt on RxRx19a was applied to a zero-shot representation learning task on RxRx1.
+
+### Preparation of RxRx19a dataset
+
+* Two control groups were created from RxRx19a dataset which has 305,520 flourescent microscopy images (height: 1024, width: 1024, 5 channels).
+  1. Conditioned media preparations generated from uninfected cells (Mock).
+  2. One is made up of cells infected in vitro by active SARS-CoV-2 virus and not treated with any compounds.
+* 75% of the control images used for training and 25% were for testing (randomely splited).
+* Imbalances in class were normalized by using inversely proportional to class frequencies (it's mentiond about number of images in class?).
+* Outside of control group used for dose-response evaluation, but they wrer not used in the training of the downstream tasks.
+* Authors used standard post processing[^10] including nomalization to remove inter-plate variance for RxRx19a and RxRx1.
+
+## Network ditails
+
+* GAN-DL is a instance of StyleGAN2.
+  * Fully connected mapping network was simplified to reduce original 8 layers to 3 layers.
+  * The style vector that size is 512 is used for the latent space.
+  * The filter size of the convolutional layer closet to the image of both networks to 5.
 
 ## What was being discussed?
 
@@ -52,7 +84,20 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
 
 ## What I learned
 
-* NVIDIA's StyleGan2 is a Wasserstein Generative Adcersarial Networks family.
+* NVIDIA's StyleGan2[^2] is a Wasserstein Generative Adcersarial Networks (W-GANs)[^6] family.
+* Goldsborough *et al.* published a first work[^7] applying a self-supervised representation learning (SSRL) tasks to biological images (flourescence microscopy) but results were not good, according to the authors[^1].
+* The original idea using GAN's discriminator as a feature extractor is showed by Radford *et al.*[^8].
+* It was proposed that StyleGAN2 can be resistant to mode collapse phenomenon[^6] [^9].
+* W-GANs can be resistant to two problems of training GANs.
+  1. Mode collapse
+    * GAN network learns only a subset of the data.
+    * Collapsed distribution generates a single image or a discrete set of images.
+    * It means that model is heavily over-fitted on the paticular subset.
+    * The discriminator is traped in a local minimum and the generator generates same images for this discriminator.
+  2. Lack of convergence
+    * The speed of improvement of ether the generator or the discriminator is faster too much than other network, which prevents the mutual improvement.
+* W-GANs can reduce these problems to replace the classical discriminator model with a Wasserstein distance based one that scores the realness of a given image.
+* StyleGAN2 is a instance of W-GAN and apply residual connections in both networks.
 
 ## Which paper should I read next?
 
@@ -60,12 +105,24 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
 
 
 
-[^1]: Alessio Mascolini, Dario Cardamone, Francesco Ponzio, Santa Di Cataldo and Elisa Ficarra. Exploiting generative self-supervised learning for the assessment of biological images with lack of annotations. *BMC Bioinformatics*, 23, 295, 2022. [https://doi.org/10.1186/s12859-022-04845-1](https://doi.org/10.1186/s12859-022-04845-1)
+[^1]: Alessio Mascolini, Dario Cardamone, Francesco Ponzio, Santa Di Cataldo and Elisa Ficarra. Exploiting generative self-supervised learning for the assessment of biological images with lack of annotations. *BMC Bioinformatics*, 23, 295, 2022. [doi.org/10.1186/s12859-022-04845-1](https://doi.org/10.1186/s12859-022-04845-1).
 
-[^2]: Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen and Timo Aila. Analyzing and improving the image quality of stylegan. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, pages 8110–19, 2020.
+[^2]: Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen and Timo Aila. Analyzing and Improving the Image Quality of StyleGAN. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, pages 8110–19, 2020. [doi:10.1109/CVPR42600.2020.00813](https://doi.ieeecomputersociety.org/10.1109/CVPR42600.2020.00813) or [arXiv:1912.04958](https://arxiv.org/abs/1912.04958).
 
-[^3]: Recursion. RxRx19a dataset. [https://www.rxrx.ai/rxrx19a](https://www.rxrx.ai/rxrx19a) (2020).
+[^3]: Recursion. RxRx19a dataset. [https://www.rxrx.ai/rxrx19a](https://www.rxrx.ai/rxrx19a), 2020.
 
-[^4]: Dylan Zhuangand Ali K. Ibrahim. Deep learning for drug discovery: a study of identifying high efficacy drug compounds using a cascade transfer learning approach. *Applied Sciences*. 2021;11(17):7772, 2021.
+[^4]: Dylan Zhuangand Ali K. Ibrahim. Deep Learning for Drug Discovery: A Study of Identifying High Efficacy Drug Compounds Using a Cascade Transfer Learning Approach. *Applied Sciences*. 2021;11(17):7772, 2021. [doi:10.3390/app11177772](https://doi.org/10.3390/app11177772).
 
-[^5]: M. Sadegh Saberian, Kathleen P. Moriarty, Andrea D. Olmstead, Christian Hallgrimson, François Jean, Ivan R. Nabi, Maxwell W. Libbrecht and Ghassan Hamarneh. DEEMD: Drug Efficacy Estimation Against SARS-CoV-2 Based on Cell Morphology With Deep Multiple Instance Learning. *Medical Image Computing and Computer Assisted Intervention – MICCAI 2023*, vol.14227, pp.676, 2023.
+[^5]: M. Sadegh Saberian, Kathleen P. Moriarty, Andrea D. Olmstead, Christian Hallgrimson, François Jean, Ivan R. Nabi, Maxwell W. Libbrecht and Ghassan Hamarneh. DEEMD: Drug Efficacy Estimation Against SARS-CoV-2 Based on Cell Morphology With Deep Multiple Instance Learning. *Medical Image Computing and Computer Assisted Intervention – MICCAI 2023*, vol.14227, pp.676, 2023. [doi:10.1109/TMI.2022.3178523](https://ieeexplore.ieee.org/document/9783182)
+
+[^6]: Martin Arjovsky, Soumith Chintala and Léon Bottou. Wasserstein GAN. In *Proceedings of the 34th International Conference on Machine Learning*, PMLR 70:214-223, 2017. [link](https://proceedings.mlr.press/v70/arjovsky17a.html) or [arXiv:1701.07875](https://arxiv.org/abs/1701.07875)
+
+[^7]: Peter Goldsborough, Nick Pawlowski, Juan C Caicedo, Shantanu Singh and Anne E Carpenter. CytoGAN: Generative Modeling of Cell Images. BioRxiv 2017. [doi:10.1101/227645](https://doi.org/10.1101/227645).
+
+[^8]: Alec Radford, Luke Metz and Soumith Chintala. Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. *arXiv preprint [arxiv:1511.06434](https://arxiv.org/abs/1511.06434)*.
+
+[^9]: Mingyang Zhang, Maoguo Gong, Yishun Mao, Jun Li and Yue Wu. Unsupervised Feature Extraction in Hyperspectral Images Based on Wasserstein Generative Adversarial Network. *IEEE Transactions on Geoscience and Remote Sensing*, vol.57, no.5, pp.2669-2688, 2019. [doi:10.1109/TGRS.2018.2876123](https://ieeexplore.ieee.org/document/8527649).
+
+[^10]: Michael F. Cuccarese et al. Functional immune mapping with deep-learning enabled phenomics applied to immunomodulatory and COVID-19 drug discovery, BioRxiv 2020. [doi:10.1101/2020.08.02.233064](https://www.biorxiv.org/content/10.1101/2020.08.02.233064v2).
+
+[^11]: Recursion. RxRx1 dataset. [https://www.rxrx.ai/rxrx1](https://www.rxrx.ai/rxrx1), 2019.
