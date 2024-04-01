@@ -38,6 +38,9 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
   * Fully connected mapping network was simplified to reduce original 8 layers to 3 layers.
   * The style vector that size is 512 is used for the latent space.
   * The filter size of the convolutional layer clocest to the image of both networks to 5.
+* Training time:
+  * 24 hours on TPU v3-8 node with 16GIB of RAM per core.
+  * 48 hours on a single Tesla V100.
 
 ## Compaired counterparts
 
@@ -82,7 +85,7 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
 
 ## Evaluate ability to solve downstream tasks
 
-### 1. Controls classification
+### 1. Controls classification and 3. Cell models clasisification
 
 A Linear support vector machine (SVN) is applied to the classification task using the GAN-DL' style vector and competitors' embeddings.
 
@@ -93,17 +96,18 @@ A Linear support vector machine (SVN) is applied to the classification task usin
 
 * xx
 
-### 3. Cell models clasisification
-
-* xx
-
-### Evaluate generalization capability
+### Zero-shot representation learning
 
 * GAN-DL's embedding learnt on RxRx19a was applied to a zero-shot representation learning task on RxRx1.
+* RxRx1 dataset was not used for this experiment because it was prr-trained by using RxRx1.
+* A soft margin linear SVM was built on the top of GAN-DL’s embedding (what do they say?). 
+* SVM classified input RxRx1 data to 4 classes.
+* GAN-DL showed better performance than DenseNet and ConvAE except for human umbilical vein endothelial cells (HUVEC) images.
 
 ## What was being discussed?
 
-* xxx
+* Authors [^1] mentioned that baseline is generally more accurate than proposed method GAN-DL in the classification task. However it was stated that GAN-D's re-usable to other tasks is advantage. Baseline was trained RxRx1 big dataset with its labels, while GAN-DL does not need any annotations and labels in training phase.
+* Authors guess ConvAE's representation capability is less than DenseNet because autoencorder's ability to generate high quality images is limited.
 
 ## Is source code aveilable?
 
@@ -130,6 +134,7 @@ A Linear support vector machine (SVN) is applied to the classification task usin
     * The speed of improvement of ether the generator or the discriminator is faster too much than other network, which prevents the mutual improvement.
 * W-GANs can reduce these problems to replace the classical discriminator model with a Wasserstein distance based one that scores the realness of a given image.
 * StyleGAN2 is a instance of W-GAN and apply residual connections in both networks.
+* The capability to generate high quality images (= to extract train data's features well) would lead to the one to solve other downstream tasks when its pre-trained features apply to downstream tasks.
 
 ## Which paper should I read next?
 
