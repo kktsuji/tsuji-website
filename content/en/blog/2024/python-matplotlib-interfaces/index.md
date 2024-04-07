@@ -22,7 +22,7 @@ pip install matplotlib
 
 ## Coding style
 
-There 2 styles for get starting matplotlib.
+There are 2 styles for get starting matplotlib.
 
 * An "object-oriented" (OO) style
   * Also called an OO interface or an explicit interface.
