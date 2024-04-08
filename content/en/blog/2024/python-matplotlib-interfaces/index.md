@@ -62,6 +62,9 @@ data_y = np.array([1, 2, 3, 5, 8])
 plt.plot(data_x, data_y)
 ```
 
+![python-matplotlib-interfaces-img0](https://github.com/kktsuji/tsuji-website/assets/31529355/556b6e04-36b4-4dcc-9b1d-05630a8d0ded)
+
+
 ## Multiple Axes opjects in a Figure object
 
 If a ``Figure`` object has multiple ``Axes`` objects, the implicit pyplot style is complecated. It could cause bug.
@@ -121,6 +124,8 @@ axs[1].set_xlabel('X-axis 1')
 for i in range(2):
     axs[i].set_xlabel(f'X-axis {i}')
 ```
+
+![python-matplotlib-interfaces-img1](https://github.com/kktsuji/tsuji-website/assets/31529355/95d7a0e0-21e9-4474-b624-e2d5a0c7b8bf)
 
 ## "subplots()" in the explicit interface
 
