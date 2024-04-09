@@ -112,9 +112,9 @@ array([[0, 1, 2],
        [0, 1, 2]])
 ```
 
-array_like interfaces ([zero_like](https://numpy.org/doc/stable/reference/generated/numpy.zeros_like.html#numpy.zeros_like), [one_like](https://numpy.org/doc/stable/reference/generated/numpy.ones_like.html#numpy.ones_like) and [full_like](https://numpy.org/doc/stable/reference/generated/numpy.full_like.html#numpy.full_like)) create an array with the same shape and type as a given array.
+array_like interfaces ([zeros_like](https://numpy.org/doc/stable/reference/generated/numpy.zeros_like.html#numpy.zeros_like), [ones_like](https://numpy.org/doc/stable/reference/generated/numpy.ones_like.html#numpy.ones_like) and [full_like](https://numpy.org/doc/stable/reference/generated/numpy.full_like.html#numpy.full_like)) create an array with the same shape and type as a given array.
 
-zero_like:
+zeros_like:
 
 ```python
 # Interactive mode

@@ -112,9 +112,9 @@ array([[0, 1, 2],
        [0, 1, 2]])
 ```
 
-array_like インターフェース ([zero_like](https://numpy.org/doc/stable/reference/generated/numpy.zeros_like.html#numpy.zeros_like), [one_like](https://numpy.org/doc/stable/reference/generated/numpy.ones_like.html#numpy.ones_like) and [full_like](https://numpy.org/doc/stable/reference/generated/numpy.full_like.html#numpy.full_like)) は、引数に与えられた配列のサイズと型を引き継ぐ。
+array_like インターフェース ([zeros_like](https://numpy.org/doc/stable/reference/generated/numpy.zeros_like.html#numpy.zeros_like), [ones_like](https://numpy.org/doc/stable/reference/generated/numpy.ones_like.html#numpy.ones_like) and [full_like](https://numpy.org/doc/stable/reference/generated/numpy.full_like.html#numpy.full_like)) は、引数に与えられた配列のサイズと型を引き継ぐ。
 
-zero_like:
+zeros_like:
 
 ```python
 # Interactive mode
