@@ -6,7 +6,7 @@ date: 2024-03-26T22:38:26+09:00
 lastmod: 
 math: false
 tocOpen: true
-draft: true
+draft: false
 ---
 
 This post introduces a paper that proposed a deep learning technology GAN-DL[^1] witten by Mascolini *et. al.*
