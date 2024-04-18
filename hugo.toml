@@ -52,7 +52,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   description = "Tsuji's personal website"
   mainSections = ['blog']
   toc = true # set to false to disable table of contents 'globally'
-  tocOpen = false # set to true to open table of contents by default
+  tocOpen = true # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
@@ -106,7 +106,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   description = "Tsuji's personal website"
   mainSections = ['blog']
   toc = true # set to false to disable table of contents 'globally'
-  tocOpen = false # set to true to open table of contents by default
+  tocOpen = true # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
   dateFormat = "2 January 2006" # default date format used on various pages
