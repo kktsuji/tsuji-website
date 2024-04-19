@@ -69,6 +69,20 @@ $\neg$: ``\neg``
 
 ### $\wedge$ (logical and)
 
+## Equality, equivalence and similarity
+
+### $\approx$ (approximate equal)
+
+e.g. ``$\pi \approx$ 3.14159``
+
+$\approx$: ``\approx$``
+
+### $\sim$ (tilde)
+
+1. Instead of $\approx$ (approximatively equal)
+2. Two numbers have the same order of magnitude as.
+3. $X \sim N(\mu, \sigma^2$ means the random variable $x$ follows the normal distribution with mean $\mu$ and variance $\sigma^2$.
+
 [^1]: [wikipedia.org/wiki/glossary_of_mathematical_symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 
 [^2]: [jp.wikipedia.org/wiki/list_of_mathematical_symbols](https://ja.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6%E8%A8%98%E5%8F%B7%E3%81%AE%E8%A1%A8)
