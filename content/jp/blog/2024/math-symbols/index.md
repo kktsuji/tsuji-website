@@ -71,6 +71,20 @@ $\neg$: ``\neg``
 
 ### $\wedge$ (論理和, logical and)
 
+## Equality, equivalence and similarity
+
+### $\approx$ (ほぼ等しい)
+
+e.g. ``$\pi \approx$ 3.14159``
+
+$\approx$: ``\approx$``
+
+### $\sim$ (チルダ)
+
+1. $\approx$ (ほぼ等しい) の代わり。
+2. 2つの数の桁数が同じ。
+3. $X \sim N(\mu, \sigma^2$, 平均 $\mu$ 分散 $\sigma^2$ の標準偏差に従う乱数 $x$。
+
 [^1]: [wikipedia.org/wiki/glossary_of_mathematical_symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 
 [^2]: [wikipedia.org/wiki/数学記号の表](https://ja.wikipedia.org/wiki/%E6%95%B0%E5%AD%A6%E8%A8%98%E5%8F%B7%E3%81%AE%E8%A1%A8)
