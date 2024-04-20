@@ -3,7 +3,7 @@ title: '数学記号の定義'
 slug: 'math-symbols'
 description: '数学記号の定義をまとめます。記号の意味に加え、英語の読み方、LaTeXのコマンドも記載します。随時更新して追記していきます。'
 date: 2024-03-08T08:57:04+09:00
-lastmod: 2024-03-09T08:57:04+09:00
+lastmod: 2024-04-20T21:55:00+09:00
 math: true
 draft: false
 ---
@@ -63,7 +63,7 @@ LaTeX コマンドは以下。
 
 ### $\neg$ (論理否定, logical negation)
 
-$\neg$: ``\neg``
+$\neg$, ``\neg``
 
 ### $\forall$ (全称限量, universal quantification)
 
@@ -75,15 +75,21 @@ $\neg$: ``\neg``
 
 ### $\approx$ (ほぼ等しい)
 
-e.g. ``$\pi \approx$ 3.14159``
+e.g. $\pi \approx 3.14159$
 
-$\approx$: ``\approx$``
+LaTeX command:
+
+* $\approx$, ``\approx``
 
 ### $\sim$ (チルダ)
 
 1. $\approx$ (ほぼ等しい) の代わり。
 2. 2つの数の桁数が同じ。
-3. $X \sim N(\mu, \sigma^2$, 平均 $\mu$ 分散 $\sigma^2$ の標準偏差に従う乱数 $x$。
+3. $X \sim N(\mu, \sigma^2$, 平均 $\mu$ 分散 $\sigma^2$ の正規分布に従う乱数 $x$。
+
+LaTeX command:
+
+* $\sim$, ``\sim``
 
 [^1]: [wikipedia.org/wiki/glossary_of_mathematical_symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 

@@ -3,7 +3,7 @@ title: 'Definition of Mathematical Symbols'
 slug: 'math-symbols'
 description: 'Some of the mathematical symbols are presented with their meanings, ways of reading, and LaTeX commands. The rest will be added later continuously.'
 date: 2024-03-08T08:57:04+09:00
-lastmod: 2024-03-09T12:33:00+09:00
+lastmod: 2024-04-20T21:55:00+09:00
 math: true
 draft: false
 ---
@@ -61,7 +61,7 @@ LaTeX commands:
 
 ### $\neg$ (logical negation)
 
-$\neg$: ``\neg``
+$\neg$, ``\neg``
 
 ### $\forall$ (universal quantification)
 
@@ -73,15 +73,21 @@ $\neg$: ``\neg``
 
 ### $\approx$ (approximate equal)
 
-e.g. ``$\pi \approx$ 3.14159``
+e.g. $\pi \approx 3.14159$
 
-$\approx$: ``\approx$``
+LaTeX command:
+
+* $\approx$, ``\approx``
 
 ### $\sim$ (tilde)
 
 1. Instead of $\approx$ (approximatively equal)
 2. Two numbers have the same order of magnitude as.
-3. $X \sim N(\mu, \sigma^2$ means the random variable $x$ follows the normal distribution with mean $\mu$ and variance $\sigma^2$.
+3. $X \sim N(\mu, \sigma^2)$ means the random variable $x$ follows the normal distribution with mean $\mu$ and variance $\sigma^2$.
+
+LaTeX command:
+
+* $\sim$, ``\sim``
 
 [^1]: [wikipedia.org/wiki/glossary_of_mathematical_symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 
