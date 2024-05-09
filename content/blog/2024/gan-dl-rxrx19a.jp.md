@@ -5,7 +5,6 @@ description: 'COVID-19 に感染したヒト細胞の蛍光顕微鏡画像から
 date: 2024-04-17T08:03:26+09:00
 lastmod: 
 math: false
-tocOpen: true
 draft: false
 ---
 

@@ -5,7 +5,6 @@ description: 'Summary of a paper that proposed one of a deep learning technology
 date: 2024-04-17T08:03:26+09:00
 lastmod: 
 math: false
-tocOpen: true
 draft: false
 ---
 

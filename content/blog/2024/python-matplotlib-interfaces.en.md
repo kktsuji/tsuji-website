@@ -5,7 +5,6 @@ description: 'Today I learned post about python matplotlib interfaces.'
 date: 2024-04-02T21:47:42+09:00
 lastmod: 
 math: false
-tocOpen: true
 draft: false
 ---
 
