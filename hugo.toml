@@ -28,7 +28,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [Languages.en]
   languageName = "English"
   languageCode = "en"
-  contentDir = "content/en"
+  #contentDir = "content/en"
   weight = 1
 
   [Languages.en.menu]
@@ -86,7 +86,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [Languages.jp]
   languageName = "Japanese"
   languageCode = "ja"
-  contentDir = "content/jp"
+  #contentDir = "content/jp"
   weight = 2
   [Languages.jp.menu]
   [[Languages.jp.menu.main]]
