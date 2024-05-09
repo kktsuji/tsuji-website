@@ -1,7 +1,7 @@
 ---
 title: 'opencv-python Installation'
 slug: 'opencv-python-installation'
-description: 'Today I learned post about how to install opencv-python.'
+description: 'Today I Learned post about how to install opencv-python.'
 date: 2024-03-31T16:42:17+09:00
 lastmod: 
 math: false

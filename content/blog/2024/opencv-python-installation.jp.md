@@ -1,7 +1,7 @@
 ---
 title: 'opencv-python インストール方法'
 slug: 'opencv-python-installation'
-description: 'opencv-python のインストール方法についての Today I learned ポスト。'
+description: 'opencv-python のインストール方法についての Today I Learned ポスト。'
 date: 2024-03-31T16:42:17+09:00
 lastmod: 
 math: false

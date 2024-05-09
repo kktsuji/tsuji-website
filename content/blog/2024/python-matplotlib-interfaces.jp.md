@@ -1,7 +1,7 @@
 ---
 title: 'Python Matplotlib インターフェース'
 slug: 'python-matplotlib-interfaces'
-description: 'python matplotlib のインターフェースについての Today I learned ポスト。'
+description: 'python matplotlib のインターフェースについての Today I Learned ポスト。'
 date: 2024-04-02T21:47:42+09:00
 lastmod: 
 math: false
