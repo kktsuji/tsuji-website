@@ -58,7 +58,7 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
 - Annotations:
     - Each slide Images are pixel-wise annotated by a professional pathologist by using author’s annotation tool. These annotation will be publicly available.
 - Patches:
-    - A maximum 100 tumor patches with size of 512x512 pixels are corrected from each slide.
+    - A maximum 100 tumor patches with size of 512x512 pixels are collected from each slide.
     - They are scaled to size of 128x128.
     - Total number of patches are 33,777 images (128x128).
 
@@ -72,12 +72,6 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
     - Diffusion model shows better scores of Inception Score and sFID in Table. 2.
     - Authors mentions that proposed diffusion method outperforms ProGAN across three metrics.
     - Authors also said that diffusion model shows lower values on FID and sFID, which are more capable to robustly generate perceptual features than ProGAN.
-        - FID and sFID are calculated by using different layers on the network.
-        - (Lower values of both them “make them sensitive to small changes and is able to detect model coverage” wrote authors. What does it mean?)
-        - My guess is the following:
-        - The lower value FID is, the more similar the distributions between training dataset and synthesized data are, which means the model has the better mode coverage.
-        - The sFID is more sensitive to the spacial similality then FID.
-        - Then it may mean that the model has lower values of both them is more sensitive to small changes and better mode coverage.
 
 ![image](https://github.com/kktsuji/tsuji-website/assets/31529355/70ee988a-05a7-4664-b86a-7c8de67ab87e)
 
@@ -104,7 +98,7 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
 
 ## Visual Observation
 
-- Diffusion model can generate images that has features of specific cell types while ProGan’s images have unclear features.
+- Diffusion model can generate images that has features of specific cell types while ProGan’s images have unclear features, which suggests that the diffusion model has a capability to learn the specific features of each cell type.
 
 ## What I Learned
 
@@ -123,13 +117,13 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
 - Inception score (IS)[^35]:
     - IS is defined by using Kullback-Leibler (KL) divergence to mesure the difference between two propability distributions.
     - A paper[^3] mentioned that IS may not be a suitable metric for generative models trained by using dataset other than the ImageNet.
-- Frechet inception distance (FID):
+- Frechet inception distance (FID)[^21]:
     - FID is a metric to compare the distribution of training dataset with the one of synthesized data.
     - Low FID values mean that these distributions are similar.
-    - FID utilizes Inception-V3 latent space [^21].
+    - FID utilizes Inception-V3 latent space.
     - Both data are fed into the inception V3 model, and the mean and the standard deviation of “pool_3 layer” is utilized to calculate the FID.
-- sFID:
-    - A modified version of FID[^37].
+- sFID[^37]:
+    - A modified version of FID.
     - FDI has less sensitivity to spatial heterogeneity because FDI uses “pool_3 Layer” that compresses spatial information.
     - On the other hands, sFDI employs the initial channels from intermidiate layer. It means sFDI can extract infomation of spatial similarity bettar than FDI in some situations[^30].
 
