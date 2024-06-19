@@ -1,6 +1,5 @@
 ---
 title: 'Python Numpy Ndarray 生成方法'
-slug: 'python-numpy-ndarray-creation'
 description: 'Python numpy ndarray ついての Today I Learned ポスト。'
 date: 2024-04-03T17:58:55+09:00
 lastmod: 

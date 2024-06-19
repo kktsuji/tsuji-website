@@ -1,6 +1,5 @@
 ---
 title: '病理組織画像生成のための拡散確率モデル'
-slug: 'diffusion-probabilistic-model-for-histopathology-images'
 description: "病理組織画像を生成するための拡散確率モデルを提案した論文のまとめ"
 date: 2024-05-20T8:50:00+09:00
 lastmod: 

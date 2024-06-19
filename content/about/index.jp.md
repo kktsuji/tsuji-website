@@ -1,6 +1,5 @@
 ---
 title: 'About'
-slug: 'About'
 description: 'About me'
 date: 2024-02-03T08:00:00+09:00
 lastmod: 

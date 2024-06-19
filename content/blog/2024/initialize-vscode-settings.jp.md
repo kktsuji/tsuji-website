@@ -1,6 +1,5 @@
 ---
 title: 'VSCode Settings の初期化方法'
-slug: 'initialize-vscode-settings'
 description: 'VSCode Settings の初期化方法'
 date: 2024-06-13T08:37:58+09:00
 lastmod: 

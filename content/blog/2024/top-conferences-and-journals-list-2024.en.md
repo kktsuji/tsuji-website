@@ -1,6 +1,5 @@
 ---
 title: 'List of Top Conferences and Journals 2024 (AI and Computer Vision in h5-index)'
-slug: 'top-conferences-and-journals-list-2024'
 description: 'List of Top Conferences and Journals 2024 (AI and Computer Vision in h5-index of Google Scholar)'
 date: 2024-06-12T08:50:40+09:00
 lastmod: 

@@ -1,6 +1,5 @@
 ---
 title: 'PC から Web サイトへのアクセスをブロック'
-slug: 'block-websites-on-pc'
 description: 'PC から Web サイトへのアクセスをブロクする方法に Today I Learned ポスト。'
 date: 2024-05-30T20:29:55+09:00
 lastmod: 

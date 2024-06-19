@@ -1,6 +1,5 @@
 ---
 title: 'GAN-DL for データセット RxRx19a'
-slug: 'gan-dl-rxrx19a'
 description: 'COVID-19 に感染したヒト細胞の蛍光顕微鏡画像からなる公開データセット RxRx19a の解析のために提案された Deep Learning 手法の１つ "GAN-DL" についての論文まとめ。'
 date: 2024-04-17T08:03:26+09:00
 lastmod: 
