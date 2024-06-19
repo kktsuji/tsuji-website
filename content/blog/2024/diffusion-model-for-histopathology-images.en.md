@@ -21,7 +21,7 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
 - According to authors, this is the first study to introduce the diffusion model to histopathology images.
 - Authors applied the U-net based diffusion model architecture proposed by Dhariwal *et al.*[^10] to histopathology images synthesizing task.
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/8430b5a3-7223-4fee-806d-75d9ff958782)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-0.jpg)
 
 ## Which Points Are Better Than Others?
 
@@ -73,18 +73,18 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
     - Authors mentions that proposed diffusion method outperforms ProGAN across three metrics.
     - Authors also said that diffusion model shows lower values on FID and sFID, which are more capable to robustly generate perceptual features than ProGAN.
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/70ee988a-05a7-4664-b86a-7c8de67ab87e)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-1.jpg)
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/27dc693e-01e6-47ef-9f24-f7880e11d79c)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-2.jpg)
 
 - Improved Precision and Recall Metrics[^22]
     - Inproved Recall: The percentage of real data features are included in the manifold of synthesized data features.
     - Improved Precision: The ratio of synthesized data features locate in the manifold of real data features.
     - Proposed diffusion model performed better than ProGAN results on both metrics.
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/bd586c9a-3416-4eb3-a810-905a290e5f79)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-3.jpg)
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/137b8377-ad41-4b37-80de-dd8062995c1b)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-4.jpg)
 
 ### Rating by pathologists
 

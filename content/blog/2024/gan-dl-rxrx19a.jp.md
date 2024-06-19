@@ -10,6 +10,8 @@ draft: false
 
 この記事では、Mascoliniらによる Deep Learning 技術の１つである GAN-DL[^1] を紹介する。
 
+(本ポストの図は論文[^1]からの引用である)
+
 ## 論文の概要
 
 * 著者らは、NVIDIA の StyleGAN2 アーキテクチャ[^2] に基づく「Generative Adversarial Network Discriminator Learner (GAN-DL)[^1]」と呼ばれる自己教師あり学習フレームワークを提案した。
@@ -25,6 +27,10 @@ draft: false
 * 自己教師あり学習
   * 性能比較対象の Baseline (後述) は伝統的な転移学習に基づく。
   * 対して、GAN-DL は自己教師あり学習に基づく。
+
+![img](https://img.tsuji.tech/gan-dl-rxrx19a-0.jpg)
+
+![img](https://img.tsuji.tech/gan-dl-rxrx19a-1.jpg)
 
 ## 重要な点
 

@@ -12,7 +12,6 @@ draft: false
 
 (本ポストの図や表は論文[^1]からの引用である)
 
-
 ## 論文の概要
 
 - 著者ら[^1]は、病理組織画像に拡散確率モデル (Diffusion Probabilistic Model) を適用し、高品質な合成画像を作成した。
@@ -22,7 +21,7 @@ draft: false
 - 著者らによれば、本論文は病理組織画像に拡散モデルを導入した最初の研究である。
 - 著者らは、Dhariwal ら[^10]によって提案されたU-netベースの拡散モデルアーキテクチャを病理組織画像の生成タスクに適用した。
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/8430b5a3-7223-4fee-806d-75d9ff958782)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-0.jpg)
 
 ## どの点が他より優れているか？
 
@@ -77,18 +76,18 @@ draft: false
     - 著者らは、提案する拡散モデルは、3つの指標において ProGAN より優れていると述べている。
     - また、FID と sFID は ProGAN よりも低い値を示しており、拡散モデルは ProGAN よりもロバストに知覚特徴を生成できることが分かる。
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/70ee988a-05a7-4664-b86a-7c8de67ab87e)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-1.jpg)
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/27dc693e-01e6-47ef-9f24-f7880e11d79c)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-2.jpg)
 
 - Improved Precision and Recall Metrics[^22]
     - Inproved Recall: 実データの特徴量が、生成結果のデータ特徴の多様体 (Manifold) に含まれる割合。
     - Improved Precision: 上記の実データと生成結果のデータを入れ替えたもの。
     - 提案された拡散モデルは、ProGAN の結果よりも両方の指標で良い結果を示した。
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/bd586c9a-3416-4eb3-a810-905a290e5f79)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-3.jpg)
 
-![image](https://github.com/kktsuji/tsuji-website/assets/31529355/137b8377-ad41-4b37-80de-dd8062995c1b)
+![img](https://img.tsuji.tech/diffusion-probabilistic-model-for-histopathology-images-4.jpg)
 
 ### Pathologist による評価
 

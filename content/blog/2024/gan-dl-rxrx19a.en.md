@@ -10,6 +10,8 @@ draft: false
 
 This post introduces a paper that proposed a deep learning technology GAN-DL[^1] witten by Mascolini *et. al.*
 
+(Figures in this post are from the paper[^1])
+
 ## Overview of this paper
 
 * Authors proposed a self-supervised learning framework called "Generative Adversarial Network Discriminator Learner (GAN-DL)[^1]" based on NVIDIA's StyleGAN2 architecture[^2].
@@ -25,6 +27,10 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
 * Self-supervised learning.
   * Baseline (mentioned later) is based on traditional transfer learning.
   * GAN-DL is a self-supervised leaning framework.
+
+![img](https://img.tsuji.tech/gan-dl-rxrx19a-0.jpg)
+
+![img](https://img.tsuji.tech/gan-dl-rxrx19a-1.jpg)
 
 ## Which points are important?
 
