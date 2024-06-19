@@ -61,7 +61,7 @@ data_y = np.array([1, 2, 3, 5, 8])
 plt.plot(data_x, data_y)
 ```
 
-![python-matplotlib-interfaces-img0](https://github.com/kktsuji/tsuji-website/assets/31529355/556b6e04-36b4-4dcc-9b1d-05630a8d0ded)
+![img](https://img.tsuji.tech/python-matplotlib-interfaces-0.jpg)
 
 ## Figure オブジェクトに複数の Axes オブジェクトが存在する場合
 
@@ -122,7 +122,7 @@ for i in range(2):
     axs[i].set_xlabel(f'X-axis {i}')
 ```
 
-![python-matplotlib-interfaces-img1](https://github.com/kktsuji/tsuji-website/assets/31529355/95d7a0e0-21e9-4474-b624-e2d5a0c7b8bf)
+![img](https://img.tsuji.tech/python-matplotlib-interfaces-1.jpg)
 
 ## 明示的インターフェースにおける "subplots()"
 
