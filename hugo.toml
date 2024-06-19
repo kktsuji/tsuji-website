@@ -145,4 +145,4 @@ name = "Rss"
 url = "index.xml"
 
 [permalinks]
-    blog = "/:slug/"
+    blog = "/:filename/"
