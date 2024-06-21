@@ -9,9 +9,7 @@ draft: false
 
 ## 概要
 
-Paper: Ye et al., Continual Self-supervised Learning: Towards Universal Multi-modal Medical
-Data Representation Learning
- ([cvpr2024 open access](https://openaccess.thecvf.com/content/CVPR2024/papers/Ye_Continual_Self-supervised_Learning_Towards_Universal_Multi-modal_Medical_Data_Representation_Learning_CVPR_2024_paper.pdf) or [arxiv](https://arxiv.org/abs/2311.17597)).
+Paper: Ye et al., Continual Self-supervised Learning: Towards Universal Multi-modal Medical Data Representation Learning ([cvpr2024 open access](https://openaccess.thecvf.com/content/CVPR2024/papers/Ye_Continual_Self-supervised_Learning_Towards_Universal_Multi-modal_Medical_Data_Representation_Learning_CVPR_2024_paper.pdf) or [arxiv](https://arxiv.org/abs/2311.17597)).
 
 ![img](https://img.tsuji.tech/medcoss-cvpr2024-0.jpg)
 
