@@ -29,6 +29,7 @@ Data Representation Learning
 * They compared MedCoSS to single-modal pre-training and, multi-modal pre-traingin incluing Joint SSL, EWC, ER, PackNet, CaSSLe (see table).
 
 ![img](https://img.tsuji.tech/medcoss-multi-modal-representation-learning-cvpr2024-1.jpg)
+![img](https://img.tsuji.tech/medcoss-medical-multi-modal-cvpr2024-1.jpg)
 
 ## Discussions
 
