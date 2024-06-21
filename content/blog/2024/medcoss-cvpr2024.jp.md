@@ -1,6 +1,6 @@
 ---
 title: 'MedCoSS: リハーサルバッファに基づくマルチモーダル表現学習, CVPR2024'
-description: ''
+description: 'MedCoSS を提案する CVPR2024 の論文のサマリ。'
 date: 2024-06-20T08:51:23+09:00
 lastmod: 
 math: false
