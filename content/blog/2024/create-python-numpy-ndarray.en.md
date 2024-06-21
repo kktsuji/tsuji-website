@@ -1,5 +1,5 @@
 ---
-title: 'Python Numpy Ndarray Creation'
+title: 'Create Python Numpy Ndarray'
 description: 'Today I Learned post about python numpy ndarray.'
 date: 2024-04-03T17:58:55+09:00
 lastmod: 
