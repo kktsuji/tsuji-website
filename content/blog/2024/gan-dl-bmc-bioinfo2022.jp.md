@@ -1,5 +1,5 @@
 ---
-title: 'GAN-DL for データセット RxRx19a'
+title: 'GAN-DL for データセット RxRx19a, BMC Bioinformatics2022'
 description: 'COVID-19 に感染したヒト細胞の蛍光顕微鏡画像からなる公開データセット RxRx19a の解析のために提案された Deep Learning 手法の１つ "GAN-DL" についての論文まとめ。'
 date: 2024-04-17T08:03:26+09:00
 lastmod: 
@@ -27,9 +27,9 @@ draft: false
   * 性能比較対象の Baseline (後述) は伝統的な転移学習に基づく。
   * 対して、GAN-DL は自己教師あり学習に基づく。
 
-![img](https://img.tsuji.tech/gan-dl-rxrx19a-0.jpg)
+![img](https://img.tsuji.tech/gan-dl-bmc-bioinfo2022-0.jpg)
 
-![img](https://img.tsuji.tech/gan-dl-rxrx19a-1.jpg)
+![img](https://img.tsuji.tech/gan-dl-bmc-bioinfo2022-1.jpg)
 
 ## 重要な点
 

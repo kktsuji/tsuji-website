@@ -1,5 +1,5 @@
 ---
-title: 'GAN-DL for Dataset RxRx19a'
+title: 'GAN-DL for Dataset RxRx19a, BMC Bioinformatics2022'
 description: 'Summary of a paper that proposed one of a deep learning technology called "GAN-DL" for analysis of a public dataset RxRx19a consist of fluorescence microscopy images of human cells infected COVID-19.'
 date: 2024-04-17T08:03:26+09:00
 lastmod: 
@@ -27,9 +27,9 @@ This post introduces a paper that proposed a deep learning technology GAN-DL[^1]
   * Baseline (mentioned later) is based on traditional transfer learning.
   * GAN-DL is a self-supervised leaning framework.
 
-![img](https://img.tsuji.tech/gan-dl-rxrx19a-0.jpg)
+![img](https://img.tsuji.tech/gan-dl-bmc-bioinfo2022-0.jpg)
 
-![img](https://img.tsuji.tech/gan-dl-rxrx19a-1.jpg)
+![img](https://img.tsuji.tech/gan-dl-bmc-bioinfo2022-1.jpg)
 
 ## Which points are important?
 
