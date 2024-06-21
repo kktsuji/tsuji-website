@@ -9,7 +9,7 @@ draft: false
 
 ## Overview
 
-Paper: Ye *et al.*, Continual Self-supervised Learning: Towards Universal Multi-modal Medical
+Paper: Ye et al., Continual Self-supervised Learning: Towards Universal Multi-modal Medical
 Data Representation Learning
  ([cvpr2024 open access](https://openaccess.thecvf.com/content/CVPR2024/papers/Ye_Continual_Self-supervised_Learning_Towards_Universal_Multi-modal_Medical_Data_Representation_Learning_CVPR_2024_paper.pdf) or [arxiv](https://arxiv.org/abs/2311.17597)).
 
@@ -17,7 +17,7 @@ Data Representation Learning
 
 (Figures and tables in this post are from the original paper)
 
-## Novelty in the Paper
+## Novelties of the Paper
 
 * They proposed Medical Continual Self-Supervised (MedCoSS) paradigm to prevent modal conflicts and catastrophic forgetting.
 * MedCoSS assingns each modality data to separate training stage in continual learning.
