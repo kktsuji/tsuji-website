@@ -68,6 +68,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 [Languages.en.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  avatar_url = "https://img.tsuji.tech/avatar_v0.jpg"
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Hi, I'm K. Tsuji."
   name = "K. Tsuji"
@@ -114,6 +115,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 [Languages.jp.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  avatar_url = "https://img.tsuji.tech/avatar_v0.jpg"
   intro = "Hi, I'm K. Tsuji."
   name = "K. Tsuji"
   description = "CMOSイメージセンサのデジタル信号/画像処理技術を開発するソフトウェアエンジニア。"
