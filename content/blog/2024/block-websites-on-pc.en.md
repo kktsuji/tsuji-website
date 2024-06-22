@@ -24,4 +24,4 @@ All websites you added in ``hosts`` will be blocked on any web browsers.
 
 Save your time!
 
-(Note: any ways such as ``ping`` command also will be blocked on this PC)
+(Note: Any methods, such as ``ping`` command, also will be blocked on this PC)
