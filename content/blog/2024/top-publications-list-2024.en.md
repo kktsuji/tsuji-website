@@ -9,9 +9,11 @@ draft: false
 
 ## Google scholar's h5-index
 
-This post uses [google scholar's top publications ranking](https://scholar.google.com/citations?view_op=top_venues&hl=en) as of accessed June 8, 2024.
+This post uses [google scholar's top publications ranking](https://scholar.google.com/citations?view_op=top_venues&hl=en) as of June 8, 2024.
 
 The subcategories [Artificial Interigence (AI)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence) and [Computer Vision & Pattern Recognition (CV&PR)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition) in the category "Engineering & Computer Science" are shown below:
+
+(Scroll sideways to see complete table if using smartphone)
 
 |  | Name | Category | h5-index | h5-median | Date of Conference | Submission Deadline | Link |
 |---|---|---|---|---|---|---|---|
