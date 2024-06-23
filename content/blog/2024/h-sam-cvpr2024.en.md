@@ -1,5 +1,5 @@
 ---
-title: 'H-SAM: Hierarchical Segment Anything Model, Cvpr2024'
+title: 'H-SAM: Hierarchical Segment Anything Model, CVPR2024'
 description: 'Sammary of the paper H-SAM in CVPR2024.'
 date: 2024-06-22T07:20:47+09:00
 lastmod: 
@@ -31,4 +31,5 @@ Paper: Cheng et al., Unleashing the Potential of SAM for Medical Adaptation via 
 
 ## Discussions
 
-* Only the good points of their proposed method were mentioned.
+* H-SAM performed better than other methods.
+* All three important compornents (learnable mask-attention, hierarchical pixel decorder and CM self-attention) are necessary for H-SAM to achieve the best performance.

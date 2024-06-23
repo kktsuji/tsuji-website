@@ -1,5 +1,5 @@
 ---
-title: 'H-Sam: 階層的 Segment Anything モデル, Cvpr2024'
+title: 'H-Sam: 階層的 Segment Anything モデル, CVPR2024'
 description: 'H-SAM を提案する CVPR2024 の論文のサマリ。'
 date: 2024-06-22T07:20:47+09:00
 lastmod: 
@@ -31,4 +31,5 @@ Paper: Cheng et al., Unleashing the Potential of SAM for Medical Adaptation via 
 
 ## 議論
 
-* 彼らの提案した方法の良い点だけが述べられている。
+* H-SAM は他の手法よりも優れた性能を示した。
+* H-SAM が最高の性能を発揮するためには、3つの重要な要素 (learnable mask-attention, hierarchical pixel decorder and CM self-attention) がすべて必要である。
