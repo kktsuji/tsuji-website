@@ -21,7 +21,7 @@ Paper: Cheng et al., Unleashing the Potential of SAM for Medical Adaptation via 
 * 知識分解を実現するために、低ランク適応 (LoRA: low-rank adaptation) 技術に着想を得た、低ランク知識分解 (LoRKD: low-rank knowledge decomposition) フレームワークを提案した。
 * 効率的知識分離畳み込み (EKS Conv.: efficient knowledge separation convolution) は、LoRKD における重要な手法の一つであり、入力がどのタスクに属するかを表すワンホットベクタを畳み込みに加えることで計算量を削減する。
 * タスク知識伝達損失 (task knowledge transfer loss) は、LoRKD のもう一つの重要な要素であり、基盤モデルの知識を各軽量エキスパートモデルに伝達する。
-* 軽量エキスパートの知識は、パラメータを足したり引いたりすることで展開できる。
+* 軽量エキスパートの知識は、パラメータの加算や減算により展開できる。
 
 ## 性能評価手法
 
