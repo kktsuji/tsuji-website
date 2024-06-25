@@ -36,6 +36,8 @@ Translated with DeepL (https://www.deepl.com/app/?utm_source=ios&utm_medium=app&
 
 ![img](https://img.tsuji.tech/abd-cvpr2024-1.jpg)
 
+![img](https://img.tsuji.tech/abd-cvpr2024-2.jpg)
+
 ## 議論
 
 * ABD は既存の手法の性能を向上させ、かつベストパフォーマスの結果を得ることができた。

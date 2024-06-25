@@ -36,6 +36,8 @@ Translated with DeepL (https://www.deepl.com/app/?utm_source=ios&utm_medium=app&
 
 ![img](https://img.tsuji.tech/abd-cvpr2024-1.jpg)
 
+![img](https://img.tsuji.tech/abd-cvpr2024-2.jpg)
+
 ## Discussions
 
 * ABD can improve performance of existing methods and achieved the best results.
