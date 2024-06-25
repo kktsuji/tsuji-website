@@ -11,7 +11,7 @@ draft: false
 
 Paper: Cheng et al., Unleashing the Potential of SAM for Medical Adaptation via Hierarchical Decoding ([cvpr2024 open access](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_Low-Rank_Knowledge_Decomposition_for_Medical_Foundation_Models_CVPR_2024_paper.pdf) or [arxiv](https://arxiv.org/abs/2403.18271)).
 
-![img](https://img.tsuji.tech/h-sam-cvpr2024-0.jpg)
+![img](https://img.tsuji.tech/lorkd-cvpr2024-0.jpg)
 
 (本ポストの図と表は論文からの引用である)
 
@@ -29,7 +29,7 @@ Paper: Cheng et al., Unleashing the Potential of SAM for Medical Adaptation via 
 * ResNet50 は事前学習済みモデル、ShuffleNetV2 は軽量エキスパートモデルに使用される。
 * LoRKD は、ベースライン、シングルタスク学習 (STL)、マルチタスク学習 (MTL)、STL-KD、MTL-KD、MoC-MTL、Aligned-MTL、KF などの手法と比較された。
 
-![img](https://img.tsuji.tech/h-sam-cvpr2024-1.jpg)
+![img](https://img.tsuji.tech/lorkd-cvpr2024-1.jpg)
 
 ## 議論
 
