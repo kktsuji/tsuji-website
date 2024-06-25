@@ -13,7 +13,7 @@ Paper: Chi et al., Adaptive Bidirectional Displacement for Semi-Supervised Medic
 
 ![img](https://img.tsuji.tech/abd-cvpr2024-0.jpg)
 
-(Figures and tables in this post are from the original paper)
+(本ポストの図と表は論文からの引用である)
 
 ## 論文の新規性
 

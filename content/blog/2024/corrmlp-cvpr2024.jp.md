@@ -15,7 +15,7 @@ Paper: Meng et al., Correlation-aware Coarse-to-fine MLPs for Deformable Medical
 
 ![img](https://img.tsuji.tech/corrmlp-cvpr2024-1.jpg)
 
-(Figures and tables in this post are from the original paper)
+(本ポストの図と表は論文からの引用である)
 
 ## 論文の新規性
 
