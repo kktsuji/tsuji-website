@@ -118,7 +118,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   avatar_url = "https://img.tsuji.tech/avatar_v0.jpg"
   intro = "Hi, I'm K. Tsuji."
   name = "K. Tsuji"
-  description = "CMOSイメージセンサのデジタル信号/画像処理技術を開発するソフトウェアエンジニア。"
+  description = "AI&コンピュータビジョン研究者。CMOSイメージセンサに関するデジタル信号/画像処理技術を専門とするソフトウェアエンジニア。"
 
 [Languages.jp.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
