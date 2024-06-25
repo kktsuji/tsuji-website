@@ -20,7 +20,7 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
 - According to authors, this is the first study to introduce the diffusion model to histopathology images.
 - Authors applied the U-net based diffusion model architecture proposed by Dhariwal *et al.*[^10] to histopathology images synthesizing task.
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-0.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-0.jpg)
 
 ## Which Points Are Better Than Others?
 
@@ -72,18 +72,18 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
     - Authors mentions that proposed diffusion method outperforms ProGAN across three metrics.
     - Authors also said that diffusion model shows lower values on FID and sFID, which are more capable to robustly generate perceptual features than ProGAN.
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-1.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-1.jpg)
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-2.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-2.jpg)
 
 - Improved Precision and Recall Metrics[^22]
     - Inproved Recall: The percentage of real data features are included in the manifold of synthesized data features.
     - Improved Precision: The ratio of synthesized data features locate in the manifold of real data features.
     - Proposed diffusion model performed better than ProGAN results on both metrics.
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-3.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-3.jpg)
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-4.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-4.jpg)
 
 ### Rating by pathologists
 

@@ -20,7 +20,7 @@ draft: false
 - 著者らによれば、本論文は病理組織画像に拡散モデルを導入した最初の研究である。
 - 著者らは、Dhariwal ら[^10]によって提案されたU-netベースの拡散モデルアーキテクチャを病理組織画像の生成タスクに適用した。
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-0.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-0.jpg)
 
 ## どの点が他より優れているか？
 
@@ -75,18 +75,18 @@ draft: false
     - 著者らは、提案する拡散モデルは、3つの指標において ProGAN より優れていると述べている。
     - また、FID と sFID は ProGAN よりも低い値を示しており、拡散モデルは ProGAN よりもロバストに知覚特徴を生成できることが分かる。
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-1.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-1.jpg)
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-2.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-2.jpg)
 
 - Improved Precision and Recall Metrics[^22]
     - Inproved Recall: 実データの特徴量が、生成結果のデータ特徴の多様体 (Manifold) に含まれる割合。
     - Improved Precision: 上記の実データと生成結果のデータを入れ替えたもの。
     - 提案された拡散モデルは、ProGAN の結果よりも両方の指標で良い結果を示した。
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-3.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-3.jpg)
 
-![img](https://img.tsuji.tech/diffusion-histopathology-images-wacv2023-4.jpg)
+![img](https://img.tsuji.tech/diffusion-histopathology-wacv2023-4.jpg)
 
 ### Pathologist による評価
 
