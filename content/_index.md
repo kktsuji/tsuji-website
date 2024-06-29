@@ -1,3 +1,3 @@
 ---
-title: "tsuji.tech"
+title: "Home"
 ---
