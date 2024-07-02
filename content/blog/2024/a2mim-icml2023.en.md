@@ -17,7 +17,7 @@ Paper: Li et al., Architecture-Agnostic Masked Image Modeling - From ViT back to
 
 ## Novelties of the Paper
 
-* They proposed a new approach called “Architecture-Agnostic Masked Image Modeling” (A2MIM) to learn middle-order interactions between patches.
+* They proposed a new approach called “Architecture-Agnostic Masked Image Modeling” (A2MIM) to enhance benefits of middle-order interactions between patches.
 * They utilized the mean RGB value of masked patch instead of the learnable mask token in existing MIM frameworks.
 * Fourier domain loss, inspired by Focal Frequency loss, was introduced to A2MIM to treat middle-order interaction.
 * A2MIM can be applied to improve CNNs and Transformers.
