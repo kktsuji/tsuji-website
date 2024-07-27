@@ -47,8 +47,9 @@ draft: false
     * It's free to use except for electricity once you purchase a GPU.
     * Always available.
 * Cons:
-    * GPUs are easily outdated.
+    * GPUs are easily outdated because GPUs evolve so quickly.
     * Low GPU utilization is less cost-effective than on-demand use of cloud resources.
+    * GPU can be broken.
     * Low reproducibility of your source code.
 
 ### Cloud Services
