@@ -1,8 +1,8 @@
 ---
-title: 'AWS Configuration for arXiv Bot to Automatically Notify Webhooks of New Papers'
-description: 'Post about AWS Configuration for arXiv Bot to Automatically Notify Webhooks of New Papers.'
+title: 'AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv'
+description: 'Post about AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv.'
 date: 2024-08-03T15:27:14+09:00
-lastmod: 
+lastmod: 2024-08-03T16:30:00+09:00
 math: false
 draft: false
 ---

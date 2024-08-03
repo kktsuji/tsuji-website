@@ -1,8 +1,8 @@
 ---
-title: 'arXiv ボットが Webhook へ新着論文を自動通知するための AWS の設定'
-description: 'arXiv ボットが Webhook へ新着論文を自動通知するための AWS の設定を解説する記事。'
+title: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定'
+description: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定を解説する記事。'
 date: 2024-08-03T15:27:14+09:00
-lastmod: 
+lastmod: 2024-08-03T16:30:00+09:00
 math: false
 draft: false
 ---
