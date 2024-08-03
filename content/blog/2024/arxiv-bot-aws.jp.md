@@ -95,8 +95,8 @@ AWS ラムダコンソールで "Create function" を行う。
 | Key | Description |
 |----------|----------|
 | webhook_url | Slack, Teams, その他のサービスの API の webhook url。 |
-| keywords | arXiv検索のクエリーで使用されるキーワード。<br>各キーワードは半角コンマで区切り、スペースは入れない。<br>キーワードはタイトルとアブストラクトの検索に使用される。<br>各キーワードは "or "で検索される。<br>例えば、"keyword1,keyword2 "と指定すると、"keyword1 "を含む論文と "keyword2 "を含む論文が検索結果として表示される。 |
-| categories | arXiv 検索のクエリで使用されるカテゴリー。<br>これはキーワードと同じルールに従う（スペースなしの半角カンマ区切り、"or "で検索）。<br>詳細は [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy) を参照. |
+| keywords | arXiv検索のクエリーで使用されるキーワード。<br>各キーワードは半角コンマで区切り、スペースは入れない。<br>キーワードはタイトルとアブストラクトの検索に使用される。<br>各キーワードは "or "で検索される。<br>例えば、"keyword1,keyword2 "と指定すると、"keyword1 "を含む論文と "keyword2 "を含む論文が検索結果として表示される。<br>より具体的な例を挙げると、値として "deep learning, contrastive learning" を与えられた場合、"deep,contrastive,learning" と等価となる (半角スペースはカンマで置換され、重複した単語は無視される)。 |
+| categories | arXiv 検索のクエリで使用されるカテゴリー。<br>これはキーワードと同じルールに従う（スペースなしの半角カンマ区切り、"or "で検索）。また、半角スペースは無視される。<br>詳細は [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy) を参照. |
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-5.jpg)
 
