@@ -2,7 +2,7 @@
 title: 'AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv'
 description: 'Post about AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv.'
 date: 2024-08-03T15:27:14+09:00
-lastmod: 2024-08-03T16:30:00+09:00
+lastmod: 2024-08-05T06:42:00+09:00
 math: false
 draft: false
 ---
@@ -109,6 +109,54 @@ Execution results can be checked in "Code source" or at the service of the webho
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-7.jpg)
 
+Once the operation is checked, note the "Function ARN" of the Lambda function.
+
+![img](https://img.tsuji.tech/arxiv-bot-aws-16.jpg)
+
+## AWS IAM Settings
+
+Create policy to invoke Lambda function.
+
+### IAM Policy
+
+Visit [AWS IAM](https://aws.amazon.com/iam/) > Policies > "Create policy".
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "lambda:InvokeFunction",
+            "Resource": "arn:aws:YOUR-LAMBDA-FUNCTION-ARN"
+        }
+    ]
+}
+```
+
+### IAM Role
+
+Visit AWS IAM > Roles > "Create role".
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "admitEventBridge",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "scheduler.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
+
+Then attach the policy to the role.
+
 ## AWS EventBridge Settings
 
 Setup to execute Lambda functions at a fixed time each day.
@@ -145,6 +193,10 @@ Fill remaining forms.
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-14.jpg)
 
+Set IAM Policy you created to Permission > Execution role > Use existing role > Role name.
+
 ![img](https://img.tsuji.tech/arxiv-bot-aws-15.jpg)
+
+Create schedule.
 
 Settings completed!

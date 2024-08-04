@@ -2,7 +2,7 @@
 title: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定'
 description: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定を解説する記事。'
 date: 2024-08-03T15:27:14+09:00
-lastmod: 2024-08-03T16:30:00+09:00
+lastmod: 2024-08-05T06:42:00+09:00
 math: false
 draft: false
 ---
@@ -108,6 +108,54 @@ AWS ラムダコンソールで "Create function" を行う。
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-7.jpg)
 
+動作確認の後、Lambda 関数の "ARN" をメモする。
+
+![img](https://img.tsuji.tech/arxiv-bot-aws-16.jpg)
+
+## AWS IAM の設定
+
+Lambda 関数を実行するためのポリシーを作成する。
+
+### IAM Policy
+
+[AWS IAM](https://aws.amazon.com/iam/) > Policies > "Create policy" で以下のポリシーを作成。
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "lambda:InvokeFunction",
+            "Resource": "arn:aws:YOUR-LAMBDA-FUNCTION-ARN"
+        }
+    ]
+}
+```
+
+### IAM Role
+
+AWS IAM > Roles > "Create role" で以下のロールを作成。
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "admitEventBridge",
+            "Effect": "Allow",
+            "Principal": {
+                "Service": "scheduler.amazonaws.com"
+            },
+            "Action": "sts:AssumeRole"
+        }
+    ]
+}
+```
+
+作成後、ロールにポリシーをアタッチしておく。
+
 ## AWS EventBridge の設定
 
 ラムダ関数を毎日決まった時間に実行するための設定。
@@ -145,6 +193,10 @@ arXiv 検索結果を得るために JSON パラメータを正しく設定す�
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-14.jpg)
 
+作成した AIM ポリシーを、Permission > Execution role > Use existing role > Role name へ設定。
+
 ![img](https://img.tsuji.tech/arxiv-bot-aws-15.jpg)
+
+スケジュールを作成。
 
 以上で設定は完了。
