@@ -46,6 +46,15 @@ pip install -r requirements.txt -t ./python
 zip -r python.zip ./python
 ```
 
+## Webhook Settings
+
+Get webhook url of the service you want to notify.
+
+* [Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)
+* [Microsoft Teams Incoming Webhooks](https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams%2Cdotnet)
+* [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+* etc.
+
 ## AWS Lambda Settings
 
 ### Lambda Layer
