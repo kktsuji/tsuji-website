@@ -17,6 +17,7 @@ Cui et al., "PFPs: Prompt-guided Flexible Pathological Segmentation for Diverse 
 
 ![img](https://img.tsuji.tech/pfps-arxiv2024-1.jpg)
 
+* 投稿日: 2024/07/13
 * 著者らは、病理画像セグメンテーションタスク向けの efficient segment anything model (EfficientSAM, Xiong et al) のポテンシャルと柔軟性を向上させるため、PFPs と呼ばれる手法を提案した。
 * PFPs は、Omni-seg (Deng et al., 2023) と HATs (Deng et al., 2024) から着想を得ている。
 * 低ランク適応（LoRA, Hu et al., 2021）は、TinyLLaMA（Zhang et al., 2024）と呼ばれる事前訓練済みの大規模言語モデル (LLM) のファインチューニングに用いられる。
