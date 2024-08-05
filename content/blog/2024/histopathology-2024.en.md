@@ -17,6 +17,7 @@ Cui et al., "PFPs: Prompt-guided Flexible Pathological Segmentation for Diverse 
 
 ![img](https://img.tsuji.tech/pfps-arxiv2024-1.jpg)
 
+* Published: Jul. 13, 2024
 * Authors proposed a method called PFPs that increases a potential and flexibility of the efficient segment anything model (EfficientSAM, Xiong et al., 2024) for pathology image segmentation tasks.
 * They was inspired by Omni-seg (Deng et al., 2023) and HATs (Deng et al., 2024).
 * Low-rank adaptation (LoRA, Hu et al., 2021) was used for fine-tuning of pre-trained large language model (LLM) called TinyLLaMA (Zhang et al., 2024).
