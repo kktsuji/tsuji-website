@@ -1,6 +1,6 @@
 ---
-title: 'Memo of Histopathology Papers, 2024'
-description: 'Memo of Histopathology Papers.'
+title: 'Memo of Histopathology Papers, Computer Vision and AI, 2024'
+description: 'Memo of Histopathology Papers, Computer Vision and AI, 2024.'
 date: 2024-08-01T09:28:45+09:00
 lastmod: 2024-08-08T06:50:00+09:00
 math: false
@@ -36,3 +36,12 @@ Guo ea al., “Prompting Medical Large Vision-Language Models to Diagnose Pathol
     1. Provide detailed pathological descriptions to the question queries.
     2. Introduce “weak learner” to provide its prediction results to the question queries as a reference opinion.
 * Proposed method improves the diagnostic F1 score by up to 0.27 on the MIMIC-CXR-JPG and Chexpert dataset.
+
+## Pathology Foundation Models
+
+Ochi et al., "Pathology Foundation Models" ([arXiv](https://arxiv.org/abs/2407.21317)).
+
+![img](https://img.tsuji.tech/pathology-foundation-models-arxiv2024-0.jpg)
+
+* Published: Jul. 31, 2024
+* Authors summarized pathology foundation models.

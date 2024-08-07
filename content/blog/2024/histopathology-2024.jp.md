@@ -1,6 +1,6 @@
 ---
-title: '病理組織学の論文メモ, 2024年'
-description: '病理組織学の論文のメモ。'
+title: 'コンピュータビジョン&AI領域の病理組織学画像応用の論文メモ, 2024年'
+description: 'コンピュータビジョン&AI領域の病理組織学画像応用の論文メモ。'
 date: 2024-08-01T09:28:45+09:00
 lastmod: 2024-08-08T06:50:00+09:00
 math: false
@@ -36,3 +36,12 @@ Guo ea al., “Prompting Medical Large Vision-Language Models to Diagnose Pathol
     1. 質問クエリに詳細な病理学的説明を与える。
     2. 「weak learner」を導入し、その予測結果を参照意見として質問クエリに提供する。
 * 提案手法は、MIMIC-CXR-JPG および Chexpert データセットにおいて、診断 F1 スコアを最大 0.27 改善した。
+
+## Pathology Foundation Models
+
+Ochi et al., "Pathology Foundation Models" ([arXiv](https://arxiv.org/abs/2407.21317)).
+
+![img](https://img.tsuji.tech/pathology-foundation-models-arxiv2024-0.jpg)
+
+* 投稿日: 2024/07/31
+* 著者らは、病理組織学の基盤モデルをまとめた。
