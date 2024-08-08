@@ -45,3 +45,16 @@ Ochi et al., "Pathology Foundation Models" ([arXiv](https://arxiv.org/abs/2407.2
 
 * 投稿日: 2024/07/31
 * 著者らは、病理組織学の基盤モデルをまとめた。
+
+## Multistain Pretraining for Slide Representation Learning in Pathology
+
+* Authors: Guillaume Jaume et al.
+* Published: 2024/08/05
+* Link: [arXiv](http://arxiv.org/abs/2408.02859)
+* 著者らは、「MADELEINE」と呼ばれるマルチモーダル事前学習手法を提案した。これは、より良い学習のために複数の染色スライド画像を活用するスライド表現学習 (representation learning) である。
+* 訓練済みの MADELEINE エンコーダは、few-shot の分類、予後予測、fine-tuning などの下流のタスクに使用することができる。
+* 乳がんサンプルと腎臓移植サンプルを用い、グローバルとローカルの二重クロス染色アライメントを目的とした学習を行う。
+
+![img](https://img.tsuji.tech/madeleine-arxiv2024-0.jpg)
+
+![img](https://img.tsuji.tech/madeleine-arxiv2024-1.jpg)

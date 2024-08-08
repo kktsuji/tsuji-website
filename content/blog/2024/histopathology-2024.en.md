@@ -45,3 +45,16 @@ Ochi et al., "Pathology Foundation Models" ([arXiv](https://arxiv.org/abs/2407.2
 
 * Published: Jul. 31, 2024
 * Authors summarized pathology foundation models.
+
+## Multistain Pretraining for Slide Representation Learning in Pathology
+
+* Authors: Guillaume Jaume et al.
+* Published: Aug. 5, 2024
+* Link: [arXiv](http://arxiv.org/abs/2408.02859)
+* Authors proposed a multimodal pretraining strategy called "MADELEINE", a slide representation learning method, leveraging multiple stained slides images for richer training.
+* Trained MADELEINE encoder can be used for some downstream tasks such as few-shot classification, prognostication and fine-tuning.
+* Training process utilizes a dual global-local cross-stain alignment objective with breast cancer samples and kidney transplant samples.
+
+![img](https://img.tsuji.tech/madeleine-arxiv2024-0.jpg)
+
+![img](https://img.tsuji.tech/madeleine-arxiv2024-1.jpg)
