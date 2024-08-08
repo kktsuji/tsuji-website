@@ -2,7 +2,7 @@
 title: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定'
 description: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定を解説する記事。'
 date: 2024-08-03T15:27:14+09:00
-lastmod: 2024-08-05T06:42:00+09:00
+lastmod: 2024-08-09T08:30:00+09:00
 math: false
 draft: false
 ---
@@ -104,7 +104,7 @@ AWS ラムダコンソールで "Create function" を行う。
 | Key | Description |
 |----------|----------|
 | webhook_url | Slack, Teams, その他のサービスの API の webhook url。 |
-| keywords | arXiv検索のクエリーで使用されるキーワード。<br>各キーワードは半角コンマで区切り、スペースは入れない。<br>キーワードはタイトルとアブストラクトの検索に使用される。<br>各キーワードは "or "で検索される。<br>例えば、"keyword1,keyword2 "と指定すると、"keyword1 "を含む論文と "keyword2 "を含む論文が検索結果として表示される。<br>より具体的な例を挙げると、値として "deep learning, contrastive learning" を与えられた場合、"deep,contrastive,learning" と等価となる (半角スペースはカンマで置換され、重複した単語は無視される)。 |
+| keywords | arXiv検索のクエリーで使用されるキーワード。<br>各キーワードはスペース無しの半角コンマで区切る。<br>キーワードはタイトルとアブストラクトの検索に使用され、それぞれ "or" で検索される。<br>例えば、"keyword1,key word2"と指定すると、keyword1 を含む論文と 'key word2' を含む論文が検索結果として表示される。(もしキーワード内にスペースを含む場合、シングルクォーテーションで囲んで検索に使用される) |
 | categories | arXiv 検索のクエリで使用されるカテゴリー。<br>これはキーワードと同じルールに従う（スペースなしの半角カンマ区切り、"or "で検索）。また、半角スペースは無視される。<br>詳細は [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy) を参照. |
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-5.jpg)
