@@ -2,7 +2,7 @@
 title: 'AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv'
 description: 'Post about AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv.'
 date: 2024-08-03T15:27:14+09:00
-lastmod: 2024-08-09T08:30:00+09:00
+lastmod: 2024-08-11T08:30:00+09:00
 math: false
 draft: false
 ---
@@ -51,9 +51,17 @@ zip -r python.zip ./python
 Get webhook url of the service you want to notify.
 
 * [Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)
-* [Microsoft Teams Incoming Webhooks](https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook?tabs=newteams%2Cdotnet)
+* [Microsoft Teams Webhooks](https://learn.microsoft.com/en-us/power-automate/teams/create-flows-power-apps-app)
 * [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
 * etc.
+
+## (Optional) OpenAI Settings
+
+Get OpenAI API Key if you want to summary papers.
+
+Note: The OpenAI API is chargeable.
+
+* [OpenAI API](https://openai.com/api/)
 
 ## AWS Lambda Settings
 
@@ -97,7 +105,8 @@ The "Event JSON" must follow this format (these parameters are used for only tes
 {
   "webhook_url": "https://YOUR_WEBHOOK_URL",
   "keywords": "keyword1,keyword2,keyword3",
-  "categories": "cs.AI,cs.CV,cs.LG,eess.IV"
+  "categories": "cs.AI,cs.CV,cs.LG,eess.IV",
+  "openai_api_key": "YOUR_API_KEY"
 }
 ```
 
@@ -106,6 +115,7 @@ The "Event JSON" must follow this format (these parameters are used for only tes
 | webhook_url | The webhook url such as Slack, Teams, and other service APIs. |
 | keywords | Keywords used in queries for arXiv searches.<br>Each keyword is separated by a comma with no spaces.<br>Keywords are used to search titles and abstracts and are searched for with "or".<br>For example, if the value "keyword1,key word2" is specified, paper containing keyword1 and papers containing 'key word2' will be displayed as search results (if a keyword contains spaces, single quotation marks are be used). |
 | categories | Categories used in queries for arXiv searches.<br>This follows the same rule of keywords (separated by comma without space, searched with "or"). And spaces are removed.<br>For more details, see [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy). |
+| OPENAI_API_KEY | (Optional) OpenAI API Key.<br>If you do not use the paper summarization function, please leave blank like bellow:<br>``"openai_api_key": ""`` |
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-5.jpg)
 
@@ -189,7 +199,8 @@ Correctly set json parameters to obtain arXiv search results (these parameters a
 {
   "webhook_url": "https://YOUR_WEBHOOK_URL",
   "keywords": "keyword1,keyword2,keyword3",
-  "categories": "cs.AI,cs.CV,cs.LG,eess.IV"
+  "categories": "cs.AI,cs.CV,cs.LG,eess.IV",
+  "openai_api_key": "YOUR_API_KEY"
 }
 ```
 
