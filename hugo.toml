@@ -38,6 +38,10 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     url = '/blog/'
     weight = 10
   [[Languages.en.menu.main]]
+    name = 'TIL'
+    url = 'https://github.com/kktsuji/til'
+    weight = 15
+  [[Languages.en.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
@@ -95,6 +99,10 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     name = 'Blog'
     url = '/blog/'
     weight = 10
+  [[Languages.jp.menu.main]]
+    name = 'TIL'
+    url = 'https://github.com/kktsuji/til'
+    weight = 15
   [[Languages.jp.menu.main]]
     pageRef="about"
     name = 'About'
