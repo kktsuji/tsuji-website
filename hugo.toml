@@ -38,8 +38,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     url = '/blog/'
     weight = 10
   [[Languages.en.menu.main]]
+    pageRef="til"
     name = 'TIL'
-    url = 'https://github.com/kktsuji/til'
+    url = '/til/'
     weight = 15
   [[Languages.en.menu.main]]
     pageRef="about"
@@ -100,8 +101,9 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     url = '/blog/'
     weight = 10
   [[Languages.jp.menu.main]]
+    pageRef="til"
     name = 'TIL'
-    url = 'https://github.com/kktsuji/til'
+    url = '/til/'
     weight = 15
   [[Languages.jp.menu.main]]
     pageRef="about"
@@ -118,7 +120,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   tocOpen = true # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
-  dateFormat = "2006/01/02" # default date format used on various pages
+  dateFormat = "Jan 2, 2006" # default date format used on various pages
   rssFeedDescription = "summary" # available options: 1) summary 2) full
 
 [Languages.jp.params.author]
@@ -156,3 +158,4 @@ url = "index.xml"
 
 [permalinks]
     blog = "/:filename/"
+    til = "/:filename/"
