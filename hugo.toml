@@ -158,5 +158,5 @@ url = "index.xml"
 
 [permalinks]
     blog = "/:filename/"
-    static = "/:filename/"
+    fixed = "/:filename/"
     til = "/:filename/"
