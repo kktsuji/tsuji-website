@@ -4,6 +4,7 @@ description: ''
 date: 2024-08-31T18:00:00+09:00
 lastmod: 
 draft: false
+weight: 5
 ---
 
 Please feel free to contact me with questions, bug/typo reports, comments, messages, job requests, or anything else.
