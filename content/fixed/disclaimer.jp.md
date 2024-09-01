@@ -4,6 +4,7 @@ description: ''
 date: 2024-08-30T09:00:00+09:00
 lastmod: 
 draft: false
+weight: 2
 ---
 
 本免責事項の全内容は、Microsoft Copilot により生成されたものを元に筆者が加筆、修正、追記したものである。
