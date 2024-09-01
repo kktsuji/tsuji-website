@@ -60,7 +60,7 @@ Google Analytics によって収集されるデータは匿名であり、個々
 
 更新履歴：
 
-- 初版制定 Sep. 01, 2024
+- 初版制定 Sep. 01, 2024 (commit [905b963](https://github.com/kktsuji/tsuji-website/commit/905b9639410c282569eae0b24c5f9403820abfff))
 
 ## 同意
 
