@@ -148,6 +148,10 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 name = "github"
 url = "https://github.com/kktsuji"
 
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/kktsuji/"
+
 # [[params.socialIcons]]
 # name = "twitter"
 # url = "https://twitter.com"
