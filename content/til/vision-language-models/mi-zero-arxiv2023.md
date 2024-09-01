@@ -2,7 +2,7 @@
 title: 'Visual Language Pretrained Multiple Instance Zero-Shot Transfer for Histopathology Images'
 description: ''
 date: 2024-08-29T21:26:00+09:00
-lastmod: 
+lastmod: 2024-09-01T16:30:00+09:00
 math: false
 draft: false
 ---
@@ -10,6 +10,8 @@ draft: false
 Title: Visual Language Pretrained Multiple Instance Zero-Shot Transfer for Histopathology Images
 
 Authors: Ming Y. Lu, Bowen Chen, Andrew Zhang, Drew F.K. Williamson, Richard J. Chen, Tong Ding, Long Phi Le, Yung-Sung Chuang, Faisal Mahmood
+
+Published: Jun 13, 2023
 
 Link: [https://arxiv.org/abs/2306.07831](https://arxiv.org/abs/2306.07831)
 

@@ -2,7 +2,7 @@
 title: 'Towards a Visual-Language Foundation Model for Computational Pathology'
 description: ''
 date: 2024-08-30T8:30:00+09:00
-lastmod: 
+lastmod: 2024-09-01T16:30:00+09:00
 math: false
 draft: false
 ---
@@ -10,6 +10,8 @@ draft: false
 Title: Towards a Visual-Language Foundation Model for Computational Pathology
 
 Authors: Ming Y. Lu, Bowen Chen, Drew F. K. Williamson, Richard J. Chen, Ivy Liang, Tong Ding, Guillaume Jaume, Igor Odintsov, Andrew Zhang, Long Phi Le, Georg Gerber, Anil V Parwani, Faisal Mahmood
+
+Published: Jul 24, 2023
 
 Link: [https://arxiv.org/abs/2307.12914](https://arxiv.org/abs/2307.12914)
 

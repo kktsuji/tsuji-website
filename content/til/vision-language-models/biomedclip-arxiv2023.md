@@ -2,7 +2,7 @@
 title: 'BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs'
 description: ''
 date: 2024-08-31T8:30:00+09:00
-lastmod: 
+lastmod: 2024-09-01T16:30:00+09:00
 math: false
 draft: false
 ---
@@ -10,6 +10,8 @@ draft: false
 Title: BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs
 
 Authors: Sheng Zhang, Yanbo Xu, Naoto Usuyama, Hanwen Xu, Jaspreet Bagga, Robert Tinn, Sam Preston, Rajesh Rao, Mu Wei, Naveen Valluri, Cliff Wong, Andrea Tupini, Yu Wang, Matt Mazzola, Swadheen Shukla, Lars Liden, Jianfeng Gao, Matthew P. Lungren, Tristan Naumann, Sheng Wang, Hoifung Poon
+
+Published: Mar 2, 2023
 
 Link: [https://arxiv.org/abs/2303.00915](https://arxiv.org/abs/2303.00915)
 
