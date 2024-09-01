@@ -4,6 +4,7 @@ description: 'About me'
 date: 2024-02-03T08:00:00+09:00
 lastmod: 2024-07-16T09:00:00+09:00
 draft: false
+weight: 1
 ---
 
 {{< author-avatar-img >}}
