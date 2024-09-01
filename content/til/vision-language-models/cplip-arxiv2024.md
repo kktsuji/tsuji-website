@@ -2,7 +2,7 @@
 title: 'CPLIP: Zero-Shot Learning for Histopathology with Comprehensive Vision-Language Alignment'
 description: ''
 date: 2024-08-28T20:00:00+09:00
-lastmod: 
+lastmod: 2024-09-01T16:30:00+09:00
 math: false
 draft: false
 ---
@@ -10,6 +10,8 @@ draft: false
 Title: CPLIP: Zero-Shot Learning for Histopathology with Comprehensive Vision-Language Alignment
 
 Authors: Sajid Javed, Arif Mahmood, Iyyakutti Iyappan Ganapathi, Fayaz Ali Dharejo, Naoufel Werghi, Mohammed Bennamoun
+
+Published: Jun 7, 2024
 
 Link: [https://arxiv.org/abs/2406.05205v1](https://arxiv.org/abs/2406.05205v1)
 
