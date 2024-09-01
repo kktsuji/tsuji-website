@@ -1,7 +1,7 @@
 ---
 title: '免責事項'
 description: ''
-date: 2024-08-30T09:00:00+09:00
+date: 2024-09-01T09:00:00+09:00
 lastmod: 
 draft: false
 weight: 2
