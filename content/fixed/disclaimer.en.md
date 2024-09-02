@@ -61,7 +61,7 @@ I may update this Disclaimer from time to time. I will notify you of any changes
 
 Changing history:
 
-- First edition established, Sep. 01, 2024
+- First edition established, Sep. 01, 2024 (commit [9987b22](https://github.com/kktsuji/tsuji-website/commit/9987b22b4778ed9fe2e606ab6f315833ef5b0067))
 
 ## Limitation of Liability
 

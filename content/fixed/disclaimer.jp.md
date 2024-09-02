@@ -62,7 +62,7 @@ K. Tsuji が [tsuji.tech](https://tsuji.tech) (以下「本サイト」) で提�
 
 更新履歴：
 
-- 初版制定 Sep. 01, 2024
+- 初版制定 Sep. 01, 2024 (commit [9987b22](https://github.com/kktsuji/tsuji-website/commit/9987b22b4778ed9fe2e606ab6f315833ef5b0067))
 
 ## 責任の制限
 

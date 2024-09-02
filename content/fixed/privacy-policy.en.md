@@ -61,7 +61,7 @@ I may update this Privacy Policy from time to time. I will notify you of any cha
 
 Changing history:
 
-- First edition established, Sep. 01, 2024
+- First edition established, Sep. 01, 2024 (commit [905b963](https://github.com/kktsuji/tsuji-website/commit/905b9639410c282569eae0b24c5f9403820abfff))
 
 ## Consent
 By using our website, you hereby consent to our Privacy Policy and agree to its terms.
