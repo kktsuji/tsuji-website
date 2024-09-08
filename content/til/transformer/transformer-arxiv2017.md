@@ -1,7 +1,7 @@
 ---
 title: 'Attention Is All You Need'
 description: ''
-date: 2024-09-09T14:00:00+09:00
+date: 2024-09-08T14:00:00+09:00
 lastmod: 
 draft: false
 ---
