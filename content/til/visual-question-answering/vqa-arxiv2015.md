@@ -1,7 +1,7 @@
 ---
 title: 'Yin and Yang: Balancing and Answering Binary Visual Questions'
 description: ''
-date: 2024-09-08T15:15:00+09:00
+date: 2024-09-07T15:15:00+09:00
 lastmod: 
 draft: false
 ---
