@@ -3,7 +3,6 @@ title: '2025年の国際会議リスト'
 description: '2025年に開催予定の国際会議のまとめ。'
 date: 2024-06-27T08:05:16+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

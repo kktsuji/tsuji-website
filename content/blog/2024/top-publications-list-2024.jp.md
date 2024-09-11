@@ -3,7 +3,6 @@ title: '2024年 AI＆コンピュータビジョン領域のトップ会議・�
 description: '2024年 AI＆コンピュータビジョン領域のトップ会議・学会誌リスト (Google Scholar の h5-index)'
 date: 2024-06-12T08:50:40+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: 'H-SAM: Hierarchical Segment Anything Model, CVPR2024'
 description: 'Sammary of the paper H-SAM in CVPR2024.'
 date: 2024-06-22T07:20:47+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

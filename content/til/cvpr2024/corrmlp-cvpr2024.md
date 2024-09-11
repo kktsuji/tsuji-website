@@ -3,7 +3,6 @@ title: 'CorrMLP: Correlation-Aware MLP-Based Coarse-to-Fine Registration, CVPR20
 description: 'Summary of the paper CorrMLP in CVPR2024.'
 date: 2024-06-25T20:26:48+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

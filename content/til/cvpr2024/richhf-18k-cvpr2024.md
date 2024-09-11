@@ -3,7 +3,6 @@ title: 'RichHF-18K: Rich Human Feedback on 18K Images, CVPR2024 Best Paper Award
 description: 'Summary of the paper proposed RichHR-18K in CVPR2024.'
 date: 2024-06-29T15:01:22+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

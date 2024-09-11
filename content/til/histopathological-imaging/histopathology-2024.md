@@ -3,7 +3,6 @@ title: 'Memo of Histopathology Papers, Computer Vision and AI, 2024'
 description: 'Memo of Histopathology Papers, Computer Vision and AI, 2024.'
 date: 2024-08-01T09:28:45+09:00
 lastmod: 2024-08-08T10:00:00+09:00
-math: false
 draft: false
 ---
 

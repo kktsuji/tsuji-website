@@ -3,7 +3,6 @@ title: 'Initialize VSCode Settings'
 description: 'How to initialize the settings of VSCode.'
 date: 2024-06-13T08:37:58+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

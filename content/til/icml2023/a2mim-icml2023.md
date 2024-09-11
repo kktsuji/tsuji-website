@@ -3,7 +3,6 @@ title: 'A2MIM: Architecture-Agnostic Masked Image Modeling, ICML2023'
 description: 'Summary of the paper A2MIM in ICML2023.'
 date: 2024-07-01T21:00:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

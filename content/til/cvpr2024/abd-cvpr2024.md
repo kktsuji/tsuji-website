@@ -3,7 +3,6 @@ title: 'ABD: Adaptive Bidirectional Displacement, CVPR2024'
 description: 'Summary of the paper ABD in CVPR2024.'
 date: 2024-06-24T08:21:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 
