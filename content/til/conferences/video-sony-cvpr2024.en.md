@@ -3,7 +3,6 @@ title: 'Youtube Video: Summary of CVPR2024, SONY'
 description: 'Brief introduction to the SONY Youtube video about CVPR2024 summary.'
 date: 2024-08-05T06:51:50+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

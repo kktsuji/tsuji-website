@@ -3,7 +3,6 @@ title: 'Improving Language Understanding by Generative Pre-Training'
 description: ''
 date: 2024-09-04T07:00:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

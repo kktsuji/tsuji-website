@@ -3,7 +3,6 @@ title: 'BiomedCLIP: a multimodal biomedical foundation model pretrained from fif
 description: ''
 date: 2024-08-31T8:30:00+09:00
 lastmod: 2024-09-01T16:30:00+09:00
-math: false
 draft: false
 ---
 

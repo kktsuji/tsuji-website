@@ -3,7 +3,6 @@ title: 'Test-Driven Development Key Concepts'
 description: ''
 date: 2024-08-27T20:00:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

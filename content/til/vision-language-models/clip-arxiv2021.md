@@ -3,7 +3,6 @@ title: 'Learning Transferable Visual Models From Natural Language Supervision'
 description: ''
 date: 2024-09-02T21:00:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

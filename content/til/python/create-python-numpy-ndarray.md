@@ -1,15 +1,14 @@
 ---
-title: 'Python Numpy Ndarray 生成方法'
-description: 'Python numpy ndarray ついての Today I Learned ポスト。'
+title: 'Create Python Numpy Ndarray'
+description: 'Today I Learned post about python numpy ndarray.'
 date: 2024-04-03T17:58:55+09:00
 lastmod: 
-math: false
 draft: false
 ---
 
 ## Reference
 
-詳細は [numpy official api reference](https://numpy.org/doc/stable/reference/arrays.ndarray.html) を参照。
+For more details, see [numpy official api reference](https://numpy.org/doc/stable/reference/arrays.ndarray.html).
 
 ## Preparation
 
@@ -20,7 +19,7 @@ pip install numpy
 
 ## Creation methods
 
-N-dimensional array ([ndarray](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#)) は numpy で最も重要かつ基本的なクラス。これはコンストラクタを持つが、各要素は初期化されない。
+A n-dimensional array ([ndarray](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#)) is the most important and basic class in numpy. It has a constructor but its elements will not be initialized.
 
 ```python
 # Interactive mode
@@ -39,7 +38,7 @@ array([[0.0e+000, 4.9e-324],
 ```
 
 
-[array](https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array) は ndarray オブジェクトを生成するインターフェース。引数に配列オブジェクトを受け取り、各要素をその値で初期化する。
+[array](https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array) is an useful interface to create a ndarray object. It can recieve an array object and elements will be initialized by it.
 
 
 ```python
@@ -62,7 +61,7 @@ array([[0, 1, 2],
 array([0., 1., 2.])
 ```
 
-[zeros](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html#numpy.zeros), [ones](https://numpy.org/doc/stable/reference/generated/numpy.ones.html#numpy.ones), [full](https://numpy.org/doc/stable/reference/generated/numpy.full.html#numpy.full) も同様によく使用される。
+[zeros](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html#numpy.zeros), [ones](https://numpy.org/doc/stable/reference/generated/numpy.ones.html#numpy.ones), [full](https://numpy.org/doc/stable/reference/generated/numpy.full.html#numpy.full) are also aften used.
 
 zeros:
 ```python
@@ -110,7 +109,7 @@ array([[0, 1, 2],
        [0, 1, 2]])
 ```
 
-array_like インターフェース ([zeros_like](https://numpy.org/doc/stable/reference/generated/numpy.zeros_like.html#numpy.zeros_like), [ones_like](https://numpy.org/doc/stable/reference/generated/numpy.ones_like.html#numpy.ones_like) and [full_like](https://numpy.org/doc/stable/reference/generated/numpy.full_like.html#numpy.full_like)) は、引数に与えられた配列のサイズと型を引き継ぐ。
+array_like interfaces ([zeros_like](https://numpy.org/doc/stable/reference/generated/numpy.zeros_like.html#numpy.zeros_like), [ones_like](https://numpy.org/doc/stable/reference/generated/numpy.ones_like.html#numpy.ones_like) and [full_like](https://numpy.org/doc/stable/reference/generated/numpy.full_like.html#numpy.full_like)) create an array with the same shape and type as a given array.
 
 zeros_like:
 

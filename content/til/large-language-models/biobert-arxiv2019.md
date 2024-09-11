@@ -3,7 +3,6 @@ title: 'BioBERT: a pre-trained biomedical language representation model for biom
 description: ''
 date: 2024-09-11T17:30:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 
