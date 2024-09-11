@@ -3,7 +3,6 @@ title: 'Generate Research Paper Summary with Microsoft Copilot'
 description: ''
 date: 2024-08-28T20:00:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

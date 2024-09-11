@@ -3,7 +3,6 @@ title: 'Language Models are Unsupervised Multitask Learners'
 description: ''
 date: 2024-09-03T21:30:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

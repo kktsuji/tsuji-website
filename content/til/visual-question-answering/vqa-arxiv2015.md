@@ -3,7 +3,6 @@ title: 'VQA: Visual Question Answering'
 description: ''
 date: 2024-09-09T09:15:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

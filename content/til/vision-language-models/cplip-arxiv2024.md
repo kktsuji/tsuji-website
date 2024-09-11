@@ -3,7 +3,6 @@ title: 'CPLIP: Zero-Shot Learning for Histopathology with Comprehensive Vision-L
 description: ''
 date: 2024-08-28T20:00:00+09:00
 lastmod: 2024-09-01T16:30:00+09:00
-math: false
 draft: false
 ---
 

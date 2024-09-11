@@ -3,7 +3,6 @@ title: 'An Image is Worth 16x16 Words: Transformers for Image Recognition at Sca
 description: ''
 date: 2024-09-05T09:30:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

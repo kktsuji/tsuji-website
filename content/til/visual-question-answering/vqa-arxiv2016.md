@@ -3,7 +3,6 @@ title: 'Making the V in VQA Matter: Elevating the Role of Image Understanding in
 description: ''
 date: 2024-09-06T22:30:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 
