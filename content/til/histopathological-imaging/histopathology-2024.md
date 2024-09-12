@@ -8,18 +8,6 @@ draft: false
 
 Note: Figures and tables in this post are from the respective original papers.
 
-## Prompting Medical Large Vision-Language Models to Diagnose Pathologies by Visual Question Answering
-
-* Authors: Danfeng Guo ea al.
-* Published: Jul. 31, 2024
-* Link: [arXiv](https://arxiv.org/abs/2407.21368).
-* Authors introduced two prompting methods to reduce hallucinations on medical large vision-language model (LVLMs) and improve visual question answering (VQA) tasks:
-    1. Provide detailed pathological descriptions to the question queries.
-    2. Introduce “weak learner” to provide its prediction results to the question queries as a reference opinion.
-* Proposed method improves the diagnostic F1 score by up to 0.27 on the MIMIC-CXR-JPG and Chexpert dataset.
-
-![img](https://img.tsuji.tech/prompting-medical-lvlm-arxiv2024-0.jpg)
-
 ## Pathology Foundation Models
 
 * Authors: Mieko Ochi et al.
