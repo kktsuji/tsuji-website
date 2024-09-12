@@ -3,7 +3,6 @@ title: 'GAN-DL for Dataset RxRx19a, BMC Bioinformatics2022'
 description: 'Summary of a paper that proposed one of a deep learning technology called "GAN-DL" for analysis of a public dataset RxRx19a consist of fluorescence microscopy images of human cells infected COVID-19.'
 date: 2024-04-17T08:03:26+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

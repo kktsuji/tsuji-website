@@ -3,7 +3,6 @@ title: 'AWS Configuration to Automatically Notify Webhooks of New Papers on arXi
 description: 'Post about AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv.'
 date: 2024-08-03T15:27:14+09:00
 lastmod: 2024-08-11T08:30:00+09:00
-math: false
 draft: false
 ---
 

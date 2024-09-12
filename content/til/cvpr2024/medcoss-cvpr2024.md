@@ -3,7 +3,6 @@ title: 'MedCoSS: Rehearsal-Based Multi-Modal Representation Learning, CVPR2024'
 description: 'Summary of the paper MedCoSS in CVPR2024.'
 date: 2024-06-20T08:51:23+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

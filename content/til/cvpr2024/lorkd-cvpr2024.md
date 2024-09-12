@@ -3,7 +3,6 @@ title: 'LoRKD: Knowledge Decomposition for Medical Fundation Models, CVPR2024'
 description: 'Sammary of the paper LoRKD in CVPR2024.'
 date: 2024-06-23T12:10:31+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

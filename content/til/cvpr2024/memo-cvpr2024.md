@@ -3,7 +3,6 @@ title: 'Memo of Papers, CVPR2024'
 description: 'Memo of the papers in CVPR2024.'
 date: 2024-07-02T07:50:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

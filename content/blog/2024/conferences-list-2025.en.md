@@ -3,7 +3,6 @@ title: 'Upcoming Conferences List in 2025'
 description: 'Summary of Top Conferences List in 2025.'
 date: 2024-06-27T08:05:16+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

@@ -3,7 +3,6 @@ title: 'GPU Resources for Machine Learning'
 description: ''
 date: 2024-07-27T15:43:49+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

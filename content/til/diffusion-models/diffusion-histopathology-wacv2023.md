@@ -3,7 +3,6 @@ title: 'Diffusion Probabilistic Model for Histopathology Images, WACV2023'
 description: 'Summary of a paper that proposed diffusion probabilistic model for generating synthetic histopathology images.'
 date: 2024-05-20T8:50:00+09:00
 lastmod: 
-math: false
 draft: false
 ---
 

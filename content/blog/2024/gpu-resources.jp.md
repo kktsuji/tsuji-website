@@ -3,7 +3,6 @@ title: '機械学習向けの GPU リソース'
 description: ''
 date: 2024-07-27T15:43:49+09:00
 lastmod: 
-math: false
 draft: false
 ---
 
