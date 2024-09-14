@@ -1,3 +1,3 @@
 ---
-title: "Visual Question Answering (VQA)"
+title: "Visual Question Answering"
 ---
