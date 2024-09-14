@@ -8,15 +8,6 @@ draft: false
 
 Note: Figures and tables in this post are from the respective original papers.
 
-## Pathology Foundation Models
-
-* Authors: Mieko Ochi et al.
-* Published: Jul. 31, 2024
-* Link: [arXiv](https://arxiv.org/abs/2407.21317)
-* Authors summarized pathology foundation models.
-
-![img](https://img.tsuji.tech/pathology-foundation-models-arxiv2024-0.jpg)
-
 ## Multistain Pretraining for Slide Representation Learning in Pathology
 
 * Authors: Guillaume Jaume et al.
