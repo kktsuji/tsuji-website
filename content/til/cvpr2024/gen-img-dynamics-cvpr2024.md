@@ -1,14 +1,10 @@
 ---
-title: 'Memo of Papers, CVPR2024'
-description: 'Memo of the papers in CVPR2024.'
+title: 'Generative Image Dynamics, CVPR2024 Best Paper Award'
+description: ''
 date: 2024-07-02T07:50:00+09:00
 lastmod: 
 draft: false
 ---
-
-This post summarizes notes from CVPR2024 papers that are not relevant to my area of research.
-
-## Generative Image Dynamics
 
 Paper: Li et al., Generative Image Dynamics ([project page](https://generative-dynamics.github.io/), [cvpr2024 open access](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Generative_Image_Dynamics_CVPR_2024_paper.pdf) or [arxiv](https://arxiv.org/abs/2309.07906)).
 
