@@ -1,6 +1,6 @@
 ---
-title: 'CorrMLP: Correlation-Aware MLP-Based Coarse-to-Fine Registration, CVPR2024'
-description: 'Summary of the paper CorrMLP in CVPR2024.'
+title: 'Correlation-aware Coarse-to-fine MLPs for Deformable Medical Image Registration'
+description: ''
 date: 2024-06-25T20:26:48+09:00
 lastmod: 
 draft: false

@@ -1,6 +1,6 @@
 ---
-title: 'ABD: Adaptive Bidirectional Displacement, CVPR2024'
-description: 'Summary of the paper ABD in CVPR2024.'
+title: 'Adaptive Bidirectional Displacement for Semi-Supervised Medical Image Segmentation'
+description: ''
 date: 2024-06-24T08:21:00+09:00
 lastmod: 
 draft: false
