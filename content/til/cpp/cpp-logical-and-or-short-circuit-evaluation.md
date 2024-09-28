@@ -21,7 +21,16 @@ if ((x > 1) && (x < 10)) { // (x > 1) is false, then (x < 10) is ignored.
 if ((x > 0) || (x < 10)) { // (x > 0) is true, then (x < 10) is ignored.
     ...
 }
+```
 
+Using this system, we can write a code like below:
+
+```cpp
+assert ((!(myclass = getInstance(key))) || !myclass->isValid());
+
+// Equals to below:
+myclass = getInstance(key);
+if (myclass != NULL) assert(!myclass->isValid())
 ```
 
 References:
