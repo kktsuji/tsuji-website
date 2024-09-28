@@ -33,6 +33,8 @@ myclass = getInstance(key);
 if (myclass != NULL) assert(!myclass->isValid())
 ```
 
+Personally, I feel the second writing style is easier to read, though.
+
 References:
 
 - [https://en.wikipedia.org/wiki/Short-circuit_evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
