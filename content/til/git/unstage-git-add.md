@@ -43,7 +43,7 @@ Additionally, you can use ``HEAD`` or a ``commit ID`` with ``git reset`` command
 # For a specific file
 git reset file.txt # Same as "git reset HEAD file.txt"
 git reset HEAD file.txt # Same as "git reset file.txt"
-git reset abc123 file.txt # Reset to the file.txt with the commit ID "abc123"
+git reset abc123 file.txt # Reset to the file.txt of the commit ID "abc123"
 
 # For all files
 git reset
