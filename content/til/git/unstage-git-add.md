@@ -1,5 +1,5 @@
 ---
-title: 'Unstage git add command'
+title: 'Unstage Git Add Command'
 description: ''
 date: 2024-10-10T18:00:00+09:00
 lastmod: 
