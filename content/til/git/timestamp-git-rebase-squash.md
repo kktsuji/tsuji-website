@@ -17,13 +17,13 @@ git log -n 3
 # Author: xxx <xxx@xxx.com>
 # Date:   Fri Oct 11 07:57:34 2024 +0900
 
-#     Fix a typo
+#     Third commit
 
 # commit 3a4da3017d82b33d88306acbbe657a0e6b930510
 # Author: xxx <xxx@xxx.com>
 # Date:   Fri Oct 11 07:56:38 2024 +0900
 
-#     Add contents to file.txt
+#     Second commit
 
 # commit 3fd876ecb7ca5efa2060cf4aaa2236ffcecda963
 # Author: xxx <xxx@xxx.com>
@@ -32,7 +32,7 @@ git log -n 3
 #     Initial commit
 ```
 
-Let's squash the second and third commit.
+Let's squash the second and third commits.
 
 ```bash
 git rebase -i HEAD~2
@@ -42,12 +42,12 @@ Git automatically opens the text editor to modify commit history. In the example
 
 ```bash
 # Modify from
-pick 3a4da30 Add contents to file.txt
-pick 740a6c0 Fix a typo
+pick 3a4da30 Second commit
+pick 740a6c0 Third commit
 
 # to
-pick 3a4da30 Add contents to file.txt
-s 740a6c0 Fix a typo
+pick 3a4da30 Second commit
+s 740a6c0 Third commit
 
 # then save and close the editor
 ```
@@ -60,11 +60,11 @@ Git re-opens the text editor again. We will edit comments of squashed commit.
 # This is a combination of 2 commits.
 # This is the 1st commit message:
 
-Add contents to file.txt
+Second commit
 
 # This is the commit message #2:
 
-Fix a typo
+Third commit
 
 # --------------
 # to
