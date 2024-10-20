@@ -8,7 +8,7 @@ draft: false
 
 * Japan has no laws similar to 1031 Exchange in US.
 * If a Japanese person owns a real estate in the US and use the 1031 exchange, he/she needs to pay taxes in Japan.
-* If a Japanese person owns a LCC in the US, and if the LCC owns a real estate in the US and use 1031 exchange, no tax is required in Japan.
+* If a Japanese person owns a LLC (Limited Liability Company) in the US, and if the LLC owns a real estate in the US and use 1031 exchange, no tax is required in Japan.
 
 References:
 
