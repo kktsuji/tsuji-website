@@ -12,13 +12,13 @@ draft: false
 
 Difference between rich person and poor people:
 
-- Rich person purchase assets
-- Poor and middle class people buy liabilities
+- **Rich person purchase assets**
+- **Poor and middle class people buy liabilities**
 
 Difference between assets and liabilities:
 
-- Assets bring money into our pockets
-- Liabilities take money out of our pockets
+- **Assets bring money into our pockets**
+- **Liabilities take money out of our pockets**
 
 Know my cache flow by using the Profit and Loss Statement and the Balance Sheet.
 
