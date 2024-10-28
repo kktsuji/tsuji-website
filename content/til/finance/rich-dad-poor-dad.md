@@ -2,7 +2,7 @@
 title: 'Summary of Rich Dad Poor Dad'
 description: ''
 date: 2024-10-21T9:30:00+09:00
-lastmod: 
+lastmod: 2024-10-28T9:00:00+09:00
 draft: false
 ---
 
@@ -98,3 +98,14 @@ Other options:
 - We need to treat our jobs or professions as business. Our specialties, skills, knowledge, experience are one of products to sell.
 - Income from employee is just one resource of money. Flexible business models are possible. Employees can have side projects like web services, video contents, etc. Alternatively, other resource of recurring income from supporters could be build on web services. We can stay an employee with side business, or quit it after side project got bigger than it. There are a lot of options to build our business models.
 - Create the only my own system for me.
+
+### Network Business
+
+- Author recommends network businesses, but I hate them.
+- In Japan, network businesses are known as “multi” (short for multi-level network) with very bad feeling. It’s almost same as the “fraud” because of salesperson's awful compliances.
+- Of course, network businesses themselves are legal in Japan. However, Japan’s law doesn’t allow to invite someone to something without noticing that their final purpose is sales (it’s called blind sales).
+- In Japan, especially around Tokyo areas, there are lots of illegal network business salespersons.
+- We can easily find these kind of illegal activates at everywhere (dating apps, seminars, bars, parties, BBQs, cafes, streets, etc.).
+- For example, cafes near to big stations like Shinjuku, Shibuya, etc. sometimes have bad reputations because they are places where we can see many sales scenes related to network businesses. 
+- I have experiences to meet some network business people and to join few seminars, but I felt they were just workload to make their boss rich. Of course, this was blind sales. After I found that they were member of multi, I immediately deleted their contacts because I didn’t want to be involved into foolish criminal. Fortunately, I paid only few dollars for seminars. I think this expense was not so bad to know their bullshit invitation systems (I want to write post about this someday).
+- And this book “Rich Dad Poor Dad” is often used as the first key to invite seminars to study finance intelligence and it leads to network business. In Japan, google search suggests “rich dad multi”.
