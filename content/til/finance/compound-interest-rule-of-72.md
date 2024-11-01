@@ -11,7 +11,7 @@ Rule of 72 is a simple fomula to calculate how long will it take for the value o
 
 $ y = i \div r $
 
-Where $ y, i, r $ represent a expected period [year], investment value [any currency], and a fixed annual interest rate [%] respectedly.
+Where $ y, i, r $ represent an expected period [year], an investment value [any currency], and a fixed annual interest rate [%] respectedly.
 
 When we invest $100, the calculation results are following:
 
