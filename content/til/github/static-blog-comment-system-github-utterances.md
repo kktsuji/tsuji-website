@@ -1,10 +1,12 @@
 ---
-title: 'GitHub Issues Based Comment System "utterances" for Static Website'
+title: 'Comment System "utterances" Built on GitHub Issues for Static Website'
 description: ''
 date: 2024-11-03T20:00:00+09:00
 lastmod: 
 draft: false
 ---
+
+**Note: This blog adopted Giscus. See [this post](https://tsuji.tech/giscus-github/).**
 
 [utterances](https://github.com/utterance/utterances) is a cool tool built on GitHub for embedding comment forms on static websites.
 
@@ -36,5 +38,3 @@ Script is like following:
     async>
 </script>
 ```
-
-My blog already uses utterances comment system like below in this page.
