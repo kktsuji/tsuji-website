@@ -1,5 +1,5 @@
 ---
-title: 'Git Diff --name-nly'
+title: 'Git Diff with Only File Names'
 description: ''
 date: 2024-11-11T09:00:00+09:00
 lastmod: 
