@@ -14,13 +14,13 @@ git --version
 Delete remote branch:
 
 ```bash
-git branch -d <remote> <branch>
-git branch --delete <remote> <branch>
+git push -d <remote> <branch>
+git push --delete <remote> <branch>
 git push <remote> :<branch>
 
 # For example:
-git branch -d origin feature/foo
-git branch origin :future/foo
+git push -d origin feature/foo
+git push origin :future/foo
 
 git --help push
 # OPTIONS
