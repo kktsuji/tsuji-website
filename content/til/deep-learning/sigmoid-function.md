@@ -15,6 +15,8 @@ Where $ a $ is a gain.
 
 In the context of artificial neural network, the sigmoid function is a synonym for the logistics function.
 
+The [softmax function](https://tsuji.tech/softmax-function/) is a smooth approximation of one-hot arg max of the sigmoid function.
+
 ## Standard Sigmoid Function
 
 $ S(x) = \dfrac{1}{1 + e^x} = \dfrac{\tanh(x/2) + 1}{2} $
