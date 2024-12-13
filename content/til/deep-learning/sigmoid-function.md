@@ -48,10 +48,10 @@ plt.ylabel("sigmoid(x)")
 plt.title("Sigmoid Function")
 plt.grid(True)
 
-# Save the plot to Google Drive
+# Save the plot to storage
 plt.savefig('./sigmoid_function.jpg')
 
-# Display the plot (optional)
+# Display the plot
 plt.show()
 ```
 
