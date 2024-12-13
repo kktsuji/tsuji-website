@@ -55,12 +55,12 @@ To built assets that I love or have strong passion or interest in is the most im
 3. Ability to understand market: judging appropriate timing to invest, demand and supply
 4. Ability of law: knowledge about tax incentives and preservation of us to own company
 
-### Two Types of Investor
+### Two Types of Investors
 
 One side invests in financial products packaged by someone else. the other  creates its own investment from scratch.
 
 1. Ability to find opportunities that others may not be aware of
-2. Ability to raise funds: there are may ways to do it, not only from banks
+2. Ability to raise funds: there are many ways to do it, not only from banks
 3. Ability to gather talented person and to organize a team
 
 ### Others
