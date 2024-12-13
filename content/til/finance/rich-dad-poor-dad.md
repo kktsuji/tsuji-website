@@ -106,6 +106,6 @@ Other options:
 - Of course, network businesses themselves are legal in Japan. However, Japan’s law doesn’t allow to invite someone to something without noticing that their final purpose is sales (it’s called blind sales).
 - In Japan, especially around Tokyo areas, there are lots of illegal network business salespersons.
 - We can easily find these kind of illegal activates at everywhere (dating apps, seminars, bars, parties, BBQs, cafes, streets, etc.).
-- For example, cafes near to big stations like Shinjuku, Shibuya, etc. sometimes have bad reputations because they are places where we can see many sales scenes related to network businesses. 
+- For example, cafes near to big stations like Shinjuku, Shibuya, etc. sometimes have bad reputations because they are places where we can see many sales scenes related to network businesses.
 - I have experiences to meet some network business people and to join few seminars, but I felt they were just workload to make their boss rich. Of course, this was blind sales. After I found that they were member of multi, I immediately deleted their contacts because I didn’t want to be involved into foolish criminal. Fortunately, I paid only few dollars for seminars. I think this expense was not so bad to know their bullshit invitation systems (I want to write post about this someday).
 - And this book “Rich Dad Poor Dad” is often used as the first key to invite seminars to study finance intelligence and it leads to network business. In Japan, google search suggests “rich dad multi”.
