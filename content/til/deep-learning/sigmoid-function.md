@@ -1,5 +1,5 @@
 ---
-title: 'Sigmoid Function'
+title: 'Sigmoid Function (Logistics Function)'
 description: ''
 date: 2024-12-05T9:00:00+09:00
 lastmod: 
@@ -60,3 +60,4 @@ plt.show()
 ## References
 
 - [Sigmoid Function - wiki](https://en.m.wikipedia.org/wiki/Sigmoid_function)
+- [Logistics Function - wiki](https://en.wikipedia.org/wiki/Logistic_function)
