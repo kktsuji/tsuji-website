@@ -25,7 +25,7 @@ pip install -U pip
 
 There are four options to install opencv-python via pip.
 
-**Note:** only one option can be chosen. If multiple diifferent packages are installed simultaneously in a single environment, the extra ones should be uninstalled with like ``pip uninstall opencv-python``. This is because all 4 packages use same namespace ``cv2``.
+**Note:** only one option can be chosen. If multiple different packages are installed simultaneously in a single environment, the extra ones should be uninstalled with like ``pip uninstall opencv-python``. This is because all 4 packages use same namespace ``cv2``.
 
 For standard desktop environments (Windows, macOS, almost any GNU/Linux distribution):
 
