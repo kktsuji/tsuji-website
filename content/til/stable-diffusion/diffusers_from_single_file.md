@@ -1,5 +1,5 @@
 ---
-title: 'Use diffusers from_single_file() to Load Single Diffusion Model Files'
+title: 'Use Diffusers from_single_file() to Load Single Diffusion Model Files'
 description: ''
 date: 2025-02-19T22:00:00+09:00
 lastmod: 
