@@ -6,7 +6,7 @@ lastmod:
 draft: false
 ---
 
-## By using List or Tuple
+## By Using List or Tuple
 
 This conversion can be used to convert a 1-channel grayscale image to a 3-channel RGB image.
 
@@ -43,7 +43,7 @@ print(three_ch.shape)
 # (2, 3, 3)
 ```
 
-## By using copy()
+## By Using copy()
 
 ```python
 import numpy as np
