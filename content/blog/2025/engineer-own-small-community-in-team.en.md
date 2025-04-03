@@ -1,7 +1,7 @@
 ---
 title: 'The Importance of Engineers Having Their Own Small Community in the Team'
 description: ''
-date: 2025-03-30T10:00:00+09:00
+date: 2025-04-03T22:00:00+09:00
 lastmod: 
 draft: false
 ---
