@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 109 [TIL](https://tsuji.tech/til/) posts.
+There are 110 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -156,6 +156,10 @@ There are 109 [TIL](https://tsuji.tech/til/) posts.
 
 - [Valid Combinations of CUDA, CuDNN and Tensorflow](https://tsuji.tech/cuda-cudnn-tensorflow-combinations) (Feb 16, 2025)
 - [Install cuda vs cuda-toolkit](https://tsuji.tech/install-cuda-vs-cuda-toolkit) (Feb 6, 2025)
+
+### pandoc
+
+- [Use Japanese in Pandoc Docker Image](https://tsuji.tech/use-japanese-pandoc-docker) (Apr 9, 2025)
 
 ### pc
 
