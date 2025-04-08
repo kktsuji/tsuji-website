@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 108 [TIL](https://tsuji.tech/til/) posts.
+There are 109 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -226,6 +226,7 @@ There are 108 [TIL](https://tsuji.tech/til/) posts.
 
 ### vscode
 
+- [Hide Header in Markdown PDF for VSCode](https://tsuji.tech/hide-header-markdown-pdf-vscode) (Apr 8, 2025)
 - [VSCode Markdown Formatter Settings](https://tsuji.tech/vscode-markdown-formatter-settings) (Dec 16, 2024)
 - [Initialize VSCode Settings](https://tsuji.tech/initialize-vscode-settings) (Jun 13, 2024)
 
