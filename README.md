@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 110 [TIL](https://tsuji.tech/til/) posts.
+There are 111 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -198,6 +198,10 @@ There are 110 [TIL](https://tsuji.tech/til/) posts.
 ### test-driven-development
 
 - [Test-Driven Development Key Concepts](https://tsuji.tech/tdd-key-concepts) (Aug 27, 2024)
+
+### tex
+
+- [Install TeX Live in Ubuntu](https://tsuji.tech/install-tex-live-ubuntu) (Apr 10, 2025)
 
 ### transformer
 
