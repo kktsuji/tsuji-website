@@ -1,7 +1,7 @@
 ---
 title: 'Install TeX Live in Ubuntu'
 description: ''
-date: 2025-04-08T9:00:00+09:00
+date: 2025-04-10T21:00:00+09:00
 lastmod: 
 draft: false
 ---
