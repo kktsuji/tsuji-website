@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 111 [TIL](https://tsuji.tech/til/) posts.
+There are 112 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -159,6 +159,7 @@ There are 111 [TIL](https://tsuji.tech/til/) posts.
 
 ### pandoc
 
+- [Pandoc LaTeX Inline and Display Math](https://tsuji.tech/pandoc-latex-inline-display-math) (Apr 17, 2025)
 - [Use Japanese in Pandoc Docker Image](https://tsuji.tech/use-japanese-pandoc-docker) (Apr 9, 2025)
 
 ### pc
