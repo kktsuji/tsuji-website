@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 113 [TIL](https://tsuji.tech/til/) posts.
+There are 114 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -62,6 +62,7 @@ There are 113 [TIL](https://tsuji.tech/til/) posts.
 
 ### deep-learning
 
+- [Details of the CONCH Model](https://tsuji.tech/conch-model) (May 20, 2025)
 - [LoRA vs. Fine-tuning](https://tsuji.tech/lora-vs-finetuning) (Apr 21, 2025)
 - [Softmax Function](https://tsuji.tech/softmax-fuction) (Dec 12, 2024)
 - [Sigmoid Function (Logistics Function)](https://tsuji.tech/sigmoid-function) (Dec 5, 2024)
