@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 114 [TIL](https://tsuji.tech/til/) posts.
+There are 115 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -47,8 +47,8 @@ There are 114 [TIL](https://tsuji.tech/til/) posts.
 ### cvpr2024
 
 - [Youtube Video: Summary of CVPR2024, SONY](https://tsuji.tech/video-sony-cvpr2024.en) (Aug 5, 2024)
-- [Generative Image Dynamics, CVPR2024 Best Paper Award](https://tsuji.tech/gen-img-dynamics-cvpr2024) (Jul 2, 2024)
 - [BIOCLIP: A Vision Foundation Model for the Tree of Life, CVPR2024 Best Student Paper Award](https://tsuji.tech/bioclip-cvpr2024) (Jul 2, 2024)
+- [Generative Image Dynamics, CVPR2024 Best Paper Award](https://tsuji.tech/gen-img-dynamics-cvpr2024) (Jul 2, 2024)
 - [Rich Human Feedback for Text-to-Image Generation, CVPR2024 Best Paper Award](https://tsuji.tech/richhf-18k-cvpr2024) (Jun 29, 2024)
 - [Correlation-aware Coarse-to-fine MLPs for Deformable Medical Image Registration](https://tsuji.tech/corrmlp-cvpr2024) (Jun 25, 2024)
 - [Adaptive Bidirectional Displacement for Semi-Supervised Medical Image Segmentation](https://tsuji.tech/abd-cvpr2024) (Jun 24, 2024)
@@ -171,6 +171,7 @@ There are 114 [TIL](https://tsuji.tech/til/) posts.
 
 ### python
 
+- [Name Conflict: Package and Script in Python](https://tsuji.tech/name-conflict-package-and-script-python) (Apr 18, 2025)
 - [Convert 1-channel Numpy Ndarray to 3-channel](https://tsuji.tech/convert-1ch-numpy-ndarray-to-3ch) (Feb 21, 2025)
 - [Python Numpy Boolean Indexing](https://tsuji.tech/python-numpy-boolean-indexing) (Dec 19, 2024)
 - [Rotate Python Numpy NDArray](https://tsuji.tech/rotate-python-numpy-ndarray) (Nov 20, 2024)
