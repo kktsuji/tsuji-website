@@ -36,5 +36,6 @@ python -c "import numpy as np; print(np.array([1, 2, 3]))"
 #     print(np.array([1, 2, 3]))
 #           ^^^^^^^^
 # AttributeError: partially initialized module 'numpy' has no attribute 'array' (most likely due to a circular import)
-The script numpy.py must be renamed to avoid the conflict like execute-numpy.py.
 ```
+
+The script numpy.py must be renamed like execute-numpy.py to avoid the conflict.
