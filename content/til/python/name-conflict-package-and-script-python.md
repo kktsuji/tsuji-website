@@ -14,7 +14,7 @@ Name of Python script must not be the same as the name of the package you are us
 pip install numpy
 ```
 
-Then, create a script named numpy.py.
+Then, create a script named ``numpy.py``.
 
 ```python
 import numpy as np
@@ -38,4 +38,4 @@ python -c "import numpy as np; print(np.array([1, 2, 3]))"
 # AttributeError: partially initialized module 'numpy' has no attribute 'array' (most likely due to a circular import)
 ```
 
-The script numpy.py must be renamed like execute-numpy.py to avoid the conflict.
+The script ``numpy.py`` must be renamed like ``execute_numpy.py`` to avoid the conflict.
