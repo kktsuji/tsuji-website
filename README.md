@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 115 [TIL](https://tsuji.tech/til/) posts.
+There are 119 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -47,8 +47,8 @@ There are 115 [TIL](https://tsuji.tech/til/) posts.
 ### cvpr2024
 
 - [Youtube Video: Summary of CVPR2024, SONY](https://tsuji.tech/video-sony-cvpr2024.en) (Aug 5, 2024)
-- [BIOCLIP: A Vision Foundation Model for the Tree of Life, CVPR2024 Best Student Paper Award](https://tsuji.tech/bioclip-cvpr2024) (Jul 2, 2024)
 - [Generative Image Dynamics, CVPR2024 Best Paper Award](https://tsuji.tech/gen-img-dynamics-cvpr2024) (Jul 2, 2024)
+- [BIOCLIP: A Vision Foundation Model for the Tree of Life, CVPR2024 Best Student Paper Award](https://tsuji.tech/bioclip-cvpr2024) (Jul 2, 2024)
 - [Rich Human Feedback for Text-to-Image Generation, CVPR2024 Best Paper Award](https://tsuji.tech/richhf-18k-cvpr2024) (Jun 29, 2024)
 - [Correlation-aware Coarse-to-fine MLPs for Deformable Medical Image Registration](https://tsuji.tech/corrmlp-cvpr2024) (Jun 25, 2024)
 - [Adaptive Bidirectional Displacement for Semi-Supervised Medical Image Segmentation](https://tsuji.tech/abd-cvpr2024) (Jun 24, 2024)
@@ -114,6 +114,7 @@ There are 115 [TIL](https://tsuji.tech/til/) posts.
 
 ### google-colab
 
+- [Invalid Notebook in Google Colab Saved to GitHub](https://tsuji.tech/invalid-notebook-google-colab-github) (Jul 9, 2025)
 - [Mount Google Drive in Google Colab](https://tsuji.tech/mount-gdrive-in-google-colab) (Feb 20, 2025)
 - [Use Docker in Google Colab](https://tsuji.tech/use-docker-in-google-colab) (Feb 15, 2025)
 - [Install Specific CUDA Version in Google Colab](https://tsuji.tech/install-specific-cuda-version-in-google-colab) (Feb 5, 2025)
@@ -145,6 +146,7 @@ There are 115 [TIL](https://tsuji.tech/til/) posts.
 
 ### math
 
+- [Real Number R in Math](https://tsuji.tech/real-number-r) (Aug 23, 2025)
 - [Homomorphism v.s. Morphism](https://tsuji.tech/homomorphism-vs-morphism) (Dec 14, 2024)
 - [Right Arrow - Math Symbol](https://tsuji.tech/right-arrow) (Dec 13, 2024)
 - [Difference Between Semicolon and Vertical Bar in Probability](https://tsuji.tech/probability-semicolon-vertical-bar) (Oct 17, 2024)
@@ -244,6 +246,8 @@ There are 115 [TIL](https://tsuji.tech/til/) posts.
 
 ### wsl
 
+- [Network Option for Docker in WSL](https://tsuji.tech/docker-wsl-network-option) (Aug 4, 2025)
+- [Move WSL from C Drive to Other Drive](https://tsuji.tech/move-wsl-to-other-drive) (Aug 3, 2025)
 - [Use NVIDIA GPU with WSL Docker](https://tsuji.tech/use-nvidia-gpu-with-wsl-docker) (Mar 28, 2025)
 - [Install Docker to WSL](https://tsuji.tech/install-docker-to-wsl) (Mar 26, 2025)
 - [Install and Uninstall WSL](https://tsuji.tech/install-uninstall-wsl) (Feb 1, 2025)
