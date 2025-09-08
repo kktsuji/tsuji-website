@@ -10,10 +10,10 @@ draft: false
 
 1. Close VSCode windows
 2. Opne file explorer or powershell
-3. Backup and delete ``%APPDATA%\Code\User\settings.json``
+3. Backup and delete `%APPDATA%\Code\User\settings.json`
 
 ## WSL (Windows Subsystem for Linux)
 
 1. Close VSCode windows
 2. Open wsl in terminal
-3. Backup and delete ``~/.vscode-server/data/Machine/settings.json``
+3. Backup and delete `~/.vscode-server/data/Machine/settings.json`

@@ -10,7 +10,7 @@ math: true
 ## $ \to $
 
 - $ f: A \to B $ denotes a function $ f $ is a homomorphism or a morphism from a domain $ A $ to a codomain $ B $.
-- LaTeX Command: ``\to``
+- LaTeX Command: `\to`
 
 ## Reference
 

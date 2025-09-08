@@ -8,7 +8,7 @@ draft: false
 
 ## Hide Header in Markdown PDF for VSCode
 
-Add workspace settings ``.vscode/settings.json``:
+Add workspace settings `.vscode/settings.json`:
 
 ```json
 {

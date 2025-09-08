@@ -36,7 +36,7 @@ python --version
 # Python 3.12.3
 ```
 
-新しいディレクトリを作成し、そこに python パッケージをインストールする。次に zip ファイルを作成する。ここで、zip ファイルの名前は ``python.zip`` でなければならない点に注意。このファイルは AWS のラムダレイヤーで使用される。
+新しいディレクトリを作成し、そこに python パッケージをインストールする。次に zip ファイルを作成する。ここで、zip ファイルの名前は `python.zip` でなければならない点に注意。このファイルは AWS のラムダレイヤーで使用される。
 
 ```bash
 mkdir python
@@ -68,9 +68,9 @@ ChatGPT による論文のサマリを生成したい場合、OpenAI API Keyを�
 
 [AWS Lambda Console](https://aws.amazon.com/lambda/) へアクセスし、"Create layer" を行う。
 
-先ほど作成した ``python.zip`` ファイルをアップロードし、"compatible architectures" では Zip ファイルを作成した開発環境のアーキテクチャを選択する。ランタイムは Python 3.12 を選ぶ。
+先ほど作成した `python.zip` ファイルをアップロードし、"compatible architectures" では Zip ファイルを作成した開発環境のアーキテクチャを選択する。ランタイムは Python 3.12 を選ぶ。
 
-注意：Zip ファイルの名前が ``python.zip`` 出ない場合、lambda 関数実行時のサードパーティ製 Python モジュールのインポートが失敗する。
+注意：Zip ファイルの名前が `python.zip` 出ない場合、lambda 関数実行時のサードパーティ製 Python モジュールのインポートが失敗する。
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-0.jpg)
 
@@ -90,7 +90,7 @@ AWS ラムダコンソールで "Create function" を行う。
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-3.jpg)
 
-[arxiv-bot](https://github.com/kktsuji/arxiv-bot) プロジェクトの ``main.py`` のコード全体をコピーし、"Code" > "Code source" > ``lambda_function.py`` を上書きして貼り付ける。
+[arxiv-bot](https://github.com/kktsuji/arxiv-bot) プロジェクトの `main.py` のコード全体をコピーし、"Code" > "Code source" > `lambda_function.py` を上書きして貼り付ける。
 
 そして、"Deploy" ボタンを押下する。
 
@@ -109,12 +109,12 @@ AWS ラムダコンソールで "Create function" を行う。
 }
 ```
 
-| Key | Description |
-|----------|----------|
-| webhook_url | Slack, Teams, その他のサービスの API の webhook url。 |
-| keywords | arXiv検索のクエリーで使用されるキーワード。<br>各キーワードはスペース無しの半角コンマで区切る。<br>キーワードはタイトルとアブストラクトの検索に使用され、それぞれ "or" で検索される。<br>例えば、"keyword1,key word2"と指定すると、keyword1 を含む論文と 'key word2' を含む論文が検索結果として表示される。(もしキーワード内にスペースを含む場合、シングルクォーテーションで囲んで検索に使用される) |
-| categories | arXiv 検索のクエリで使用されるカテゴリー。<br>これはキーワードと同じルールに従う（スペースなしの半角カンマ区切り、"or "で検索）。また、半角スペースは無視される。<br>詳細は [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy) を参照。 |
-| OPENAI_API_KEY | (任意) OpenAI API Key.<br>もし論文のサマリ作成機能を使用しない場合は、以下のように空白を指定する：<br>``"openai_api_key": ""`` |
+| Key            | Description                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| webhook_url    | Slack, Teams, その他のサービスの API の webhook url。                                                                                                                                                                                                                                                                                                                                               |
+| keywords       | arXiv検索のクエリーで使用されるキーワード。<br>各キーワードはスペース無しの半角コンマで区切る。<br>キーワードはタイトルとアブストラクトの検索に使用され、それぞれ "or" で検索される。<br>例えば、"keyword1,key word2"と指定すると、keyword1 を含む論文と 'key word2' を含む論文が検索結果として表示される。(もしキーワード内にスペースを含む場合、シングルクォーテーションで囲んで検索に使用される) |
+| categories     | arXiv 検索のクエリで使用されるカテゴリー。<br>これはキーワードと同じルールに従う（スペースなしの半角カンマ区切り、"or "で検索）。また、半角スペースは無視される。<br>詳細は [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy) を参照。                                                                                                                                                 |
+| OPENAI_API_KEY | (任意) OpenAI API Key.<br>もし論文のサマリ作成機能を使用しない場合は、以下のように空白を指定する：<br>`"openai_api_key": ""`                                                                                                                                                                                                                                                                        |
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-5.jpg)
 

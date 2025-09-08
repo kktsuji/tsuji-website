@@ -8,7 +8,7 @@ draft: false
 
 ## Network Option for Docker in WSL
 
-If the network of the Docker container in WSL is so slow, the ``--network=host`` option will help:
+If the network of the Docker container in WSL is so slow, the `--network=host` option will help:
 
 ```bash
 docker run --network=host ...

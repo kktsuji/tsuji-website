@@ -6,7 +6,7 @@ lastmod:
 draft: false
 ---
 
-**Summary:** If ``git rebase`` command switches some commits, the commit order is modified. This means the commits are not ordered by time in git history.
+**Summary:** If `git rebase` command switches some commits, the commit order is modified. This means the commits are not ordered by time in git history.
 
 In this example, timestamp of three commits are below.
 
@@ -36,7 +36,7 @@ git log
 #     Initial commit
 ```
 
-Let's switch the second and third commits by using ``git rebase`` command.
+Let's switch the second and third commits by using `git rebase` command.
 
 ```bash
  git rebase -i HEAD~2

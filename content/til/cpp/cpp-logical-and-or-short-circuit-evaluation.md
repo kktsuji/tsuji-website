@@ -6,10 +6,10 @@ lastmod:
 draft: false
 ---
 
-C++'s logical AND operator ``&&`` and logical OR operator ``||`` are short-circuit evaluations.
+C++'s logical AND operator `&&` and logical OR operator `||` are short-circuit evaluations.
 
-- ``&&``: If the first operand is **not satisfies** the condition (== ``false``), the second one will not evaluated.
-- ``||``: If the first operand is **satisfies** the condition (== ``true``), the second one will not evaluated.
+- `&&`: If the first operand is **not satisfies** the condition (== `false`), the second one will not evaluated.
+- `||`: If the first operand is **satisfies** the condition (== `true`), the second one will not evaluated.
 
 ```cpp
 const auto x = 1;

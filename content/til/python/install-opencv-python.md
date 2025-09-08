@@ -12,9 +12,9 @@ For more details, see [official github repository](https://github.com/opencv/ope
 
 ## Preparation
 
-If previous or other opencv version (= not installed via ``pip``) are installed in the environment, please uninstall it to avoid conflict.
+If previous or other opencv version (= not installed via `pip`) are installed in the environment, please uninstall it to avoid conflict.
 
-Upgrade ``pip`` version if it's lower than the minimum supported version 19.3.
+Upgrade `pip` version if it's lower than the minimum supported version 19.3.
 
 ```bash
 pip -V
@@ -25,7 +25,7 @@ pip install -U pip
 
 There are four options to install opencv-python via pip.
 
-**Note:** only one option can be chosen. If multiple different packages are installed simultaneously in a single environment, the extra ones should be uninstalled with like ``pip uninstall opencv-python``. This is because all 4 packages use same namespace ``cv2``.
+**Note:** only one option can be chosen. If multiple different packages are installed simultaneously in a single environment, the extra ones should be uninstalled with like `pip uninstall opencv-python`. This is because all 4 packages use same namespace `cv2`.
 
 For standard desktop environments (Windows, macOS, almost any GNU/Linux distribution):
 

@@ -6,10 +6,10 @@ lastmod:
 draft: false
 ---
 
-If you want to undo ``git add`` command, use ``git reset``.
+If you want to undo `git add` command, use `git reset`.
 
-* ``git reset <file>``: Unstage a specific file.
-* ``git reset``: Unstage all files.
+* `git reset <file>`: Unstage a specific file.
+* `git reset`: Unstage all files.
 
 A example for a specific file.
 
@@ -37,7 +37,7 @@ git add .
 git reset
 ```
 
-Additionally, you can use ``HEAD`` or a ``commit ID`` with ``git reset`` command.
+Additionally, you can use `HEAD` or a `commit ID` with `git reset` command.
 
 ```bash
 # For a specific file
@@ -51,4 +51,4 @@ git reset HEAD
 git reset abc123
 ```
 
-According to the message of ``git status``, ``git rm --cached <file>`` also works. However, this command can only be applied to a specific file.
+According to the message of `git status`, `git rm --cached <file>` also works. However, this command can only be applied to a specific file.

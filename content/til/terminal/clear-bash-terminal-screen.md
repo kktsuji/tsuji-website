@@ -6,6 +6,6 @@ lastmod:
 draft: false
 ---
 
-Clear the typing command on the terminal: shortcut ``ctrl + u``
+Clear the typing command on the terminal: shortcut `ctrl + u`
 
-Clear the entire terminal screen and move the cursor to the top of the line: shortcut ``ctrl + l`` or type the command ``clear``
+Clear the entire terminal screen and move the cursor to the top of the line: shortcut `ctrl + l` or type the command `clear`

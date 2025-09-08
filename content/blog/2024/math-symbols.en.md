@@ -25,10 +25,10 @@ Set membership represents the relationship between a set $A$ and its element $x$
 
 LaTeX commands:
 
-* $\in$, ``\in``
-* $\ni$ , ``\ni``
-* $\notin$, ``\notin``
-* $\notni$ , ``\notni``
+* $\in$, `\in`
+* $\ni$ , `\ni`
+* $\notin$, `\notin`
+* $\notni$ , `\notni`
 
 On the machine learning context, set membership is used like below:
 
@@ -47,20 +47,20 @@ Set inclusion represents the relationship between a set $A$ and a set $B$. **Not
 
 LaTeX commands:
 
-* $\subset$, ``\subset``
-* $\supset$ , ``\supset``
-* $\subseteq$, ``\subseteq``
-* $\supseteq$, ``\supseteq``
-* $\subsetneq$, ``\subsetneq``
+* $\subset$, `\subset`
+* $\supset$ , `\supset`
+* $\subseteq$, `\subseteq`
+* $\supseteq$, `\supseteq`
+* $\subsetneq$, `\subsetneq`
 * $\supsetneq$, `\supsetneq`
-* $\not\subset$, ``\not\subset``
-* $\not\supset$, ``\not\supset``
+* $\not\subset$, `\not\subset`
+* $\not\supset$, `\not\supset`
 
 ## Basic logic
 
 ### $\neg$ (logical negation)
 
-$\neg$, ``\neg``
+$\neg$, `\neg`
 
 ### $\forall$ (universal quantification)
 
@@ -76,7 +76,7 @@ e.g. $\pi \approx 3.14159$
 
 LaTeX command:
 
-* $\approx$, ``\approx``
+* $\approx$, `\approx`
 
 ### $\sim$ (tilde)
 
@@ -86,7 +86,7 @@ LaTeX command:
 
 LaTeX command:
 
-* $\sim$, ``\sim``
+* $\sim$, `\sim`
 
 [^1]: [wikipedia.org/wiki/glossary_of_mathematical_symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 

@@ -27,10 +27,10 @@ draft: false
 
 LaTeX コマンドは以下。
 
-* $\in$, ``\in``
-* $\ni$ , ``\ni``
-* $\notin$, ``\notin``
-* $\notni$ , ``\notni``
+* $\in$, `\in`
+* $\ni$ , `\ni`
+* $\notin$, `\notin`
+* $\notni$ , `\notni`
 
 機械学習の文脈では、以下のような記述で用いられることがある。
 
@@ -49,20 +49,20 @@ LaTeX コマンドは以下。
 
 LaTeX コマンドは以下。
 
-* $\subset$, ``\subset``
-* $\supset$ , ``\supset``
-* $\subseteq$, ``\subseteq``
-* $\supseteq$, ``\supseteq``
-* $\subsetneq$, ``\subsetneq``
+* $\subset$, `\subset`
+* $\supset$ , `\supset`
+* $\subseteq$, `\subseteq`
+* $\supseteq$, `\supseteq`
+* $\subsetneq$, `\subsetneq`
 * $\supsetneq$, `\supsetneq`
-* $\not\subset$, ``\not\subset``
-* $\not\supset$, ``\not\supset``
+* $\not\subset$, `\not\subset`
+* $\not\supset$, `\not\supset`
 
 ## 基本論理 (basic logic)
 
 ### $\neg$ (論理否定, logical negation)
 
-$\neg$, ``\neg``
+$\neg$, `\neg`
 
 ### $\forall$ (全称限量, universal quantification)
 
@@ -78,7 +78,7 @@ e.g. $\pi \approx 3.14159$
 
 LaTeX command:
 
-* $\approx$, ``\approx``
+* $\approx$, `\approx`
 
 ### $\sim$ (チルダ)
 
@@ -88,7 +88,7 @@ LaTeX command:
 
 LaTeX command:
 
-* $\sim$, ``\sim``
+* $\sim$, `\sim`
 
 [^1]: [wikipedia.org/wiki/glossary_of_mathematical_symbols](https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols)
 

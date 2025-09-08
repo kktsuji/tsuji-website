@@ -8,13 +8,13 @@ draft: false
 
 Three types of git config:
 
-| Option | File Location | Description |
-| --- | --- | --- |
-| ``--system`` | ``/etc/gitconfig`` | For whole system (all users) |
-| ``--global`` | ``~/.gitconfig`` | For all repositories of a user |
-| ``--local`` | `project_folder/.git/.gitconfig` | For a repository |
+| Option     | File Location                    | Description                    |
+| ---------- | -------------------------------- | ------------------------------ |
+| `--system` | `/etc/gitconfig`                 | For whole system (all users)   |
+| `--global` | `~/.gitconfig`                   | For all repositories of a user |
+| `--local`  | `project_folder/.git/.gitconfig` | For a repository               |
 
-Git loads configs in order ``--system``, ``--global``, ``--local``. Settings loaded later have priority.
+Git loads configs in order `--system`, `--global`, `--local`. Settings loaded later have priority.
 
 Print setting list:
 

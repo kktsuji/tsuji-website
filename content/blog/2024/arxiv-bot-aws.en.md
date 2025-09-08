@@ -36,7 +36,7 @@ python --version
 # Python 3.12.3
 ```
 
-Create new directory and install python packages to the directory. Then create zip file. The zip file name must be ``python.zip``. This file will used for aws lambda layer.
+Create new directory and install python packages to the directory. Then create zip file. The zip file name must be `python.zip`. This file will used for aws lambda layer.
 
 ```bash
 mkdir python
@@ -68,9 +68,9 @@ Note: The OpenAI API is chargeable.
 
 Visit [AWS Lambda Console](https://aws.amazon.com/lambda/) and "Create layer".
 
-Upload ``python.zip`` file and fill "compatible architectures" of your environment that created the zip file. And set Python 3.12 to Runtime.
+Upload `python.zip` file and fill "compatible architectures" of your environment that created the zip file. And set Python 3.12 to Runtime.
 
-Note: If the file name is not ``python.zip``, lambda function will fail to import third-party python modules.
+Note: If the file name is not `python.zip`, lambda function will fail to import third-party python modules.
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-0.jpg)
 
@@ -90,7 +90,7 @@ Select "Custom layers" and the layer you created and its version.
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-3.jpg)
 
-Copy entire code of ``main.py`` in [arxiv-bot](https://github.com/kktsuji/arxiv-bot) project, and past it to "Code" > "Code source" > ``lambda_function.py``.
+Copy entire code of `main.py` in [arxiv-bot](https://github.com/kktsuji/arxiv-bot) project, and past it to "Code" > "Code source" > `lambda_function.py`.
 
 And push "Deploy" button.
 
@@ -109,12 +109,12 @@ The "Event JSON" must follow this format (these parameters are used for only tes
 }
 ```
 
-| Key | Description |
-|----------|----------|
-| webhook_url | The webhook url such as Slack, Teams, and other service APIs. |
-| keywords | Keywords used in queries for arXiv searches.<br>Each keyword is separated by a comma with no spaces.<br>Keywords are used to search titles and abstracts and are searched for with "or".<br>For example, if the value "keyword1,key word2" is specified, paper containing keyword1 and papers containing 'key word2' will be displayed as search results (if a keyword contains spaces, single quotation marks are be used). |
-| categories | Categories used in queries for arXiv searches.<br>This follows the same rule of keywords (separated by comma without space, searched with "or"). And spaces are removed.<br>For more details, see [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy). |
-| OPENAI_API_KEY | (Optional) OpenAI API Key.<br>If you do not use the paper summarization function, please leave blank like bellow:<br>``"openai_api_key": ""`` |
+| Key            | Description                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| webhook_url    | The webhook url such as Slack, Teams, and other service APIs.                                                                                                                                                                                                                                                                                                                                                                |
+| keywords       | Keywords used in queries for arXiv searches.<br>Each keyword is separated by a comma with no spaces.<br>Keywords are used to search titles and abstracts and are searched for with "or".<br>For example, if the value "keyword1,key word2" is specified, paper containing keyword1 and papers containing 'key word2' will be displayed as search results (if a keyword contains spaces, single quotation marks are be used). |
+| categories     | Categories used in queries for arXiv searches.<br>This follows the same rule of keywords (separated by comma without space, searched with "or"). And spaces are removed.<br>For more details, see [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy).                                                                                                                                                            |
+| OPENAI_API_KEY | (Optional) OpenAI API Key.<br>If you do not use the paper summarization function, please leave blank like bellow:<br>`"openai_api_key": ""`                                                                                                                                                                                                                                                                                  |
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-5.jpg)
 

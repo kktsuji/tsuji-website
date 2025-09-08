@@ -6,15 +6,15 @@ lastmod:
 draft: false
 ---
 
-There are two types of ``.exe`` files in blender portable (``.zip``) version.
+There are two types of `.exe` files in blender portable (`.zip`) version.
 
-- ``blender.exe``: The main execution file. The terminal window continues to appear while the blender app is running.
-- ``blender-launcher.exe``: The wrapper of ``blender.exe`` to hide the terminal window. All command lien parameters will be passed to ``blender.exe``.
+- `blender.exe`: The main execution file. The terminal window continues to appear while the blender app is running.
+- `blender-launcher.exe`: The wrapper of `blender.exe` to hide the terminal window. All command lien parameters will be passed to `blender.exe`.
 
 Results:
 
-- ``blender.exe`` and ``blender-launcher.exe`` are functionally identical.
-- Use ``blender-launcher.exe`` if you want to hide the terminal window while using blender app.
+- `blender.exe` and `blender-launcher.exe` are functionally identical.
+- Use `blender-launcher.exe` if you want to hide the terminal window while using blender app.
 
 References:
 

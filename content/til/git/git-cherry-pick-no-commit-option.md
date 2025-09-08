@@ -6,7 +6,7 @@ lastmod:
 draft: false
 ---
 
-Use the option ``-n`` or ``--no-commit``.
+Use the option `-n` or `--no-commit`.
 
 ```bash
 git cherry-pick -n <commit-ish>

@@ -8,7 +8,7 @@ draft: false
 
 ## Diffusers from_single_file()
 
-Use ``from_single_file()`` to load a diffusion model from a single file instead of ``from_pretrained()``.
+Use `from_single_file()` to load a diffusion model from a single file instead of `from_pretrained()`.
 
 ```python
 import torch

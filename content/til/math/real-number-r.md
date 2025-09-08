@@ -11,7 +11,7 @@ math: true
 
 The symbol $ \mathbb{R} $ (or $ R $) denotes the set of all real numbers.
 
-- LaTeX Command: ``\mathbb{R}``
+- LaTeX Command: `\mathbb{R}`
 
 ### Rational Numbers $ \mathbb{Q} $
 

@@ -126,7 +126,7 @@ udocker("setup --help")
 #             it to execute the container
 ```
 
-``setup --nvidia`` option doesn't work as expected in colab.
+`setup --nvidia` option doesn't work as expected in colab.
 
 ```python
 udocker("setup --nvidia container-id")

@@ -6,7 +6,7 @@ lastmod:
 draft: false
 ---
 
-**Summary:** The ``squash`` in the ``git rebase`` command merges several commits into one commit. The timestamp of the integrated new commit is same as the picked commit that was squashed. 
+**Summary:** The `squash` in the `git rebase` command merges several commits into one commit. The timestamp of the integrated new commit is same as the picked commit that was squashed. 
 
 First, check the git history. In this example, we see there are three commits.
 
@@ -38,7 +38,7 @@ Let's squash the second and third commits.
 git rebase -i HEAD~2
 ```
 
-Git automatically opens the text editor to modify commit history. In the example below, this means the commit ``740a6c0`` is squashed into ``3a4da30``. ``s`` or ``squash`` indicate the squash operation.
+Git automatically opens the text editor to modify commit history. In the example below, this means the commit `740a6c0` is squashed into `3a4da30`. `s` or `squash` indicate the squash operation.
 
 ```bash
 # Modify from
@@ -92,4 +92,4 @@ git log
 #     Initial commit
 ```
 
-See the timestamp of the new squashed commit ``6ec67b0b200bfbc754c97ec78e44b1cba66bf294``. This is same as the picked one ``3a4da3017d82b33d88306acbbe657a0e6b930510`` in the original git history.
+See the timestamp of the new squashed commit `6ec67b0b200bfbc754c97ec78e44b1cba66bf294`. This is same as the picked one `3a4da3017d82b33d88306acbbe657a0e6b930510` in the original git history.

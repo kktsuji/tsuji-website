@@ -49,7 +49,7 @@ Following code snippets show how to install cuda-12.1 in Google Colab.
 
 Install specific CUDA version according to [NVIDIA official download site's instruction](https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local).
 
-Note: Use ``sudo apt-get -y install cuda-12-1`` instead of ``sudo apt-get -y install cuda``. Later one will install the latest version of CUDA.
+Note: Use `sudo apt-get -y install cuda-12-1` instead of `sudo apt-get -y install cuda`. Later one will install the latest version of CUDA.
 
 ```bash
 !wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin

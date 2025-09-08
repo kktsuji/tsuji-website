@@ -31,4 +31,4 @@ docker compose --profile download up --build
 docker compose --profile auto up --build
 ```
 
-Then access ``http://localhost:7860/`` in a web browser.
+Then access `http://localhost:7860/` in a web browser.

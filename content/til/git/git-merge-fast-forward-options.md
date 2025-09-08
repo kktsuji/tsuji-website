@@ -8,9 +8,9 @@ draft: false
 
 Three types of git merge options related to the way of merging:
 
-- ``--ff``: Default. Merge without a commit if fast-forward is possible. Create a merge commit if not possible.
-- ``--no-ff``: Always create a merge commit.
-- ``--ff-only``: Merge without a commit if fast-forward is possible. Abort a process if not possible.
+- `--ff`: Default. Merge without a commit if fast-forward is possible. Create a merge commit if not possible.
+- `--no-ff`: Always create a merge commit.
+- `--ff-only`: Merge without a commit if fast-forward is possible. Abort a process if not possible.
 
 References:
 

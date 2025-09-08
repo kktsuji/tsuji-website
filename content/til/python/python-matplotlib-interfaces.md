@@ -64,7 +64,7 @@ plt.plot(data_x, data_y)
 
 ## Multiple Axes opjects in a Figure object
 
-If a ``Figure`` object has multiple ``Axes`` objects, the implicit pyplot style is complecated. It could cause bug.
+If a `Figure` object has multiple `Axes` objects, the implicit pyplot style is complecated. It could cause bug.
 
 ```python
 import matplotlib.pyplot as plt

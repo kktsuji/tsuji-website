@@ -6,7 +6,7 @@ lastmod:
 draft: false
 ---
 
-AbdBarho's [stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) has a bug when we use a command ``docker compose --profile auto up --build`` to build and run docker containers.
+AbdBarho's [stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) has a bug when we use a command `docker compose --profile auto up --build` to build and run docker containers.
 
 This's due to [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) of AUTOMATIC1111 (as of Oct. 29, 2024).
 

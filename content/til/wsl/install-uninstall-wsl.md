@@ -54,8 +54,8 @@ wsl --shutdown
 
 ## Uninstall WSL distributions
 
-1. Shutdown WSL ``wsl --shutdown``
-2. Confirm the distribution stopped ``wsl -l -v``
+1. Shutdown WSL `wsl --shutdown`
+2. Confirm the distribution stopped `wsl -l -v`
 3. Settings > Apps > Installed apps > Ubuntu-22.04 > Uninstall
 
 ## References

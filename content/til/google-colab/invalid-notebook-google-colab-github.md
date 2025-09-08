@@ -20,7 +20,7 @@ There was an error rendering your Notebook: the 'state' key is missing from 'met
 
 ## Cause
 
-This issue occurs when the notebook using ``ipywidgets`` to display widgets like sliders, buttons, progress bars, etc.
+This issue occurs when the notebook using `ipywidgets` to display widgets like sliders, buttons, progress bars, etc.
 
 ## Solution
 

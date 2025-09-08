@@ -10,7 +10,7 @@ draft: false
 
 [pandoc/latex](https://hub.docker.com/r/pandoc/latex) Docker image does not support Japanese by default. To use Japanese, `collection-langjapanese` package must be installed.
 
-Create a ``Dockerfile`` with the following content:
+Create a `Dockerfile` with the following content:
 
 ```dockerfile
 FROM pandoc/latex:3.6.4.0-ubuntu
@@ -20,7 +20,7 @@ RUN apt-get update && \
     tlmgr install collection-langjapanese
 ```
 
-``tlmgr`` is a TeX Live package manager. The above command updates the package list, upgrades all packages, and installs the `collection-langjapanese` package.
+`tlmgr` is a TeX Live package manager. The above command updates the package list, upgrades all packages, and installs the `collection-langjapanese` package.
 
 Then, build the Docker image.
 
