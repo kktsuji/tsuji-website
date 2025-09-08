@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 120 [TIL](https://tsuji.tech/til/) posts.
+There are 121 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -190,6 +190,7 @@ There are 120 [TIL](https://tsuji.tech/til/) posts.
 
 ### stable-diffusion
 
+- [Commas in Token Analysis for Stable Diffusion Prompts](https://tsuji.tech/commas-stable-diffusion-prompt-token-analysis) (Sep 8, 2025)
 - [OpenAI's Tokenizer for Stable Diffusion Prompts](https://tsuji.tech/openai-tokenizer-stable-diffusion-prompt) (Sep 7, 2025)
 - [Show and Save Image from Diffusers](https://tsuji.tech/diffusers-show-save-image) (Feb 23, 2025)
 - [Use Diffusers set_adapters() to Set LoRA Weight](https://tsuji.tech/diffusers-set-adapter) (Feb 22, 2025)
