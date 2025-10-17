@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 121 [TIL](https://tsuji.tech/til/) posts.
+There are 123 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -173,6 +173,7 @@ There are 121 [TIL](https://tsuji.tech/til/) posts.
 
 ### python
 
+- [Show Specific Versions with pyenv install --list](https://tsuji.tech/show-specific-versions-pyenv-install-list) (Oct 15, 2025)
 - [Name Conflict: Package and Script in Python](https://tsuji.tech/name-conflict-package-and-script-python) (Apr 18, 2025)
 - [Convert 1-channel Numpy Ndarray to 3-channel](https://tsuji.tech/convert-1ch-numpy-ndarray-to-3ch) (Feb 21, 2025)
 - [Python Numpy Boolean Indexing](https://tsuji.tech/python-numpy-boolean-indexing) (Dec 19, 2024)
@@ -190,6 +191,7 @@ There are 121 [TIL](https://tsuji.tech/til/) posts.
 
 ### stable-diffusion
 
+- [Better LoRA Token Length in Stable Diffusion Prompts](https://tsuji.tech/better-lora-token-length-stable-diffusion-prompt) (Oct 17, 2025)
 - [Commas in Token Analysis for Stable Diffusion Prompts](https://tsuji.tech/commas-stable-diffusion-prompt-token-analysis) (Sep 8, 2025)
 - [OpenAI's Tokenizer for Stable Diffusion Prompts](https://tsuji.tech/openai-tokenizer-stable-diffusion-prompt) (Sep 7, 2025)
 - [Show and Save Image from Diffusers](https://tsuji.tech/diffusers-show-save-image) (Feb 23, 2025)
