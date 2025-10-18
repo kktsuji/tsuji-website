@@ -8,6 +8,16 @@ draft: false
 
 ## Copy Microsoft PowerToys Settings
 
-- Copy `%LocalAppData%\Microsoft\PowerToys\settings.json` in File Explorer.
+Open `%LocalAppData%\Microsoft\PowerToys\` in File Explorer. It contains settings files for each PowerToys module.
+
+- Copy desired `settings.json`.
 - Paste it to the same path on another PC.
 - Restart PowerToys if it is running.
+
+Examples:
+
+You can check the contents of each json file to understand.
+
+- PowerToys' general settings: `%LocalAppData%\Microsoft\PowerToys\settings.json`
+- Keyboard Manager's remap settings: `%LocalAppData%\Microsoft\PowerToys\Keyboard Manager\default.json`
+- etc.
