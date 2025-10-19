@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 124 [TIL](https://tsuji.tech/til/) posts.
+There are 125 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -107,6 +107,7 @@ There are 124 [TIL](https://tsuji.tech/til/) posts.
 
 ### github
 
+- [GitHub SSH Settings for Secure Access](https://tsuji.tech/github-ssh-settings) (Oct 19, 2025)
 - [Download and Execute Bash Scripts from Github Gist](https://tsuji.tech/download-and-execute-bash-scripts-from-github-gist) (Feb 17, 2025)
 - [Enable GitHub Copilot Suggestions for Markdown](https://tsuji.tech/github-copilot-markdown) (Dec 15, 2024)
 - [Comment System "Giscus" Built on GitHub Discussions for Static Website](https://tsuji.tech/giscus-github) (Nov 4, 2024)
