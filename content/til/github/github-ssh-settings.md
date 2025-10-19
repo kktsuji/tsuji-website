@@ -6,6 +6,8 @@ lastmod:
 draft: false
 ---
 
+See also: [Connecting to GitHub with SSH - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
 ## Setting Up SSH Keys for GitHub
 
 Environment: Ubuntu 22.04 LTS
