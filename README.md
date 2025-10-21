@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 127 [TIL](https://tsuji.tech/til/) posts.
+There are 128 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -253,6 +253,7 @@ There are 127 [TIL](https://tsuji.tech/til/) posts.
 
 ### windows
 
+- [Remap Caps Lock to Ctrl via Registry Editor on Windows](https://tsuji.tech/remap-caps-lock-ctrl-registry) (Oct 21, 2025)
 - [Copy Microsoft PowerToys Settings](https://tsuji.tech/copy-microsoft-powertoys-settings) (Oct 18, 2025)
 
 ### wsl
