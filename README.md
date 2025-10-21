@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 128 [TIL](https://tsuji.tech/til/) posts.
+There are 129 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -149,6 +149,7 @@ There are 128 [TIL](https://tsuji.tech/til/) posts.
 
 ### math
 
+- [Chain Rule in Calculus](https://tsuji.tech/chain-rule) (Oct 22, 2025)
 - [Real Number R in Math](https://tsuji.tech/real-number-r) (Aug 23, 2025)
 - [Homomorphism v.s. Morphism](https://tsuji.tech/homomorphism-vs-morphism) (Dec 14, 2024)
 - [Right Arrow - Math Symbol](https://tsuji.tech/right-arrow) (Dec 13, 2024)
