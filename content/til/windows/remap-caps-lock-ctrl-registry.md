@@ -35,3 +35,5 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout
 6. Click `OK` to save the changes.
 7. Close the Registry Editor.
 8. Restart your computer for the changes to take effect.
+
+If you want to revert the changes, you can delete the `Scancode Map` entry in the Registry Editor. Another way is to import the backup `.reg` file you created in step 2 in the Registry Editor (File > Import) (you can also apply it to double-click `.reg` file).
