@@ -54,10 +54,20 @@ def _get_post_title_from_markdown_file(file_path):
     return None
 
 
+def _get_post_draft_status_from_markdown_file(file_path):
+    with open(file_path, mode="r", encoding="utf-8") as f:
+        lines = f.readlines()
+        for line in lines:
+            if line.startswith("draft:"):
+                return line.split(":")[1].strip().lower() == "true"
+    return False
+
+
 def _make_blog_posts_section():
     date_post_pairs = [
         [_get_post_date_from_markdown_file(post), post]
         for post in glob.glob(_BLOG_POSTS)
+        if not _get_post_draft_status_from_markdown_file(post)
     ]
     date_post_pairs.sort(key=lambda x: x[0], reverse=True)
 
@@ -83,7 +93,12 @@ def _make_til_posts_section():
     til_categories = [item for item in glob.glob(_TIL_POSTS) if os.path.isdir(item)]
     til_categories.sort()
     post_num = len(
-        [post for post in glob.glob(_TIL_POSTS + "/*.md") if not "_index" in post]
+        [
+            post
+            for post in glob.glob(_TIL_POSTS + "/*.md")
+            if "_index" not in post
+            and not _get_post_draft_status_from_markdown_file(post)
+        ]
     )
 
     section = "## TIL (Today I Learned) Posts\n\n"
@@ -94,7 +109,9 @@ def _make_til_posts_section():
 
         posts = [post for post in glob.glob(category + "/*.md") if not "_index" in post]
         date_post_pairs = [
-            [_get_post_date_from_markdown_file(post), post] for post in posts
+            [_get_post_date_from_markdown_file(post), post]
+            for post in posts
+            if not _get_post_draft_status_from_markdown_file(post)
         ]
         date_post_pairs.sort(key=lambda x: x[0], reverse=True)
 
