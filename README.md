@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 130 [TIL](https://tsuji.tech/til/) posts.
+There are 134 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -72,6 +72,8 @@ There are 130 [TIL](https://tsuji.tech/til/) posts.
 
 ### diffusion-models
 
+- [Expected Values](https://tsuji.tech/expected-values) (Oct 24, 2025)
+- [Probability Distribution vs. Likelihood in Generative Models](https://tsuji.tech/probability-distribution-vs-likelihood-generative-models) (Oct 23, 2025)
 - [A Morphology Focused Diffusion Probabilistic Model for Synthesis of Histopathology Images](https://tsuji.tech/morphology-diffusion-arxiv2022) (Sep 18, 2024)
 - [Diffusion Probabilistic Model for Histopathology Images, WACV2023](https://tsuji.tech/diffusion-histopathology-wacv2023) (May 20, 2024)
 
@@ -151,6 +153,7 @@ There are 130 [TIL](https://tsuji.tech/til/) posts.
 
 - [Differentiation of Logarithmic Functions](https://tsuji.tech/differentiation-of-logarithms) (Oct 22, 2025)
 - [Chain Rule in Calculus](https://tsuji.tech/chain-rule) (Oct 22, 2025)
+- [Differentiation vs. Derivative](https://tsuji.tech/differentiation-vs-derivative) (Oct 22, 2025)
 - [Real Number R in Math](https://tsuji.tech/real-number-r) (Aug 23, 2025)
 - [Homomorphism v.s. Morphism](https://tsuji.tech/homomorphism-vs-morphism) (Dec 14, 2024)
 - [Right Arrow - Math Symbol](https://tsuji.tech/right-arrow) (Dec 13, 2024)
@@ -249,6 +252,7 @@ There are 130 [TIL](https://tsuji.tech/til/) posts.
 
 ### vscode
 
+- [VSCode Keyboard Shortcuts Settings](https://tsuji.tech/vscode-keyboard-shortcuts-settings) (Oct 22, 2025)
 - [Hide Header in Markdown PDF for VSCode](https://tsuji.tech/hide-header-markdown-pdf-vscode) (Apr 8, 2025)
 - [VSCode Markdown Formatter Settings](https://tsuji.tech/vscode-markdown-formatter-settings) (Dec 16, 2024)
 - [Initialize VSCode Settings](https://tsuji.tech/initialize-vscode-settings) (Jun 13, 2024)
