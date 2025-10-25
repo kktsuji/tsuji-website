@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 134 [TIL](https://tsuji.tech/til/) posts.
+There are 135 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -62,6 +62,7 @@ There are 134 [TIL](https://tsuji.tech/til/) posts.
 
 ### deep-learning
 
+- [Epochs vs. Global Steps in Training AI Models](https://tsuji.tech/epochs-vs-global-steps) (Oct 25, 2025)
 - [Dynamic Weights over Training Steps](https://tsuji.tech/dynamic-weights-over-training-steps) (Oct 21, 2025)
 - [Benefits of Log-Likelihood in Maximum Likelihood Estimation](https://tsuji.tech/log-likelihood-benefits) (Oct 20, 2025)
 - [Details of the CONCH Model](https://tsuji.tech/conch-model) (May 20, 2025)
