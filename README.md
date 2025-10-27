@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 135 [TIL](https://tsuji.tech/til/) posts.
+There are 136 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -73,6 +73,7 @@ There are 135 [TIL](https://tsuji.tech/til/) posts.
 
 ### diffusion-models
 
+- [Diffusion Models: Pixel Space vs. Latent Space](https://tsuji.tech/pixel-space-vs-latent-space-diffusion) (Oct 27, 2025)
 - [Expected Values](https://tsuji.tech/expected-values) (Oct 24, 2025)
 - [Probability Distribution vs. Likelihood in Generative Models](https://tsuji.tech/probability-distribution-vs-likelihood-generative-models) (Oct 23, 2025)
 - [A Morphology Focused Diffusion Probabilistic Model for Synthesis of Histopathology Images](https://tsuji.tech/morphology-diffusion-arxiv2022) (Sep 18, 2024)
