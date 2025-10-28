@@ -39,3 +39,5 @@ Latent space diffusion models separate the tasks of representation learning and 
 For example, in generating a cat image, the encoder captures the concept of "catness" (shape, posture, texture) while the diffusion model generates variations of this concept in latent space. The decoder then translates these variations back into detailed pixel images.
 
 On the other hand, pixel space models must learn both low-level details and high-level semantics simultaneously, which can be more challenging and less efficient. Pixel space models are responsible for generating every pixel accurately (for example, a detailed single hair of the cat).
+
+Not only higher efficiency, but easier debugging. If the generated images have issues, we can inspect which component (encoder, diffusion model, or decoder) is causing the problem.
