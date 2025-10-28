@@ -39,12 +39,6 @@ Stable Diffusion v2.x is an improved version of the original Stable Diffusion mo
 - Hugging Face: [stabilityai/stable-diffusion-2-1-base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
 - GitHub: [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion)
 
-```python
-from diffusers import StableDiffusionPipeline
-pipe = StableDiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-2-1-base")
-pipe.to("cuda")
-```
-
 ## SDXL 1.0 (Base + Refiner)
 
 Also released by Stability AI.
