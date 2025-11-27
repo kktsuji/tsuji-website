@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 139 [TIL](https://tsuji.tech/til/) posts.
+There are 140 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -73,8 +73,8 @@ There are 139 [TIL](https://tsuji.tech/til/) posts.
 
 ### diffusion-models
 
-- [Debugging Latent Diffusion VAE Issues](https://tsuji.tech/debug-diffusion-vae) (Oct 29, 2025)
 - [Use Other Components with Diffusers](https://tsuji.tech/use-other-components-diffusers) (Oct 29, 2025)
+- [Debugging Latent Diffusion VAE Issues](https://tsuji.tech/debug-diffusion-vae) (Oct 29, 2025)
 - [Versions of Stable Diffusion](https://tsuji.tech/stable-diffusion-versions) (Oct 28, 2025)
 - [Diffusion Models: Pixel Space vs. Latent Space](https://tsuji.tech/pixel-space-vs-latent-space-diffusion) (Oct 27, 2025)
 - [Expected Values](https://tsuji.tech/expected-values) (Oct 24, 2025)
@@ -156,9 +156,9 @@ There are 139 [TIL](https://tsuji.tech/til/) posts.
 
 ### math
 
-- [Differentiation of Logarithmic Functions](https://tsuji.tech/differentiation-of-logarithms) (Oct 22, 2025)
-- [Chain Rule in Calculus](https://tsuji.tech/chain-rule) (Oct 22, 2025)
 - [Differentiation vs. Derivative](https://tsuji.tech/differentiation-vs-derivative) (Oct 22, 2025)
+- [Chain Rule in Calculus](https://tsuji.tech/chain-rule) (Oct 22, 2025)
+- [Differentiation of Logarithmic Functions](https://tsuji.tech/differentiation-of-logarithms) (Oct 22, 2025)
 - [Real Number R in Math](https://tsuji.tech/real-number-r) (Aug 23, 2025)
 - [Homomorphism v.s. Morphism](https://tsuji.tech/homomorphism-vs-morphism) (Dec 14, 2024)
 - [Right Arrow - Math Symbol](https://tsuji.tech/right-arrow) (Dec 13, 2024)
@@ -257,6 +257,7 @@ There are 139 [TIL](https://tsuji.tech/til/) posts.
 
 ### vscode
 
+- [VSCode Keyboard Shortcuts Settings - for Me](https://tsuji.tech/vscode-keyboard-shortcut-settings-for-me) (Nov 28, 2025)
 - [VSCode Keyboard Shortcuts Settings](https://tsuji.tech/vscode-keyboard-shortcuts-settings) (Oct 22, 2025)
 - [Hide Header in Markdown PDF for VSCode](https://tsuji.tech/hide-header-markdown-pdf-vscode) (Apr 8, 2025)
 - [VSCode Markdown Formatter Settings](https://tsuji.tech/vscode-markdown-formatter-settings) (Dec 16, 2024)
