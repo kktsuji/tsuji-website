@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 140 [TIL](https://tsuji.tech/til/) posts.
+There are 141 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -73,6 +73,7 @@ There are 140 [TIL](https://tsuji.tech/til/) posts.
 
 ### diffusion-models
 
+- [Checkerboard Artifacts Caused by UNet Upsampling in Diffusion Models](https://tsuji.tech/diffusion-unet-upsampling-chckerboard-artifacts) (Nov 28, 2025)
 - [Use Other Components with Diffusers](https://tsuji.tech/use-other-components-diffusers) (Oct 29, 2025)
 - [Debugging Latent Diffusion VAE Issues](https://tsuji.tech/debug-diffusion-vae) (Oct 29, 2025)
 - [Versions of Stable Diffusion](https://tsuji.tech/stable-diffusion-versions) (Oct 28, 2025)
