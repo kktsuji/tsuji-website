@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 142 [TIL](https://tsuji.tech/til/) posts.
+There are 143 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -73,10 +73,11 @@ There are 142 [TIL](https://tsuji.tech/til/) posts.
 
 ### diffusion-models
 
+- [Main Categories of Generative Models](https://tsuji.tech/generative-models-main-categories) (Dec 11, 2025)
 - [torch.nn.Conv2d vs torch.nn.ConvTranspose2d in Machine Learning](https://tsuji.tech/torch-nn-conv2d-vs-convtranspose2d) (Nov 28, 2025)
 - [Checkerboard Artifacts Caused by UNet Upsampling in Diffusion Models](https://tsuji.tech/diffusion-unet-upsampling-chckerboard-artifacts) (Nov 28, 2025)
-- [Use Other Components with Diffusers](https://tsuji.tech/use-other-components-diffusers) (Oct 29, 2025)
 - [Debugging Latent Diffusion VAE Issues](https://tsuji.tech/debug-diffusion-vae) (Oct 29, 2025)
+- [Use Other Components with Diffusers](https://tsuji.tech/use-other-components-diffusers) (Oct 29, 2025)
 - [Versions of Stable Diffusion](https://tsuji.tech/stable-diffusion-versions) (Oct 28, 2025)
 - [Diffusion Models: Pixel Space vs. Latent Space](https://tsuji.tech/pixel-space-vs-latent-space-diffusion) (Oct 27, 2025)
 - [Expected Values](https://tsuji.tech/expected-values) (Oct 24, 2025)
@@ -158,9 +159,9 @@ There are 142 [TIL](https://tsuji.tech/til/) posts.
 
 ### math
 
-- [Differentiation vs. Derivative](https://tsuji.tech/differentiation-vs-derivative) (Oct 22, 2025)
-- [Chain Rule in Calculus](https://tsuji.tech/chain-rule) (Oct 22, 2025)
 - [Differentiation of Logarithmic Functions](https://tsuji.tech/differentiation-of-logarithms) (Oct 22, 2025)
+- [Chain Rule in Calculus](https://tsuji.tech/chain-rule) (Oct 22, 2025)
+- [Differentiation vs. Derivative](https://tsuji.tech/differentiation-vs-derivative) (Oct 22, 2025)
 - [Real Number R in Math](https://tsuji.tech/real-number-r) (Aug 23, 2025)
 - [Homomorphism v.s. Morphism](https://tsuji.tech/homomorphism-vs-morphism) (Dec 14, 2024)
 - [Right Arrow - Math Symbol](https://tsuji.tech/right-arrow) (Dec 13, 2024)
