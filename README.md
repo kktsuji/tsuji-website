@@ -27,7 +27,7 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 143 [TIL](https://tsuji.tech/til/) posts.
+There are 144 [TIL](https://tsuji.tech/til/) posts.
 
 ### bash
 
@@ -74,6 +74,7 @@ There are 143 [TIL](https://tsuji.tech/til/) posts.
 ### diffusion-models
 
 - [Main Categories of Generative Models](https://tsuji.tech/generative-models-main-categories) (Dec 11, 2025)
+- [DDPM vs. Score-Based Models](https://tsuji.tech/ddpm-vs-score-based-models) (Dec 11, 2025)
 - [torch.nn.Conv2d vs torch.nn.ConvTranspose2d in Machine Learning](https://tsuji.tech/torch-nn-conv2d-vs-convtranspose2d) (Nov 28, 2025)
 - [Checkerboard Artifacts Caused by UNet Upsampling in Diffusion Models](https://tsuji.tech/diffusion-unet-upsampling-chckerboard-artifacts) (Nov 28, 2025)
 - [Debugging Latent Diffusion VAE Issues](https://tsuji.tech/debug-diffusion-vae) (Oct 29, 2025)
