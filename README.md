@@ -14,17 +14,6 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 - [Privacy Policy](https://tsuji.tech/privacy-policy/)
 - [Sitemap](https://tsuji.tech/sitemap/)
 
-## Blog Posts
-
-There are 6 [blog](https://tsuji.tech/blog/) posts.
-
-- [The Importance of Engineers Having Their Own Small Community in the Team](https://tsuji.tech/engineer-own-small-community-in-team) ([JP](https://tsuji.tech//jp/engineer-own-small-community-in-team)) (Apr 3, 2025)
-- [AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv](https://tsuji.tech/arxiv-bot-aws) ([JP](https://tsuji.tech//jp/arxiv-bot-aws)) (Aug 3, 2024)
-- [GPU Resources for Machine Learning](https://tsuji.tech/gpu-resources) ([JP](https://tsuji.tech//jp/gpu-resources)) (Jul 27, 2024)
-- [Upcoming Conferences List in 2025](https://tsuji.tech/conferences-list-2025) ([JP](https://tsuji.tech//jp/conferences-list-2025)) (Jun 27, 2024)
-- [List of Top Conferences and Journals 2024 (AI and Computer Vision in h5-index)](https://tsuji.tech/top-publications-list-2024) ([JP](https://tsuji.tech//jp/top-publications-list-2024)) (Jun 12, 2024)
-- [Definition of Mathematical Symbols](https://tsuji.tech/math-symbols) ([JP](https://tsuji.tech//jp/math-symbols)) (Mar 8, 2024)
-
 ## TIL (Today I Learned) Posts
 
 There are 145 [TIL](https://tsuji.tech/til/) posts.
@@ -284,3 +273,14 @@ There are 145 [TIL](https://tsuji.tech/til/) posts.
 - [Install Docker to WSL](https://tsuji.tech/install-docker-to-wsl) (Mar 26, 2025)
 - [Install and Uninstall WSL](https://tsuji.tech/install-uninstall-wsl) (Feb 1, 2025)
 - [WSL Config Files](https://tsuji.tech/wsl-config-files) (Nov 15, 2024)
+## Blog Posts
+
+There are 6 [blog](https://tsuji.tech/blog/) posts.
+
+- [The Importance of Engineers Having Their Own Small Community in the Team](https://tsuji.tech/engineer-own-small-community-in-team) ([JP](https://tsuji.tech//jp/engineer-own-small-community-in-team)) (Apr 3, 2025)
+- [AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv](https://tsuji.tech/arxiv-bot-aws) ([JP](https://tsuji.tech//jp/arxiv-bot-aws)) (Aug 3, 2024)
+- [GPU Resources for Machine Learning](https://tsuji.tech/gpu-resources) ([JP](https://tsuji.tech//jp/gpu-resources)) (Jul 27, 2024)
+- [Upcoming Conferences List in 2025](https://tsuji.tech/conferences-list-2025) ([JP](https://tsuji.tech//jp/conferences-list-2025)) (Jun 27, 2024)
+- [List of Top Conferences and Journals 2024 (AI and Computer Vision in h5-index)](https://tsuji.tech/top-publications-list-2024) ([JP](https://tsuji.tech//jp/top-publications-list-2024)) (Jun 12, 2024)
+- [Definition of Mathematical Symbols](https://tsuji.tech/math-symbols) ([JP](https://tsuji.tech//jp/math-symbols)) (Mar 8, 2024)
+

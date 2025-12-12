@@ -130,14 +130,14 @@ def update_readme():
     """Update README.md with the latest content"""
     intro_section = _make_intro_section()
     fixed_section = _make_fixed_section()
-    blog_posts_section = _make_blog_posts_section()
     til_posts_section = _make_til_posts_section()
+    blog_posts_section = _make_blog_posts_section()
 
     with open("README.md", mode="w", encoding="utf-8") as f:
         f.write(intro_section)
         f.write(fixed_section)
-        f.write(blog_posts_section)
         f.write(til_posts_section[:-1])
+        f.write(blog_posts_section)
 
 
 if __name__ == "__main__":
