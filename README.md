@@ -27,7 +27,11 @@ There are 6 [blog](https://tsuji.tech/blog/) posts.
 
 ## TIL (Today I Learned) Posts
 
-There are 144 [TIL](https://tsuji.tech/til/) posts.
+There are 145 [TIL](https://tsuji.tech/til/) posts.
+
+### ai-coding
+
+- [Chat Debug View of GitHub Copilot in VS Code](https://tsuji.tech/chat-debug-view-github-copilot) (Dec 12, 2025)
 
 ### bash
 
