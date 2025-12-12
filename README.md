@@ -16,10 +16,11 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## TIL (Today I Learned) Posts
 
-There are 145 [TIL](https://tsuji.tech/til/) posts.
+There are 146 [TIL](https://tsuji.tech/til/) posts.
 
 ### ai-coding
 
+- [Wildcard "*" in Prompt for GitHub Copilot in VS Code](https://tsuji.tech/wildcard-prompt-github-copilot) (Dec 12, 2025)
 - [Chat Debug View of GitHub Copilot in VS Code](https://tsuji.tech/chat-debug-view-github-copilot) (Dec 12, 2025)
 
 ### bash
