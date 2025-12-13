@@ -82,7 +82,7 @@ def _make_blog_posts_section():
         title = _get_post_title_from_markdown_file(post)
         section += (
             f"- [{title[1:-2]}]({url_en}) ([JP]({url_jp})) "
-            f"({post_date.strftime("%b %-d, %Y")})\n"
+            f"({post_date.strftime('%b %-d, %Y')})\n"
         )
     section += "\n"
 
@@ -119,7 +119,7 @@ def _make_til_posts_section():
             url = _WEBSITE_URL + post.split("/")[-1].replace(".md", "")
             title = _get_post_title_from_markdown_file(post)
             section += (
-                f"- [{title[1:-2]}]({url}) ({post_date.strftime("%b %-d, %Y")})\n"
+                f"- [{title[1:-2]}]({url}) ({post_date.strftime('%b %-d, %Y')})\n"
             )
         section += "\n"
 
