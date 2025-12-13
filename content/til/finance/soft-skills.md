@@ -1,13 +1,12 @@
 ---
-title: 'Summary of Soft Skills'
-description: ''
+title: "Summary of Soft Skills"
+description: ""
 date: 2024-11-23T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
 John Sonmez, Soft Skills: The Software Developer's Life Manual
-
 
 ImIortant points for me:
 

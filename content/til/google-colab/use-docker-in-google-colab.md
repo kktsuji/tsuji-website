@@ -1,8 +1,8 @@
 ---
-title: 'Use Docker in Google Colab'
-description: 
+title: "Use Docker in Google Colab"
+description:
 date: 2025-02-15T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -52,12 +52,12 @@ udocker("run hello-world")
 # Info: downloading layer sha256:74cc54e27dc41bb10dc4b2226072d469509f2f22f1a3ce74f4a59661a1d44602
 # Info: downloading layer sha256:e6590344b1a5dc518829d6ea1524fc12f8bcd14ee9a02aa6ad8360cce3a9a9e9
 # Warning: check container content: 0dab5d39-3709-376c-b86c-3680ea1226d5
- 
-#  ****************************************************************************** 
-#  *                                                                            * 
-#  *               STARTING 0dab5d39-3709-376c-b86c-3680ea1226d5                * 
-#  *                                                                            * 
-#  ****************************************************************************** 
+
+#  ******************************************************************************
+#  *                                                                            *
+#  *               STARTING 0dab5d39-3709-376c-b86c-3680ea1226d5                *
+#  *                                                                            *
+#  ******************************************************************************
 #  executing: hello
 
 # Hello from Docker!

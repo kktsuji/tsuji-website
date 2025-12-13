@@ -1,8 +1,8 @@
 ---
-title: 'Create Python Numpy Ndarray'
-description: 'Today I Learned post about python numpy ndarray.'
+title: "Create Python Numpy Ndarray"
+description: "Today I Learned post about python numpy ndarray."
 date: 2024-04-03T17:58:55+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -37,9 +37,7 @@ array([[0.0e+000, 4.9e-324],
        [2.0e-323, 2.5e-323]]) # random values
 ```
 
-
 [array](https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array) is an useful interface to create a ndarray object. It can recieve an array object and elements will be initialized by it.
-
 
 ```python
 # Interactive mode
@@ -64,6 +62,7 @@ array([0., 1., 2.])
 [zeros](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html#numpy.zeros), [ones](https://numpy.org/doc/stable/reference/generated/numpy.ones.html#numpy.ones), [full](https://numpy.org/doc/stable/reference/generated/numpy.full.html#numpy.full) are also aften used.
 
 zeros:
+
 ```python
 # Interactive mode
 python
@@ -82,6 +81,7 @@ array([[0, 0, 0],
 ```
 
 ones:
+
 ```python
 # Create an array of zeros
 # Default dtype is numpy.float64
@@ -95,6 +95,7 @@ array([[1, 1, 1],
 ```
 
 full:
+
 ```python
 # Create an array filled with given value
 >>> np.full(2, 100)
@@ -136,6 +137,7 @@ dtype('float64')
 ```
 
 ones_like:
+
 ```python
 >>> np.ones_like(a)
 array([1., 1., 1.])
@@ -145,6 +147,7 @@ dtype('float64')
 ```
 
 full_like:
+
 ```python
 >>> np.full_like(a, 100)
 array([100., 100., 100.])

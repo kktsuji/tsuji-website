@@ -1,8 +1,8 @@
 ---
-title: 'Download and Execute Bash Scripts from Github Gist'
-description: ''
+title: "Download and Execute Bash Scripts from Github Gist"
+description: ""
 date: 2025-02-17T21:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

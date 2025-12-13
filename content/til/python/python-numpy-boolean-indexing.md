@@ -1,8 +1,8 @@
 ---
-title: 'Python Numpy Boolean Indexing'
-description: ''
+title: "Python Numpy Boolean Indexing"
+description: ""
 date: 2024-12-19T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

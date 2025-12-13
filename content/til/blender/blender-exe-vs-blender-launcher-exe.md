@@ -1,8 +1,8 @@
 ---
-title: 'blender.exe vs. blender-launcher.exe'
-description: ''
+title: "blender.exe vs. blender-launcher.exe"
+description: ""
 date: 2024-11-29T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

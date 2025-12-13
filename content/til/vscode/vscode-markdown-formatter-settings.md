@@ -1,8 +1,8 @@
 ---
-title: 'VSCode Markdown Formatter Settings'
-description: ''
+title: "VSCode Markdown Formatter Settings"
+description: ""
 date: 2024-12-16T21:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -14,12 +14,12 @@ draft: false
 
 ```json
 {
-    "[markdown]": {
-        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-    },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
 
-    "editor.formatOnPaste": true, // optional
-    "editor.formatOnSave": true, // optional
-    "editor.formatOnType": true // optional
+  "editor.formatOnPaste": true, // optional
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnType": true // optional
 }
 ```

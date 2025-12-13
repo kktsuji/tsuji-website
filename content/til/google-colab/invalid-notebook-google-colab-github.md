@@ -1,8 +1,8 @@
 ---
-title: 'Invalid Notebook in Google Colab Saved to GitHub'
-description: ''
+title: "Invalid Notebook in Google Colab Saved to GitHub"
+description: ""
 date: 2025-07-09T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: 'Expected Values'
+title: "Expected Values"
 description: '\'
 date: 2025-10-24T22:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

@@ -1,17 +1,17 @@
 ---
-title: 'Vim Cut, Copy, and Past'
-description: ''
+title: "Vim Cut, Copy, and Past"
+description: ""
 date: 2024-10-13T9:30:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
 ## Whole Line Operation
 
-* `yy` or `Shift + Y`: Yank (copy) the current line
-* `dd`: Delete (cut) the current line
-* `p`: Paste the yanked or deleted text after the current line on the cursor
-* `Shift + p`: Paste the yanked or deleted text before the current line on the the cursor
+- `yy` or `Shift + Y`: Yank (copy) the current line
+- `dd`: Delete (cut) the current line
+- `p`: Paste the yanked or deleted text after the current line on the cursor
+- `Shift + p`: Paste the yanked or deleted text before the current line on the the cursor
 
 ## Partial Operation
 

@@ -1,8 +1,8 @@
 ---
-title: 'Right Arrow - Math Symbol'
-description: ''
+title: "Right Arrow - Math Symbol"
+description: ""
 date: 2024-12-13T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

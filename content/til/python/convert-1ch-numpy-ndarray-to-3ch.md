@@ -1,8 +1,8 @@
 ---
-title: 'Convert 1-channel Numpy Ndarray to 3-channel'
-description: ''
+title: "Convert 1-channel Numpy Ndarray to 3-channel"
+description: ""
 date: 2025-02-21T22:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

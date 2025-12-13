@@ -1,8 +1,8 @@
 ---
-title: 'Checkerboard Artifacts Caused by UNet Upsampling in Diffusion Models'
-description: ''
+title: "Checkerboard Artifacts Caused by UNet Upsampling in Diffusion Models"
+description: ""
 date: 2025-11-28T08:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---
@@ -23,7 +23,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class UpsampleBlock(nn.Module):
-    def __init__(self, in_channels, out_channels, method='nearest', 
+    def __init__(self, in_channels, out_channels, method='nearest',
                  scale_factor=2, kernel_size=3, stride=2, padding=1):
         super(UpsampleBlock, self).__init__()
         self.method = method
@@ -31,8 +31,8 @@ class UpsampleBlock(nn.Module):
 
         if method in ['nearest', 'bilinear']:
             # Alternative upsampling: interpolation + convolution
-            self.conv = nn.Conv2d(in_channels, out_channels, 
-                                 kernel_size=kernel_size, 
+            self.conv = nn.Conv2d(in_channels, out_channels,
+                                 kernel_size=kernel_size,
                                  padding=kernel_size//2)
         elif method == 'transpose':
             # Transposed convolution with carefully chosen parameters to avoid artifacts
@@ -41,8 +41,8 @@ class UpsampleBlock(nn.Module):
             # For 2x upsampling: output = 2 * input
             self.conv_transpose = nn.ConvTranspose2d(
                 in_channels, out_channels,
-                kernel_size=kernel_size if method == 'transpose' else 4, 
-                stride=stride, 
+                kernel_size=kernel_size if method == 'transpose' else 4,
+                stride=stride,
                 padding=padding
             )
         else:

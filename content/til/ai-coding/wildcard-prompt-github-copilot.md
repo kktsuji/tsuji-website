@@ -1,8 +1,8 @@
 ---
 title: 'Wildcard "*" in Prompt for GitHub Copilot in VS Code'
-description: ''
+description: ""
 date: 2025-12-12T8:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

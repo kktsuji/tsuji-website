@@ -1,8 +1,8 @@
 ---
-title: 'Python Matplotlib Interfaces'
-description: 'Today I Learned post about python matplotlib interfaces.'
+title: "Python Matplotlib Interfaces"
+description: "Today I Learned post about python matplotlib interfaces."
 date: 2024-04-02T21:47:42+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -21,11 +21,11 @@ pip install matplotlib
 
 There are 2 styles for get starting matplotlib.
 
-* An "object-oriented" (OO) style
-  * Also called an OO interface or an explicit interface.
-* A "pyplot" style
-  * Also called a pyplot interface or an implicit interface.
-  * For interactive mode or short simple scripts.
+- An "object-oriented" (OO) style
+  - Also called an OO interface or an explicit interface.
+- A "pyplot" style
+  - Also called a pyplot interface or an implicit interface.
+  - For interactive mode or short simple scripts.
 
 ### The OO-style is below:
 
@@ -60,7 +60,6 @@ plt.plot(data_x, data_y)
 ```
 
 ![img](https://img.tsuji.tech/python-matplotlib-interfaces-0.jpg)
-
 
 ## Multiple Axes opjects in a Figure object
 

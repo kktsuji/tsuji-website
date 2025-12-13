@@ -1,8 +1,8 @@
 ---
-title: 'Sigmoid Function (Logistics Function)'
-description: ''
+title: "Sigmoid Function (Logistics Function)"
+description: ""
 date: 2024-12-05T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

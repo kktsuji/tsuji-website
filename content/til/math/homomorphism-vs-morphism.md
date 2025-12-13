@@ -1,8 +1,8 @@
 ---
-title: 'Homomorphism v.s. Morphism'
-description: ''
+title: "Homomorphism v.s. Morphism"
+description: ""
 date: 2024-12-14T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

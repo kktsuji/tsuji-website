@@ -1,8 +1,8 @@
 ---
-title: 'Benefits of Log-Likelihood in Maximum Likelihood Estimation'
-description: ''
+title: "Benefits of Log-Likelihood in Maximum Likelihood Estimation"
+description: ""
 date: 2025-10-20T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---
@@ -11,13 +11,13 @@ math: true
 
 The likelihood of observed data $ D = \{x_0, x_1, \ldots, x_n\} $ in a probability model represents the probability that the data is generated from the model. The likelihood function is defined as follows:
 
-$ L(\theta; D) = P(D | \theta) = \prod_{i=0}^{n} P(x_i | \theta) $
+$ L(\theta; D) = P(D | \theta) = \prod\_{i=0}^{n} P(x_i | \theta) $
 
 Where $ \theta $ represents the parameters of the model and $ P(x_i | \theta) $ is the probability of observing data point $ x_i $ given the parameters $ \theta $.
 
 Log-likelihood is the natural logarithm of the likelihood function:
 
-$ \log L(\theta; D) = \sum_{i=0}^{n} \log P(x_i | \theta) $
+$ \log L(\theta; D) = \sum\_{i=0}^{n} \log P(x_i | \theta) $
 
 ## Benefits of Log-Likelihood
 

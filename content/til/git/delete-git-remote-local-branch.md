@@ -1,8 +1,8 @@
 ---
-title: 'Delete Git Remote and Local Branch'
-description: ''
+title: "Delete Git Remote and Local Branch"
+description: ""
 date: 2024-11-08T21:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Commas in Token Analysis for Stable Diffusion Prompts"
-description: ''
+description: ""
 date: 2025-09-08T8:30:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

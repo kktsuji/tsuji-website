@@ -1,8 +1,8 @@
 ---
-title: 'Epochs vs. Global Steps in Training AI Models'
-description: ''
+title: "Epochs vs. Global Steps in Training AI Models"
+description: ""
 date: 2025-10-25T12:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

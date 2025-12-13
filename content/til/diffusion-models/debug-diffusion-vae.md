@@ -1,8 +1,8 @@
 ---
-title: 'Debugging Latent Diffusion VAE Issues'
-description: ''
+title: "Debugging Latent Diffusion VAE Issues"
+description: ""
 date: 2025-10-29T07:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

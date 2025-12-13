@@ -1,12 +1,12 @@
 ---
-title: 'Timestamp of Git Rebase Squash'
-description: ''
+title: "Timestamp of Git Rebase Squash"
+description: ""
 date: 2024-10-11T7:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
-**Summary:** The `squash` in the `git rebase` command merges several commits into one commit. The timestamp of the integrated new commit is same as the picked commit that was squashed. 
+**Summary:** The `squash` in the `git rebase` command merges several commits into one commit. The timestamp of the integrated new commit is same as the picked commit that was squashed.
 
 First, check the git history. In this example, we see there are three commits.
 

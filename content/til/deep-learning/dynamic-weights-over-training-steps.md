@@ -1,8 +1,8 @@
 ---
-title: 'Dynamic Weights over Training Steps'
-description: ''
+title: "Dynamic Weights over Training Steps"
+description: ""
 date: 2025-10-21T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

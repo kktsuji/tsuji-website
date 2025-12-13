@@ -1,8 +1,8 @@
 ---
 title: 'Comment System "Giscus" Built on GitHub Discussions for Static Website'
-description: ''
+description: ""
 date: 2024-11-04T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -37,28 +37,29 @@ I adopted Giscus for this blog because I felt that GitHub Discussions is better 
 Installation steps:
 
 1. Enable Discussions feature in a repository (see [GitHub document](https://docs.github.com/en/discussions)) (giscus-bot writes comments on Discussions of this repository. Use a blog repository or create new repository only for comments)
-2. Install [Giscus App](https://github.com/apps/giscus) in the repository. 
+2. Install [Giscus App](https://github.com/apps/giscus) in the repository.
 3. Create a javascript on [giscus.app](https://giscus.app/). Some options can be customized.
 4. Copy the script and add it to blog code.
 
 An example script is following:
 
 ```javascript
-<script src="https://giscus.app/client.js"
-    data-repo="user/repository"
-    data-repo-id="xxxxxxx"
-    data-category="Comments"
-    data-category-id="xxxxxx"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="dark"
-    data-lang="en"
-    crossorigin="anonymous"
-    async>
-</script>
+<script
+  src="https://giscus.app/client.js"
+  data-repo="user/repository"
+  data-repo-id="xxxxxxx"
+  data-category="Comments"
+  data-category-id="xxxxxx"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="top"
+  data-theme="dark"
+  data-lang="en"
+  crossorigin="anonymous"
+  async
+></script>
 ```
 
 ## Dynamic Theme Changing

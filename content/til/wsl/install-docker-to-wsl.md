@@ -1,6 +1,6 @@
 ---
-title: 'Install Docker to WSL'
-description: ''
+title: "Install Docker to WSL"
+description: ""
 date: 2025-03-26T08:00:00+09:00
 lastmod:
 draft: false
@@ -8,7 +8,7 @@ draft: false
 
 ## Prerequisites
 
-* Install WSL2 and Ubuntu 22.04 to Windows (see [my previous post](https://tsuji.tech/install-uninstall-wsl/))
+- Install WSL2 and Ubuntu 22.04 to Windows (see [my previous post](https://tsuji.tech/install-uninstall-wsl/))
 
 ## Install Docker to WSL
 
@@ -78,5 +78,5 @@ docker run hello-world
 
 ## References
 
-* [Install Docker Engine on Ubuntu - Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
-* [Linux post-installation steps for Docker Engine - Docker Docs](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+- [Install Docker Engine on Ubuntu - Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+- [Linux post-installation steps for Docker Engine - Docker Docs](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)

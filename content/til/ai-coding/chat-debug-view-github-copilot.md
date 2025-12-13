@@ -1,8 +1,8 @@
 ---
-title: 'Chat Debug View of GitHub Copilot in VS Code'
-description: ''
+title: "Chat Debug View of GitHub Copilot in VS Code"
+description: ""
 date: 2025-12-12T8:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

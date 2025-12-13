@@ -1,6 +1,6 @@
 ---
-title: 'Intermediate Files Improve AI Coding Performance'
-description: ''
+title: "Intermediate Files Improve AI Coding Performance"
+description: ""
 date: 2025-12-13T8:00:00+09:00
 lastmod:
 math: true

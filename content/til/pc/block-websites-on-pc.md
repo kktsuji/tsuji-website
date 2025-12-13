@@ -1,8 +1,8 @@
 ---
-title: 'Block Websites on PC'
-description: 'Today I Learned post about how to block websites on PC.'
+title: "Block Websites on PC"
+description: "Today I Learned post about how to block websites on PC."
 date: 2024-05-30T20:29:55+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

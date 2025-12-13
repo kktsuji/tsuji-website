@@ -1,8 +1,8 @@
 ---
-title: 'torch.nn.Conv2d vs torch.nn.ConvTranspose2d in Machine Learning'
-description: ''
+title: "torch.nn.Conv2d vs torch.nn.ConvTranspose2d in Machine Learning"
+description: ""
 date: 2025-11-28T08:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

@@ -1,8 +1,8 @@
 ---
-title: 'Name Conflict: Package and Script in Python'
-description: ''
+title: "Name Conflict: Package and Script in Python"
+description: ""
 date: 2025-04-18T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

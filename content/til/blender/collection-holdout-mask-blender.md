@@ -1,8 +1,8 @@
 ---
-title: 'Use Collection as Holdout Mask in Blender'
-description: ''
+title: "Use Collection as Holdout Mask in Blender"
+description: ""
 date: 2025-03-01T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

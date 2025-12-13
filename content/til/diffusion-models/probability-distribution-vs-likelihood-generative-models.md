@@ -1,8 +1,8 @@
 ---
-title: 'Probability Distribution vs. Likelihood in Generative Models'
-description: ''
+title: "Probability Distribution vs. Likelihood in Generative Models"
+description: ""
 date: 2025-10-23T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

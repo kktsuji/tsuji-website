@@ -1,15 +1,15 @@
 ---
-title: 'Unstage Git Add Command'
-description: ''
+title: "Unstage Git Add Command"
+description: ""
 date: 2024-10-10T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
 If you want to undo `git add` command, use `git reset`.
 
-* `git reset <file>`: Unstage a specific file.
-* `git reset`: Unstage all files.
+- `git reset <file>`: Unstage a specific file.
+- `git reset`: Unstage all files.
 
 A example for a specific file.
 

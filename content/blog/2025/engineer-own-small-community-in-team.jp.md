@@ -1,8 +1,8 @@
 ---
-title: 'エンジニアがチーム内で自分の小さなコミュニティを持つことの重要性'
-description: ''
+title: "エンジニアがチーム内で自分の小さなコミュニティを持つことの重要性"
+description: ""
 date: 2025-04-03T22:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

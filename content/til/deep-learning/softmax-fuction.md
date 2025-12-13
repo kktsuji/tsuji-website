@@ -1,15 +1,15 @@
 ---
-title: 'Softmax Function'
-description: ''
+title: "Softmax Function"
+description: ""
 date: 2024-12-12T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---
 
 ## Softmax Function
 
-$ \sigma(\mathbf{x}) = \dfrac{e^{x_i}}{\sum_{j=1}^{K} e^{\mathbf{x}_i}} $
+$ \sigma(\mathbf{x}) = \dfrac{e^{x*i}}{\sum*{j=1}^{K} e^{\mathbf{x}\_i}} $
 
 where $ \sigma: \mathbb{R}^K \to (0, 1)^K $, $ K > 1 $, a vector $ \mathbf{x} = (x_1, ..., x_K) \in \mathbb{R}^K $.
 

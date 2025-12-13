@@ -1,8 +1,8 @@
 ---
-title: 'Continual Self-supervised Learning: Towards Universal Multi-modal Medical Data Representation Learning'
-description: ''
+title: "Continual Self-supervised Learning: Towards Universal Multi-modal Medical Data Representation Learning"
+description: ""
 date: 2024-06-20T08:51:23+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -16,18 +16,18 @@ Paper: Ye et al., Continual Self-supervised Learning: Towards Universal Multi-mo
 
 ## Novelties of the Paper
 
-* They proposed Medical Continual Self-Supervised (MedCoSS) paradigm to prevent modal conflicts and catastrophic forgetting.
-* MedCoSS assingns each modality data to separate training stage in continual learning.
-* Rehearsal buffers are introduced to keep previous modal data.
-* Modalities: Report, X-ray, CT, MRI and Pathological images.
+- They proposed Medical Continual Self-Supervised (MedCoSS) paradigm to prevent modal conflicts and catastrophic forgetting.
+- MedCoSS assingns each modality data to separate training stage in continual learning.
+- Rehearsal buffers are introduced to keep previous modal data.
+- Modalities: Report, X-ray, CT, MRI and Pathological images.
 
 ## Performance Evaluation Methods
 
-* They compared MedCoSS to single-modal pre-training and, multi-modal pre-traingin incluing Joint SSL, EWC, ER, PackNet, CaSSLe (see table).
+- They compared MedCoSS to single-modal pre-training and, multi-modal pre-traingin incluing Joint SSL, EWC, ER, PackNet, CaSSLe (see table).
 
 ![img](https://img.tsuji.tech/medcoss-cvpr2024-1.jpg)
 
 ## Discussions
 
-* MedCoSS performs best in some modalities, but not others.
-* The size of the rehearsal buffers is a trade-off between performance and multi-modal data collision and computational costs.
+- MedCoSS performs best in some modalities, but not others.
+- The size of the rehearsal buffers is a trade-off between performance and multi-modal data collision and computational costs.

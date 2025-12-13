@@ -1,6 +1,6 @@
 ---
-title: 'Install and Uninstall WSL'
-description: ''
+title: "Install and Uninstall WSL"
+description: ""
 date: 2025-02-01T16:00:00+09:00
 lastmod:
 draft: false

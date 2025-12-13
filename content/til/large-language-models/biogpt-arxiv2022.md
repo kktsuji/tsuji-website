@@ -1,8 +1,8 @@
 ---
-title: 'BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining'
-description: ''
+title: "BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining"
+description: ""
 date: 2024-09-12T09:10:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

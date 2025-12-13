@@ -1,8 +1,8 @@
 ---
-title: 'Put C++ Const Type Qualifier After the Type'
-description: ''
+title: "Put C++ Const Type Qualifier After the Type"
+description: ""
 date: 2024-10-01T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

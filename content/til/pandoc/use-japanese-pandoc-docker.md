@@ -1,8 +1,8 @@
 ---
-title: 'Use Japanese in Pandoc Docker Image'
-description: ''
+title: "Use Japanese in Pandoc Docker Image"
+description: ""
 date: 2025-04-09T07:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

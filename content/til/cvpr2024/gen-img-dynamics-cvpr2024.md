@@ -1,8 +1,8 @@
 ---
-title: 'Generative Image Dynamics, CVPR2024 Best Paper Award'
-description: ''
+title: "Generative Image Dynamics, CVPR2024 Best Paper Award"
+description: ""
 date: 2024-07-02T07:50:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -16,7 +16,6 @@ This paper won the [CVPR2024 best paper award](https://cvpr.thecvf.com/Conferenc
 
 (Images are from the [original paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Generative_Image_Dynamics_CVPR_2024_paper.pdf))
 
-* They proposed a new diffusion-based method to generate loop videos containing motion trajectories from a single RGB image.
-* Their model learns oscillatory dynamics of objects swaying by the wind from real video sequences.
-* Motions are treated as spectral volumes in Fourier domain.
-
+- They proposed a new diffusion-based method to generate loop videos containing motion trajectories from a single RGB image.
+- Their model learns oscillatory dynamics of objects swaying by the wind from real video sequences.
+- Motions are treated as spectral volumes in Fourier domain.

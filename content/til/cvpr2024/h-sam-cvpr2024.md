@@ -1,8 +1,8 @@
 ---
-title: 'Unleashing the Potential of SAM for Medical Adaptation via Hierarchical Decoding'
-description: ''
+title: "Unleashing the Potential of SAM for Medical Adaptation via Hierarchical Decoding"
+description: ""
 date: 2024-06-22T07:20:47+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -16,19 +16,19 @@ Paper: Cheng et al., Unleashing the Potential of SAM for Medical Adaptation via 
 
 ## Novelties of the Paper
 
-* They proposed a prompt-free H-SAM approach, a type of segment anything model (SAM) with a two-stage hierarchical decoding procedure.
-* They added a second decorder called the 'Hierarchical Mask Decoder' behind the original SAM's decoder (the original SAM has a single decoder).
-* A class-balanced mask-guided self-attention (CMAttn) and a learnable mask cross-attention are their key implementations.
+- They proposed a prompt-free H-SAM approach, a type of segment anything model (SAM) with a two-stage hierarchical decoding procedure.
+- They added a second decorder called the 'Hierarchical Mask Decoder' behind the original SAM's decoder (the original SAM has a single decoder).
+- A class-balanced mask-guided self-attention (CMAttn) and a learnable mask cross-attention are their key implementations.
 
 ## Performance Evaluation Methods
 
-* They compared their H-SAM to other models including STransUnet, SwinUnet, TransDeepLab, DAE-Former, MERIT, AutoSAM, SAM Adapter, SAMed, UA-MT, SASSNet, DTC, URPC, MC-Net, SS-Net, BCP and nnUnet.
-* Three dataset the Synapse Multi-Organ CT, the left atrial dataset and the PROMISE12 were used for this experiments.
-* The Dice coefficient and the acerage Hausdorff distance were utilized as the metrics.
+- They compared their H-SAM to other models including STransUnet, SwinUnet, TransDeepLab, DAE-Former, MERIT, AutoSAM, SAM Adapter, SAMed, UA-MT, SASSNet, DTC, URPC, MC-Net, SS-Net, BCP and nnUnet.
+- Three dataset the Synapse Multi-Organ CT, the left atrial dataset and the PROMISE12 were used for this experiments.
+- The Dice coefficient and the acerage Hausdorff distance were utilized as the metrics.
 
 ![img](https://img.tsuji.tech/h-sam-cvpr2024-1.jpg)
 
 ## Discussions
 
-* H-SAM performed better than other methods.
-* All three important compornents (learnable mask-attention, hierarchical pixel decorder and CM self-attention) are necessary for H-SAM to achieve the best performance.
+- H-SAM performed better than other methods.
+- All three important compornents (learnable mask-attention, hierarchical pixel decorder and CM self-attention) are necessary for H-SAM to achieve the best performance.

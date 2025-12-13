@@ -1,8 +1,8 @@
 ---
-title: 'Short-Circuit Evaluation of C++ Logical AND OR'
-description: ''
+title: "Short-Circuit Evaluation of C++ Logical AND OR"
+description: ""
 date: 2024-09-28T18:30:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

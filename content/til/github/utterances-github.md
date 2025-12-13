@@ -1,8 +1,8 @@
 ---
 title: 'Comment System "utterances" Built on GitHub Issues for Static Website'
-description: ''
+description: ""
 date: 2024-11-03T20:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -29,12 +29,13 @@ Installation is so easy:
 Script is like following:
 
 ```javascript
-<script src="https://utteranc.es/client.js"
-    repo="account/repository"
-    issue-term="pathname"
-    label="comment"
-    theme="github-dark"
-    crossorigin="anonymous"
-    async>
-</script>
+<script
+  src="https://utteranc.es/client.js"
+  repo="account/repository"
+  issue-term="pathname"
+  label="comment"
+  theme="github-dark"
+  crossorigin="anonymous"
+  async
+></script>
 ```

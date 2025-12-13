@@ -1,6 +1,6 @@
 ---
-title: 'WSL Config Files'
-description: ''
+title: "WSL Config Files"
+description: ""
 date: 2024-11-15T09:00:00+09:00
 lastmod:
 draft: false

@@ -1,6 +1,6 @@
 ---
-title: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定'
-description: 'arXiv 新着論文を Webhook へ自動通知するための AWS の設定を解説する記事。'
+title: "arXiv 新着論文を Webhook へ自動通知するための AWS の設定"
+description: "arXiv 新着論文を Webhook へ自動通知するための AWS の設定を解説する記事。"
 date: 2024-08-03T15:27:14+09:00
 lastmod: 2024-08-11T08:30:00+09:00
 draft: false
@@ -49,18 +49,18 @@ zip -r python.zip ./python
 
 通知したいサービスの webhook url を取得する。
 
-* [Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)
-* [Microsoft Teams Webhooks](https://learn.microsoft.com/en-us/power-automate/teams/create-flows-power-apps-app)
-* [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
-* etc.
+- [Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)
+- [Microsoft Teams Webhooks](https://learn.microsoft.com/en-us/power-automate/teams/create-flows-power-apps-app)
+- [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+- etc.
 
 ## (任意) OpenAI の設定
 
-ChatGPT による論文のサマリを生成したい場合、OpenAI API Keyを取得する。
+ChatGPT による論文のサマリを生成したい場合、OpenAI API Key を取得する。
 
 注意：OpenAI API は有料。
 
-* [OpenAI API](https://openai.com/api/)
+- [OpenAI API](https://openai.com/api/)
 
 ## AWS Lambda の設定
 
@@ -109,12 +109,12 @@ AWS ラムダコンソールで "Create function" を行う。
 }
 ```
 
-| Key            | Description                                                                                                                                                                                                                                                                                                                                                                                         |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| webhook_url    | Slack, Teams, その他のサービスの API の webhook url。                                                                                                                                                                                                                                                                                                                                               |
-| keywords       | arXiv検索のクエリーで使用されるキーワード。<br>各キーワードはスペース無しの半角コンマで区切る。<br>キーワードはタイトルとアブストラクトの検索に使用され、それぞれ "or" で検索される。<br>例えば、"keyword1,key word2"と指定すると、keyword1 を含む論文と 'key word2' を含む論文が検索結果として表示される。(もしキーワード内にスペースを含む場合、シングルクォーテーションで囲んで検索に使用される) |
-| categories     | arXiv 検索のクエリで使用されるカテゴリー。<br>これはキーワードと同じルールに従う（スペースなしの半角カンマ区切り、"or "で検索）。また、半角スペースは無視される。<br>詳細は [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy) を参照。                                                                                                                                                 |
-| OPENAI_API_KEY | (任意) OpenAI API Key.<br>もし論文のサマリ作成機能を使用しない場合は、以下のように空白を指定する：<br>`"openai_api_key": ""`                                                                                                                                                                                                                                                                        |
+| Key            | Description                                                                                                                                                                                                                                                                                                                                                                                          |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| webhook_url    | Slack, Teams, その他のサービスの API の webhook url。                                                                                                                                                                                                                                                                                                                                                |
+| keywords       | arXiv 検索のクエリーで使用されるキーワード。<br>各キーワードはスペース無しの半角コンマで区切る。<br>キーワードはタイトルとアブストラクトの検索に使用され、それぞれ "or" で検索される。<br>例えば、"keyword1,key word2"と指定すると、keyword1 を含む論文と 'key word2' を含む論文が検索結果として表示される。(もしキーワード内にスペースを含む場合、シングルクォーテーションで囲んで検索に使用される) |
+| categories     | arXiv 検索のクエリで使用されるカテゴリー。<br>これはキーワードと同じルールに従う（スペースなしの半角カンマ区切り、"or "で検索）。また、半角スペースは無視される。<br>詳細は [arXiv Category Taxonomy](https://arxiv.org/category_taxonomy) を参照。                                                                                                                                                  |
+| OPENAI_API_KEY | (任意) OpenAI API Key.<br>もし論文のサマリ作成機能を使用しない場合は、以下のように空白を指定する：<br>`"openai_api_key": ""`                                                                                                                                                                                                                                                                         |
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-5.jpg)
 
@@ -140,15 +140,15 @@ Lambda 関数を実行するためのポリシーを作成する。
 
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": "lambda:InvokeFunction",
-            "Resource": "arn:aws:YOUR-LAMBDA-FUNCTION-ARN"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VisualEditor0",
+      "Effect": "Allow",
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:YOUR-LAMBDA-FUNCTION-ARN"
+    }
+  ]
 }
 ```
 
@@ -158,17 +158,17 @@ AWS IAM > Roles > "Create role" で以下のロールを作成。
 
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "admitEventBridge",
-            "Effect": "Allow",
-            "Principal": {
-                "Service": "scheduler.amazonaws.com"
-            },
-            "Action": "sts:AssumeRole"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "admitEventBridge",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "scheduler.amazonaws.com"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
 }
 ```
 
@@ -183,7 +183,6 @@ AWS IAM > Roles > "Create role" で以下のロールを作成。
 [AWS EventBridge Console](https://aws.amazon.com/eventbridge/) へアクセスし、"Create schedule" を行う。
 
 ![img](https://img.tsuji.tech/arxiv-bot-aws-8.jpg)
-
 
 フォームを記入する。ラムダ関数を正しい時刻に実行するために、タイムゾーンの設定と cron の設定をよく確認する。
 

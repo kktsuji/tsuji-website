@@ -1,8 +1,8 @@
 ---
-title: '免責事項'
-description: ''
+title: "免責事項"
+description: ""
 date: 2024-09-01T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 weight: 2
 ---
@@ -26,7 +26,6 @@ K. Tsuji が [tsuji.tech](https://tsuji.tech) (以下「本サイト」) で提�
 本サイトでは、ユーザーエクスペリエンスを向上させ、Google Analytics を通じてウェブサイトのトラフィックを分析するために Cookie を使用する。Cookie は、訪問者が本サイトとどのようにやり取りしているかを理解するために、訪問者のデバイスに保存される小さなデータファイルを指す。収集された情報は匿名であり、本サイトのコンテンツとユーザーエクスペリエンスを向上させるためにのみ使用される。
 
 本サイトの利用を継続することにより、[プライバシーポリシー](https://tsuji.tech/jp/privacy-policy)に従った Cookie の使用に同意したものとみなされる。
-
 
 ## 外部リンクに関する免責事項
 

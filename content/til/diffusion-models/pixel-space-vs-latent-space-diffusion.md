@@ -1,8 +1,8 @@
 ---
-title: 'Diffusion Models: Pixel Space vs. Latent Space'
-description: ''
+title: "Diffusion Models: Pixel Space vs. Latent Space"
+description: ""
 date: 2025-10-27T20:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

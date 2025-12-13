@@ -1,6 +1,6 @@
 ---
-title: 'Summary of Rich Dad Poor Dad'
-description: ''
+title: "Summary of Rich Dad Poor Dad"
+description: ""
 date: 2024-10-21T9:30:00+09:00
 lastmod: 2024-10-28T9:00:00+09:00
 draft: false
@@ -57,7 +57,7 @@ To built assets that I love or have strong passion or interest in is the most im
 
 ### Two Types of Investors
 
-One side invests in financial products packaged by someone else. the other  creates its own investment from scratch.
+One side invests in financial products packaged by someone else. the other creates its own investment from scratch.
 
 1. Ability to find opportunities that others may not be aware of
 2. Ability to raise funds: there are many ways to do it, not only from banks
@@ -68,7 +68,7 @@ One side invests in financial products packaged by someone else. the other  crea
 - Profession and business are deferent
 - To establish a company is not same as owning my business
 - Japan has no laws similar to 1031 exchange in US (see [my previous post](https://tsuji.tech/no-1031-exchange-japan/))
-- The busy person is the laziest: hard work for my future with strategy is ok, but hard work for company without any plan is just lazy. It's just to get away  from thinking about my life.
+- The busy person is the laziest: hard work for my future with strategy is ok, but hard work for company without any plan is just lazy. It's just to get away from thinking about my life.
 - One of author's assets is to have strong connections to the excellent professionals.
 
 ## What I cannot agree

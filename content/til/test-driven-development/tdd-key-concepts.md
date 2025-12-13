@@ -1,15 +1,15 @@
 ---
-title: 'Test-Driven Development Key Concepts'
-description: ''
+title: "Test-Driven Development Key Concepts"
+description: ""
 date: 2024-08-27T20:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
 The simple and powerful key concepts of test-driven development (TDD) are following:
 
-* Write new code only if automatic tests have failed
-* Delete duplication
+- Write new code only if automatic tests have failed
+- Delete duplication
 
 These concepts lead to the following procedures:
 

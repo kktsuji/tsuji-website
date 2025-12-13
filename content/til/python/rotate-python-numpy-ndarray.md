@@ -1,8 +1,8 @@
 ---
-title: 'Rotate Python Numpy NDArray'
-description: ''
+title: "Rotate Python Numpy NDArray"
+description: ""
 date: 2024-11-20T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

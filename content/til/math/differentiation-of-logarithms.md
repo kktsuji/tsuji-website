@@ -1,8 +1,8 @@
 ---
-title: 'Differentiation of Logarithmic Functions'
-description: ''
+title: "Differentiation of Logarithmic Functions"
+description: ""
 date: 2025-10-22T7:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

@@ -1,8 +1,8 @@
 ---
-title: 'VSCode Keyboard Shortcuts Settings'
-description: ''
+title: "VSCode Keyboard Shortcuts Settings"
+description: ""
 date: 2025-10-22T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: 'Install TeX Live in Ubuntu'
-description: ''
+title: "Install TeX Live in Ubuntu"
+description: ""
 date: 2025-04-10T21:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

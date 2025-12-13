@@ -1,8 +1,8 @@
 ---
-title: 'Git Cherry-Pick No Commit Option'
-description: ''
+title: "Git Cherry-Pick No Commit Option"
+description: ""
 date: 2024-11-27T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: 'Move WSL from C Drive to Other Drive'
-description: ''
+title: "Move WSL from C Drive to Other Drive"
+description: ""
 date: 2025-08-03T15:00:00+09:00
 lastmod:
 draft: false

@@ -1,6 +1,6 @@
 ---
-title: 'AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv'
-description: 'Post about AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv.'
+title: "AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv"
+description: "Post about AWS Configuration to Automatically Notify Webhooks of New Papers on arXiv."
 date: 2024-08-03T15:27:14+09:00
 lastmod: 2024-08-11T08:30:00+09:00
 draft: false
@@ -49,10 +49,10 @@ zip -r python.zip ./python
 
 Get webhook url of the service you want to notify.
 
-* [Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)
-* [Microsoft Teams Webhooks](https://learn.microsoft.com/en-us/power-automate/teams/create-flows-power-apps-app)
-* [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
-* etc.
+- [Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)
+- [Microsoft Teams Webhooks](https://learn.microsoft.com/en-us/power-automate/teams/create-flows-power-apps-app)
+- [Discord Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+- etc.
 
 ## (Optional) OpenAI Settings
 
@@ -60,7 +60,7 @@ Get OpenAI API Key if you want to summary papers.
 
 Note: The OpenAI API is chargeable.
 
-* [OpenAI API](https://openai.com/api/)
+- [OpenAI API](https://openai.com/api/)
 
 ## AWS Lambda Settings
 
@@ -140,15 +140,15 @@ Visit [AWS IAM](https://aws.amazon.com/iam/) > Policies > "Create policy".
 
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": "lambda:InvokeFunction",
-            "Resource": "arn:aws:YOUR-LAMBDA-FUNCTION-ARN"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "VisualEditor0",
+      "Effect": "Allow",
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:YOUR-LAMBDA-FUNCTION-ARN"
+    }
+  ]
 }
 ```
 
@@ -158,17 +158,17 @@ Visit AWS IAM > Roles > "Create role".
 
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "admitEventBridge",
-            "Effect": "Allow",
-            "Principal": {
-                "Service": "scheduler.amazonaws.com"
-            },
-            "Action": "sts:AssumeRole"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "admitEventBridge",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "scheduler.amazonaws.com"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
 }
 ```
 

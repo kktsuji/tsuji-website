@@ -1,8 +1,8 @@
 ---
-title: 'Pip Install Packages with Specific Versions'
-description: ''
+title: "Pip Install Packages with Specific Versions"
+description: ""
 date: 2024-10-15T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -26,4 +26,4 @@ pip install numpy==
 
 Reference:
 
-* [https://pip.pypa.io/en/stable/cli/pip_install/](https://pip.pypa.io/en/stable/cli/pip_install/)
+- [https://pip.pypa.io/en/stable/cli/pip_install/](https://pip.pypa.io/en/stable/cli/pip_install/)

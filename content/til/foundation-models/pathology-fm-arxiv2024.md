@@ -1,8 +1,8 @@
 ---
-title: 'Pathology Foundation Models'
-description: ''
+title: "Pathology Foundation Models"
+description: ""
 date: 2024-08-09T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

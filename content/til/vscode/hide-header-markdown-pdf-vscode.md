@@ -1,8 +1,8 @@
 ---
-title: 'Hide Header in Markdown PDF for VSCode'
-description: ''
+title: "Hide Header in Markdown PDF for VSCode"
+description: ""
 date: 2025-04-08T16:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

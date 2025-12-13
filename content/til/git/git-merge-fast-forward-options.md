@@ -1,8 +1,8 @@
 ---
-title: 'Git Merge Fast-Forward Options'
-description: ''
+title: "Git Merge Fast-Forward Options"
+description: ""
 date: 2024-11-14T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

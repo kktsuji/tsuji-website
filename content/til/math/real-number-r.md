@@ -1,8 +1,8 @@
 ---
-title: 'Real Number R in Math'
-description: ''
+title: "Real Number R in Math"
+description: ""
 date: 2025-08-23T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

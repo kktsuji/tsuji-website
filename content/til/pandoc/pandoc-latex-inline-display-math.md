@@ -1,8 +1,8 @@
 ---
-title: 'Pandoc LaTeX Inline and Display Math'
-description: ''
+title: "Pandoc LaTeX Inline and Display Math"
+description: ""
 date: 2025-04-17T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

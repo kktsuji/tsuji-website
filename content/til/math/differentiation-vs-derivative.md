@@ -1,8 +1,8 @@
 ---
-title: 'Differentiation vs. Derivative'
-description: ''
+title: "Differentiation vs. Derivative"
+description: ""
 date: 2025-10-22T7:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---

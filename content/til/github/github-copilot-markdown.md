@@ -1,8 +1,8 @@
 ---
-title: 'Enable GitHub Copilot Suggestions for Markdown'
-description: ''
+title: "Enable GitHub Copilot Suggestions for Markdown"
+description: ""
 date: 2024-12-15T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

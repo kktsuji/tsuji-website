@@ -1,8 +1,8 @@
 ---
-title: 'Versions of Stable Diffusion'
-description: ''
+title: "Versions of Stable Diffusion"
+description: ""
 date: 2025-10-28T18:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

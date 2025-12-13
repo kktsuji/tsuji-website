@@ -1,8 +1,8 @@
 ---
-title: 'GitHub SSH Settings for Secure Access'
-description: ''
+title: "GitHub SSH Settings for Secure Access"
+description: ""
 date: 2025-10-19T11:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

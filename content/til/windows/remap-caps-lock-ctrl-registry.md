@@ -1,8 +1,8 @@
 ---
-title: 'Remap Caps Lock to Ctrl via Registry Editor on Windows'
-description: ''
+title: "Remap Caps Lock to Ctrl via Registry Editor on Windows"
+description: ""
 date: 2025-10-21T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

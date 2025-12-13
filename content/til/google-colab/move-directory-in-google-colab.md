@@ -1,8 +1,8 @@
 ---
-title: 'Move Directory in Google Colab'
-description: 
+title: "Move Directory in Google Colab"
+description:
 date: 2025-02-04T21:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

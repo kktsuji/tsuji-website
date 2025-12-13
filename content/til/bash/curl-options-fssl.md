@@ -1,8 +1,8 @@
 ---
-title: 'curl Options -fsSL'
-description: ''
+title: "curl Options -fsSL"
+description: ""
 date: 2025-02-18T07:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

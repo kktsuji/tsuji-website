@@ -1,8 +1,8 @@
 ---
-title: 'Main Categories of Generative Models'
-description: ''
+title: "Main Categories of Generative Models"
+description: ""
 date: 2025-12-11T8:00:00+09:00
-lastmod: 
+lastmod:
 math: true
 draft: false
 ---

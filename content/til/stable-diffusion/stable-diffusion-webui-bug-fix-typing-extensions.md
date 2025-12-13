@@ -1,8 +1,8 @@
 ---
 title: 'Fix a Bug "typing-extensions" of stable-diffusion-webui'
-description: ''
+description: ""
 date: 2024-10-29T9:30:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

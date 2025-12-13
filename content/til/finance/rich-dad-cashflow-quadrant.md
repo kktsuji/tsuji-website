@@ -1,8 +1,8 @@
 ---
 title: "Summary of Rich Dad's Cashflow Quadrant"
-description: ''
+description: ""
 date: 2024-10-31T8:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

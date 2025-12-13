@@ -1,8 +1,8 @@
 ---
-title: 'Privacy Policy'
-description: ''
+title: "Privacy Policy"
+description: ""
 date: 2024-09-01T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 weight: 3
 ---
@@ -13,10 +13,10 @@ The entire contents of this privacy policy have been added, modified, and supple
 
 [tsuji.tech](https://tsuji.tech) (the "Site") maintained by K. Tsuji uses the information I collect in various ways, including to:
 
-* Provide, operate, and maintain the Site
-* Understand and analyze how you use the Site
-* Develop new products, services, features, articles, and functionality
-* Reply to inquiries by email
+- Provide, operate, and maintain the Site
+- Understand and analyze how you use the Site
+- Develop new products, services, features, articles, and functionality
+- Reply to inquiries by email
 
 ## Cookies
 
@@ -58,12 +58,12 @@ The Site prioritizes the security of your data. The Site uses SSL (Secure Socket
 
 I may update this Privacy Policy from time to time. I will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
-
 Changing history:
 
 - First edition established, Sep. 01, 2024 (commit [905b963](https://github.com/kktsuji/tsuji-website/commit/905b9639410c282569eae0b24c5f9403820abfff))
 
 ## Consent
+
 By using our website, you hereby consent to our Privacy Policy and agree to its terms.
 
 ## Inquiries

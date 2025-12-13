@@ -1,8 +1,8 @@
 ---
-title: 'Timestamp When Git Rebase Modifies the Commit Order'
-description: ''
+title: "Timestamp When Git Rebase Modifies the Commit Order"
+description: ""
 date: 2024-10-12T15:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -10,9 +10,9 @@ draft: false
 
 In this example, timestamp of three commits are below.
 
-* Third commit: 15:03:10
-* Second commit 15:02:49
-* Initial commit 15:02:34
+- Third commit: 15:03:10
+- Second commit 15:02:49
+- Initial commit 15:02:34
 
 ```bash
 git log
@@ -54,9 +54,9 @@ pick 9c5a4d0 Second commit
 
 We can see the second and third commits are switched, which means the timestamp of commits are not ordered by time in git history.
 
-* Second commit 15:02:49
-* Third commit: 15:03:10
-* Initial commit 15:02:34
+- Second commit 15:02:49
+- Third commit: 15:03:10
+- Initial commit 15:02:34
 
 ```bash
 git log

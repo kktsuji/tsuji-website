@@ -1,8 +1,8 @@
 ---
-title: 'Models of stable-diffusion-webui-wd14-tagger'
-description: ''
+title: "Models of stable-diffusion-webui-wd14-tagger"
+description: ""
 date: 2025-02-02T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

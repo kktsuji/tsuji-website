@@ -1,8 +1,8 @@
 ---
-title: 'ReLU: Rectified Linear Unit'
-description: ''
+title: "ReLU: Rectified Linear Unit"
+description: ""
 date: 2024-12-04T18:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 math: true
 ---
@@ -21,4 +21,4 @@ Variants:
 
 References:
 
-- [Rectifier (neural networks) - wiki](https://en.wikipedia.org/wiki/Rectifier_(neural_networks))
+- [Rectifier (neural networks) - wiki](<https://en.wikipedia.org/wiki/Rectifier_(neural_networks)>)

@@ -1,8 +1,8 @@
 ---
-title: 'Details of the CONCH Model'
-description: ''
+title: "Details of the CONCH Model"
+description: ""
 date: 2025-05-20T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: 'Install Specific CUDA Version in Google Colab'
-description: 
+title: "Install Specific CUDA Version in Google Colab"
+description:
 date: 2025-02-05T9:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

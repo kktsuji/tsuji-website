@@ -1,8 +1,8 @@
 ---
-title: 'Mount Google Drive in Google Colab'
-description: 
+title: "Mount Google Drive in Google Colab"
+description:
 date: 2025-02-20T20:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

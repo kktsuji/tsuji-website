@@ -1,8 +1,8 @@
 ---
 title: "OpenAI's Tokenizer for Stable Diffusion Prompts"
-description: ''
+description: ""
 date: 2025-09-07T16:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -18,4 +18,3 @@ For example, the prompt:
 - `1girl`: 2 tokens: `1`, `girl`
 - `jGlt`: 3 tokens: `j`, `G`, `lt`
 - `[xyz]`: 3 tokens: `[`, `xyz`, `]`
-

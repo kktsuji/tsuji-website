@@ -1,8 +1,8 @@
 ---
-title: 'Types of Git Config'
-description: ''
+title: "Types of Git Config"
+description: ""
 date: 2024-11-09T12:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
@@ -31,7 +31,6 @@ Usage:
 ```bash
 git config
 ```
-
 
 Reference:
 

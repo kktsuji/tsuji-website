@@ -1,8 +1,8 @@
 ---
-title: 'Copy Microsoft PowerToys Settings'
-description: ''
+title: "Copy Microsoft PowerToys Settings"
+description: ""
 date: 2025-10-18T16:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 

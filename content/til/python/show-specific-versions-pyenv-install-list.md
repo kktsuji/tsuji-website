@@ -1,8 +1,8 @@
 ---
-title: 'Show Specific Versions with pyenv install --list'
-description: ''
+title: "Show Specific Versions with pyenv install --list"
+description: ""
 date: 2025-10-15T09:00:00+09:00
-lastmod: 
+lastmod:
 draft: false
 ---
 
