@@ -1,6 +1,6 @@
 ---
-title: "2024年 AI＆コンピュータビジョン領域のトップ会議・学会誌リスト (h5-index)"
-description: "2024年 AI＆コンピュータビジョン領域のトップ会議・学会誌リスト (Google Scholar の h5-index)"
+title: "2024年AI＆コンピュータビジョン領域のトップ会議・学会誌リスト(h5-index)"
+description: "2024年AI＆コンピュータビジョン領域のトップ会議・学会誌リスト(Google Scholarのh5-index)"
 date: 2024-06-12T08:50:40+09:00
 lastmod:
 draft: false
@@ -8,9 +8,9 @@ draft: false
 
 ## Google scholar's h5-index
 
-本ポストは [google scholar's top publications ranking](https://scholar.google.com/citations?view_op=top_venues&hl=en) (2024年6月8日アクセス) のデータを使用している。
+本ポストは[google scholar's top publications ranking](https://scholar.google.com/citations?view_op=top_venues&hl=en)(2024年6月8日アクセス)のデータを使用している。
 
-カテゴリ "Engineering & Computer Science" のサブカテゴリ [Artificial Interigence (AI)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence) と [Computer Vision & Pattern Recognition (CV&PR)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition) を以下に示す。
+カテゴリ"Engineering & Computer Science"のサブカテゴリ[Artificial Interigence(AI)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)と[Computer Vision & Pattern Recognition(CV&PR)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)を以下に示す。
 
 |     | Name                                                                                             | Category | h5-index | h5-median | Date of Conference                               | Submission Deadline | Link                                                                                                                |
 | --- | ------------------------------------------------------------------------------------------------ | -------- | -------- | --------- | ------------------------------------------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------- |

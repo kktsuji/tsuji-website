@@ -6,11 +6,11 @@ lastmod:
 draft: false
 ---
 
-## トップ会議 (Google Scholar の h5-index)
+## トップ会議（Google Scholarのh5-index）
 
-本表は [google scholar's top publications ranking](https://scholar.google.com/citations?view_op=top_venues&hl=en) (2024年6月8日アクセス) のデータを使用している。
+本表は[google scholar's top publications ranking](https://scholar.google.com/citations?view_op=top_venues&hl=en)（2024年6月8日アクセス）のデータを使用している。
 
-カテゴリ "Engineering & Computer Science" のサブカテゴリ [Artificial Interigence (AI)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence) と [Computer Vision & Pattern Recognition (CV&PR)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition) を以下に示す。
+カテゴリ"Engineering & Computer Science"のサブカテゴリ[Artificial Interigence(AI)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence)と[Computer Vision & Pattern Recognition(CV&PR)](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_computervisionpatternrecognition)を以下に示す。
 
 (スマートフォン使用時は表を右へスクロール可能)
 
