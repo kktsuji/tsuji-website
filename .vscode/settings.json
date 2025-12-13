@@ -1,5 +1,8 @@
 {
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "[markdown]": {
+        "editor.defaultFormatter": "prettier.prettier-vscode"
+    }
 }
