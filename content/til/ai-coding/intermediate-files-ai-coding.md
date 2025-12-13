@@ -22,7 +22,7 @@ After: YYY
 Please update all relevant source code files to reflect these changes.
 ```
 
-Instead, you can bread it down into some steps and create intermediate files for each steps.
+Instead, you can break it down into some steps and create intermediate files for each steps.
 
 Key points:
 
@@ -92,6 +92,6 @@ Also, run tests to ensure everything works as expected.
 
 Note: It is better to use the AI agents for reviewing and testing rather than doing it manually.
 
-### Step 5: Review manually
+### Step 5: Review Manually
 
 Finally, review the changes and test results manually to ensure everything is correct.
