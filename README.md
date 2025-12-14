@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 154 [Posts](https://tsuji.tech/posts/).
+There are 155 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -25,6 +25,7 @@ There are 154 [Posts](https://tsuji.tech/posts/).
 
 ### ai-coding
 
+- [Custom Slash Commands for GitHub Copilot](https://tsuji.tech/custom-slash-command-github-copilot) ([JP](https://tsuji.tech//jp/custom-slash-command-github-copilot)) (Dec 14, 2025)
 - [Prepare Spec Kit Project for Specification-Driven AI Coding](https://tsuji.tech/prepare-speckit-project) ([JP](https://tsuji.tech//jp/prepare-speckit-project)) (Dec 14, 2025)
 - [Intermediate Files Improve AI Coding Performance](https://tsuji.tech/intermediate-files-ai-coding) ([JP](https://tsuji.tech//jp/intermediate-files-ai-coding)) (Dec 13, 2025)
 - [Wildcard "*" in Prompt for GitHub Copilot in VS Code](https://tsuji.tech/wildcard-prompt-github-copilot) ([JP](https://tsuji.tech//jp/wildcard-prompt-github-copilot)) (Dec 12, 2025)
