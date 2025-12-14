@@ -4,5 +4,8 @@
     "editor.defaultFormatter": "charliermarsh.ruff",
     "[markdown]": {
         "editor.defaultFormatter": "prettier.prettier-vscode"
-    }
+    },
+    "chat.promptFilesRecommendations": {
+        "kktsuji.translate": true
+    },
 }
