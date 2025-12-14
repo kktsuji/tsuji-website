@@ -65,7 +65,7 @@ sudo apt-get update
 These commands are crucial. They are essentially doing the following:
 
 - Adding the NVIDIA CUDA repository: This tells apt where to download CUDA packages from.
-  Adding the repository key: This ensures that the packages downloaded are authentic and haven't been tampered with.
+- Adding the repository key: This ensures that the packages downloaded are authentic and haven't been tampered with.
 - Updating package lists: This refreshes apt's knowledge of available packages.
 
 Only after these steps will sudo apt-get -y install cuda-12-1 be able to locate and install CUDA 12.1 successfully.

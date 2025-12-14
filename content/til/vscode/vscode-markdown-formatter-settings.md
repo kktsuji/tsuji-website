@@ -8,7 +8,7 @@ draft: false
 
 1. Install extension (markdown-all-in-one, markdownlint, etc.)
 2. Open VSCode settings.json
-   - File > Preferences > Settings or `Ctrl + ,` then click the `Open Setting (JSON)` icon on the top right corner
+   - File > Preferences > Settings or `Ctrl` + `,` then click the `Open Setting (JSON)` icon on the top right corner
    - Or open `%APPDATA%\Code\User\settings.json`
 3. Add the following settings to the settings.json file:
 
