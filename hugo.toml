@@ -33,15 +33,10 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
   [Languages.en.menu]
   [[Languages.en.menu.main]]
-    pageRef="blog"
-    name = 'Blog'
-    url = '/blog/'
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
     weight = 10
-  [[Languages.en.menu.main]]
-    pageRef="til"
-    name = 'TIL'
-    url = '/til/'
-    weight = 15
   [[Languages.en.menu.main]]
     pageRef="about"
     name = 'About'
@@ -96,15 +91,10 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   weight = 2
   [Languages.jp.menu]
   [[Languages.jp.menu.main]]
-    pageRef="blog"
-    name = 'Blog'
-    url = '/blog/'
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
     weight = 10
-  [[Languages.jp.menu.main]]
-    pageRef="til"
-    name = 'TIL'
-    url = '/til/'
-    weight = 15
   [[Languages.jp.menu.main]]
     pageRef="about"
     name = 'About'
@@ -161,6 +151,5 @@ name = "Rss"
 url = "index.xml"
 
 [permalinks]
-    blog = "/:filename/"
+    posts = "/:filename/"
     fixed = "/:filename/"
-    til = "/:filename/"

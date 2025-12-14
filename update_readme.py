@@ -6,8 +6,7 @@ import os
 
 
 _WEBSITE_URL = "https://tsuji.tech/"
-_BLOG_POSTS = "./content/blog/*/*.en.md"
-_TIL_POSTS = "./content/til/*"
+_POSTS = "./content/posts/*"
 
 
 def _make_intro_section():
@@ -63,51 +62,30 @@ def _get_post_draft_status_from_markdown_file(file_path):
     return False
 
 
-def _make_blog_posts_section():
-    date_post_pairs = [
-        [_get_post_date_from_markdown_file(post), post]
-        for post in glob.glob(_BLOG_POSTS)
-        if not _get_post_draft_status_from_markdown_file(post)
-    ]
-    date_post_pairs.sort(key=lambda x: x[0], reverse=True)
-
-    section = "## Blog Posts\n\n"
-    section += (
-        f"There are {len(date_post_pairs)} [blog](https://tsuji.tech/blog/) posts.\n\n"
-    )
-    for post_date, post in date_post_pairs:
-        post_url = post.split("/")[-1].replace(".en.md", "")
-        url_en = _WEBSITE_URL + post_url
-        url_jp = _WEBSITE_URL + "/jp/" + post_url
-        title = _get_post_title_from_markdown_file(post)
-        section += (
-            f"- [{title[1:-2]}]({url_en}) ([JP]({url_jp})) "
-            f"({post_date.strftime('%b %-d, %Y')})\n"
-        )
-    section += "\n"
-
-    return section
-
-
-def _make_til_posts_section():
-    til_categories = [item for item in glob.glob(_TIL_POSTS) if os.path.isdir(item)]
-    til_categories.sort()
+def _make_posts_section():
+    post_categories = [item for item in glob.glob(_POSTS) if os.path.isdir(item)]
+    post_categories.sort()
     post_num = len(
         [
             post
-            for post in glob.glob(_TIL_POSTS + "/*.md")
+            for post in glob.glob(_POSTS + "/*.md")
             if "_index" not in post
+            and ".jp.md" not in post
             and not _get_post_draft_status_from_markdown_file(post)
         ]
     )
 
-    section = "## TIL (Today I Learned) Posts\n\n"
-    section += f"There are {post_num} [TIL](https://tsuji.tech/til/) posts.\n\n"
-    for category in til_categories:
+    section = "## Posts\n\n"
+    section += f"There are {post_num} [Posts](https://tsuji.tech/posts/).\n\n"
+    for category in post_categories:
         category_name = category.split("/")[-1]
         section += f"### {category_name}\n\n"
 
-        posts = [post for post in glob.glob(category + "/*.md") if not "_index" in post]
+        posts = [
+            post
+            for post in glob.glob(category + "/*.md")
+            if not "_index" in post and ".jp.md" not in post
+        ]
         date_post_pairs = [
             [_get_post_date_from_markdown_file(post), post]
             for post in posts
@@ -116,10 +94,13 @@ def _make_til_posts_section():
         date_post_pairs.sort(key=lambda x: x[0], reverse=True)
 
         for post_date, post in date_post_pairs:
-            url = _WEBSITE_URL + post.split("/")[-1].replace(".md", "")
+            post_url = post.split("/")[-1].replace(".md", "")
+            url_en = _WEBSITE_URL + post_url
+            url_jp = _WEBSITE_URL + "/jp/" + post_url
             title = _get_post_title_from_markdown_file(post)
             section += (
-                f"- [{title[1:-2]}]({url}) ({post_date.strftime('%b %-d, %Y')})\n"
+                f"- [{title[1:-2]}]({url_en}) ([JP]({url_jp})) "
+                f"({post_date.strftime('%b %-d, %Y')})\n"
             )
         section += "\n"
 
@@ -130,14 +111,12 @@ def update_readme():
     """Update README.md with the latest content"""
     intro_section = _make_intro_section()
     fixed_section = _make_fixed_section()
-    til_posts_section = _make_til_posts_section()
-    blog_posts_section = _make_blog_posts_section()
+    posts_section = _make_posts_section()
 
     with open("README.md", mode="w", encoding="utf-8") as f:
         f.write(intro_section)
         f.write(fixed_section)
-        f.write(til_posts_section[:-1])
-        f.write(blog_posts_section)
+        f.write(posts_section[:-1])
 
 
 if __name__ == "__main__":
