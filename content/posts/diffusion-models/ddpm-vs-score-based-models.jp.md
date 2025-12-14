@@ -1,5 +1,5 @@
 ---
-title: "DDPM vs. Score-Based Models"
+title: "DDPM vs. スコアベースモデル"
 description: ""
 date: 2025-12-11T8:00:00+09:00
 lastmod:
@@ -17,7 +17,7 @@ draft: false
 - **プロセス**：固定された順方向プロセスがガウシアンノイズを追加し、逆方向プロセスを学習
 - **式**：$\|\epsilon - \epsilon_\theta(x_t, t)\|^2$を最小化
 
-**Score-Based Models**:
+**スコアベースモデル**:
 
 - **フレームワーク**：連続時間Diffusion（SDE）
 - **学習**：**スコア関数**$\nabla_x \log p(x)$（対数密度の勾配）を予測
