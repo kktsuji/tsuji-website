@@ -17,14 +17,14 @@ I analyzed how [spec-kit](https://github.com/github/spec-kit) implements custom 
 
 Based on the spec-kit implementation, here's how custom slash commands work:
 
-### **Core Architecture**
+### Core Architecture
 
 Custom slash commands consist of **two types of files**:
 
 1. **Prompt files** (`.github/prompts/*.prompt.md`) - Simple triggers
 2. **Agent files** (`.github/agents/*.agent.md`) - Full implementation logic
 
-### **File Structure**
+### File Structure
 
 ```text
 .github/
@@ -34,7 +34,7 @@ Custom slash commands consist of **two types of files**:
     └── speckit.specify.agent.md     # Full command logic
 ```
 
-### **1. Prompt Files (.prompt.md)**
+### 1. Prompt Files (.prompt.md)
 
 These are minimal trigger files that reference the agent:
 
@@ -46,7 +46,7 @@ agent: speckit.specify
 
 That's it! The prompt file just tells Copilot which agent to invoke.
 
-### **2. Agent Files (.agent.md)**
+### 2. Agent Files (.agent.md)
 
 These contain the actual command implementation with a frontmatter and instructions:
 
@@ -81,7 +81,7 @@ $ARGUMENTS
 - **$ARGUMENTS**: Captures text after the slash command
 - **Instructions**: Detailed workflow for Copilot to follow
 
-### **3. VS Code Settings Registration**
+### 3. VS Code Settings Registration
 
 Enable your commands in [.vscode/settings.json](.vscode/settings.json):
 
@@ -95,15 +95,15 @@ Enable your commands in [.vscode/settings.json](.vscode/settings.json):
 }
 ````
 
-### **Naming Convention**
+### Naming Convention
 
 - **File names**: `namespace.commandname.{agent|prompt}.md`
 - **Example**: speckit.specify.agent.md creates `/speckit.specify` command
 - The namespace (e.g., `speckit`) groups related commands
 
-### **Creating Your Own Command - Example**
+### Creating Your Own Command - Example
 
-**1. Create** .github/prompts/mykit.review.prompt.md:
+1. Create .github/prompts/mykit.review.prompt.md:
 
 ```markdown
 ---
@@ -111,7 +111,7 @@ agent: mykit.review
 ---
 ```
 
-**2. Create** .github/agents/mykit.review.agent.md:
+2. Create .github/agents/mykit.review.agent.md:
 
 ````markdown
 ---
@@ -141,7 +141,7 @@ $ARGUMENTS
 
 ````
 
-**3. Add to** [.vscode/settings.json](.vscode/settings.json):
+3. Add to [.vscode/settings.json](.vscode/settings.json):
 ```json
 {
     "chat.promptFilesRecommendations": {
@@ -150,14 +150,14 @@ $ARGUMENTS
 }
 ````
 
-### **Advanced Features**
+### Advanced Features
 
 - **Scripts**: Commands can invoke bash/PowerShell scripts in `.specify/scripts/`
 - **Templates**: Store reusable content in `.specify/templates/`
 - **Auto-approval**: Configure trusted scripts in settings for auto-execution
 - **Handoffs**: Chain commands together with suggested follow-ups
 
-The system is very flexible - you can create simple commands with basic instructions or complex workflows with multiple phases, script execution, and file generation!### **Advanced Features**
+The system is very flexible - you can create simple commands with basic instructions or complex workflows with multiple phases, script execution, and file generation!### Advanced Features
 
 - **Scripts**: Commands can invoke bash/PowerShell scripts in `.specify/scripts/`
 - **Templates**: Store reusable content in `.specify/templates/`
@@ -172,13 +172,13 @@ It's not required, but it's **highly recommended** for better user experience.
 
 ### How commands work:
 
-**Without settings.json:**
+Without settings.json:
 
 - Commands still work if you type them manually (e.g., `/speckit.specify`)
 - Copilot finds them from `.github/prompts/*.prompt.md` files
 - No autocomplete suggestions when typing `/`
 
-**With `chat.promptFilesRecommendations`:**
+With `chat.promptFilesRecommendations`:
 
 - ✅ Commands appear in autocomplete dropdown
 - ✅ Users discover available commands easily
@@ -197,13 +197,13 @@ It's not required, but it's **highly recommended** for better user experience.
 }
 ```
 
-**When to use settings.json:**
+When to use settings.json:
 
 - Commands you want users to easily discover
 - Team/project-specific workflows
 - Commands used frequently
 
-**When to skip:**
+When to skip:
 
 - Experimental/internal commands
 - Commands you want to keep "hidden"
@@ -213,5 +213,5 @@ It's not required, but it's **highly recommended** for better user experience.
 
 You can also define this in:
 
-- **User settings** (settings.json) - personal commands
-- **Workspace settings** (settings.json) - team/project commands ← **Recommended for shared projects**
+- User settings (settings.json) - personal commands
+- Workspace settings (settings.json) - team/project commands ← Recommended for shared projects

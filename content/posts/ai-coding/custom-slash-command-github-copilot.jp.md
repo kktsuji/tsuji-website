@@ -17,14 +17,14 @@ GitHub Copilot用のカスタムslashコマンドを作成できます。
 
 spec-kitの実装に基づいて、カスタムslashコマンドの仕組みを説明します:
 
-### **コアアーキテクチャ**
+### コアアーキテクチャ
 
 カスタムslashコマンドは**2種類のファイル**で構成されます:
 
 1. **Promptファイル**(`.github/prompts/*.prompt.md`) - シンプルなトリガー
 2. **Agentファイル**(`.github/agents/*.agent.md`) - 完全な実装ロジック
 
-### **ファイル構造**
+### ファイル構造
 
 ```text
 .github/
@@ -34,7 +34,7 @@ spec-kitの実装に基づいて、カスタムslashコマンドの仕組みを�
     └── speckit.specify.agent.md     # 完全なコマンドロジック
 ```
 
-### **1. Promptファイル(.prompt.md)**
+### 1. Promptファイル(.prompt.md)
 
 これらはagentを参照する最小限のトリガーファイルです:
 
@@ -46,7 +46,7 @@ agent: speckit.specify
 
 これだけです!promptファイルは単にCopilotにどのagentを呼び出すかを伝えるだけです。
 
-### **2. Agentファイル(.agent.md)**
+### 2. Agentファイル(.agent.md)
 
 これらはfrontmatterと指示を含む実際のコマンド実装を含みます:
 
@@ -81,7 +81,7 @@ $ARGUMENTS
 - **$ARGUMENTS**: slashコマンドの後のテキストをキャプチャ
 - **Instructions**: Copilotが従うべき詳細なワークフロー
 
-### **3. VS Code設定の登録**
+### 3. VS Code設定の登録
 
 [.vscode/settings.json](.vscode/settings.json)でコマンドを有効にします:
 
@@ -95,15 +95,15 @@ $ARGUMENTS
 }
 ````
 
-### **命名規則**
+### 命名規則
 
 - **ファイル名**: `namespace.commandname.{agent|prompt}.md`
 - **例**: speckit.specify.agent.mdは`/speckit.specify`コマンドを作成
 - namespace(例:`speckit`)は関連するコマンドをグループ化
 
-### **独自のコマンドの作成 - 例**
+### 独自のコマンドの作成 - 例
 
-**1. 作成** .github/prompts/mykit.review.prompt.md:
+1. 作成 .github/prompts/mykit.review.prompt.md:
 
 ```markdown
 ---
@@ -111,7 +111,7 @@ agent: mykit.review
 ---
 ```
 
-**2. 作成** .github/agents/mykit.review.agent.md:
+2. 作成 .github/agents/mykit.review.agent.md:
 
 ````markdown
 ---
@@ -141,7 +141,7 @@ $ARGUMENTS
 
 ````
 
-**3. 追加** [.vscode/settings.json](.vscode/settings.json):
+3. 追加 [.vscode/settings.json](.vscode/settings.json):
 ```json
 {
     "chat.promptFilesRecommendations": {
@@ -150,7 +150,7 @@ $ARGUMENTS
 }
 ````
 
-### **高度な機能**
+### 高度な機能
 
 - **Scripts**: コマンドは`.specify/scripts/`内のbash/PowerShellスクリプトを呼び出せる
 - **Templates**: `.specify/templates/`に再利用可能なコンテンツを保存
@@ -165,13 +165,13 @@ $ARGUMENTS
 
 ### コマンドの動作方法:
 
-**settings.jsonなし:**
+settings.jsonなし:
 
 - 手動で入力すればコマンドは動作します(例:`/speckit.specify`)
 - Copilotは`.github/prompts/*.prompt.md`ファイルからそれらを見つける
 - `/`を入力してもオートコンプリートの提案はなし
 
-**`chat.promptFilesRecommendations`あり:**
+`chat.promptFilesRecommendations`あり:
 
 - ✅コマンドがオートコンプリートのドロップダウンに表示される
 - ✅ユーザーが利用可能なコマンドを簡単に発見できる
@@ -190,13 +190,13 @@ $ARGUMENTS
 }
 ```
 
-**settings.jsonを使用する場合:**
+settings.jsonを使用する場合:
 
 - ユーザーに簡単に発見してほしいコマンド
 - チーム/プロジェクト固有のワークフロー
 - 頻繁に使用されるコマンド
 
-**スキップする場合:**
+スキップする場合:
 
 - 実験的/内部コマンド
 - "隠しておきたい"コマンド
@@ -206,5 +206,5 @@ $ARGUMENTS
 
 これを以下で定義することもできます:
 
-- **User settings**(settings.json) - 個人用コマンド
-- **Workspace settings**(settings.json) - チーム/プロジェクト用コマンド ← **共有プロジェクトに推奨**
+- User settings(settings.json) - 個人用コマンド
+- Workspace settings(settings.json) - チーム/プロジェクト用コマンド ← 共有プロジェクトに推奨
