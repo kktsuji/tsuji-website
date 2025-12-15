@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 155 [Posts](https://tsuji.tech/posts/).
+There are 156 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -25,6 +25,7 @@ There are 155 [Posts](https://tsuji.tech/posts/).
 
 ### ai-coding
 
+- [Standard Docs for Spec Kit Reduce Conflicts of Specifications in Each Feature](https://tsuji.tech/standard-docs-spec-kit) ([JP](https://tsuji.tech//jp/standard-docs-spec-kit)) (Dec 15, 2025)
 - [Custom Slash Commands for GitHub Copilot](https://tsuji.tech/custom-slash-command-github-copilot) ([JP](https://tsuji.tech//jp/custom-slash-command-github-copilot)) (Dec 14, 2025)
 - [Prepare Spec Kit Project for Specification-Driven AI Coding](https://tsuji.tech/prepare-speckit-project) ([JP](https://tsuji.tech//jp/prepare-speckit-project)) (Dec 14, 2025)
 - [Intermediate Files Improve AI Coding Performance](https://tsuji.tech/intermediate-files-ai-coding) ([JP](https://tsuji.tech//jp/intermediate-files-ai-coding)) (Dec 13, 2025)
