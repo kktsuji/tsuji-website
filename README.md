@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 156 [Posts](https://tsuji.tech/posts/).
+There are 157 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -29,8 +29,8 @@ There are 156 [Posts](https://tsuji.tech/posts/).
 - [Custom Slash Commands for GitHub Copilot](https://tsuji.tech/custom-slash-command-github-copilot) ([JP](https://tsuji.tech//jp/custom-slash-command-github-copilot)) (Dec 14, 2025)
 - [Prepare Spec Kit Project for Specification-Driven AI Coding](https://tsuji.tech/prepare-speckit-project) ([JP](https://tsuji.tech//jp/prepare-speckit-project)) (Dec 14, 2025)
 - [Intermediate Files Improve AI Coding Performance](https://tsuji.tech/intermediate-files-ai-coding) ([JP](https://tsuji.tech//jp/intermediate-files-ai-coding)) (Dec 13, 2025)
-- [Wildcard "*" in Prompt for GitHub Copilot in VS Code](https://tsuji.tech/wildcard-prompt-github-copilot) ([JP](https://tsuji.tech//jp/wildcard-prompt-github-copilot)) (Dec 12, 2025)
 - [Chat Debug View of GitHub Copilot in VS Code](https://tsuji.tech/chat-debug-view-github-copilot) ([JP](https://tsuji.tech//jp/chat-debug-view-github-copilot)) (Dec 12, 2025)
+- [Wildcard "*" in Prompt for GitHub Copilot in VS Code](https://tsuji.tech/wildcard-prompt-github-copilot) ([JP](https://tsuji.tech//jp/wildcard-prompt-github-copilot)) (Dec 12, 2025)
 
 ### aws
 
@@ -80,12 +80,12 @@ There are 156 [Posts](https://tsuji.tech/posts/).
 
 ### diffusion-models
 
-- [Main Categories of Generative Models](https://tsuji.tech/generative-models-main-categories) ([JP](https://tsuji.tech//jp/generative-models-main-categories)) (Dec 11, 2025)
 - [DDPM vs. Score-Based Models](https://tsuji.tech/ddpm-vs-score-based-models) ([JP](https://tsuji.tech//jp/ddpm-vs-score-based-models)) (Dec 11, 2025)
+- [Main Categories of Generative Models](https://tsuji.tech/generative-models-main-categories) ([JP](https://tsuji.tech//jp/generative-models-main-categories)) (Dec 11, 2025)
 - [torch.nn.Conv2d vs torch.nn.ConvTranspose2d in Machine Learning](https://tsuji.tech/torch-nn-conv2d-vs-convtranspose2d) ([JP](https://tsuji.tech//jp/torch-nn-conv2d-vs-convtranspose2d)) (Nov 28, 2025)
 - [Checkerboard Artifacts Caused by UNet Upsampling in Diffusion Models](https://tsuji.tech/diffusion-unet-upsampling-chckerboard-artifacts) ([JP](https://tsuji.tech//jp/diffusion-unet-upsampling-chckerboard-artifacts)) (Nov 28, 2025)
-- [Debugging Latent Diffusion VAE Issues](https://tsuji.tech/debug-diffusion-vae) ([JP](https://tsuji.tech//jp/debug-diffusion-vae)) (Oct 29, 2025)
 - [Use Other Components with Diffusers](https://tsuji.tech/use-other-components-diffusers) ([JP](https://tsuji.tech//jp/use-other-components-diffusers)) (Oct 29, 2025)
+- [Debugging Latent Diffusion VAE Issues](https://tsuji.tech/debug-diffusion-vae) ([JP](https://tsuji.tech//jp/debug-diffusion-vae)) (Oct 29, 2025)
 - [Versions of Stable Diffusion](https://tsuji.tech/stable-diffusion-versions) ([JP](https://tsuji.tech//jp/stable-diffusion-versions)) (Oct 28, 2025)
 - [Diffusion Models: Pixel Space vs. Latent Space](https://tsuji.tech/pixel-space-vs-latent-space-diffusion) ([JP](https://tsuji.tech//jp/pixel-space-vs-latent-space-diffusion)) (Oct 27, 2025)
 - [Expected Values](https://tsuji.tech/expected-values) ([JP](https://tsuji.tech//jp/expected-values)) (Oct 24, 2025)
@@ -167,9 +167,9 @@ There are 156 [Posts](https://tsuji.tech/posts/).
 
 ### math
 
-- [Differentiation of Logarithmic Functions](https://tsuji.tech/differentiation-of-logarithms) ([JP](https://tsuji.tech//jp/differentiation-of-logarithms)) (Oct 22, 2025)
-- [Chain Rule in Calculus](https://tsuji.tech/chain-rule) ([JP](https://tsuji.tech//jp/chain-rule)) (Oct 22, 2025)
 - [Differentiation vs. Derivative](https://tsuji.tech/differentiation-vs-derivative) ([JP](https://tsuji.tech//jp/differentiation-vs-derivative)) (Oct 22, 2025)
+- [Chain Rule in Calculus](https://tsuji.tech/chain-rule) ([JP](https://tsuji.tech//jp/chain-rule)) (Oct 22, 2025)
+- [Differentiation of Logarithmic Functions](https://tsuji.tech/differentiation-of-logarithms) ([JP](https://tsuji.tech//jp/differentiation-of-logarithms)) (Oct 22, 2025)
 - [Real Number R in Math](https://tsuji.tech/real-number-r) ([JP](https://tsuji.tech//jp/real-number-r)) (Aug 23, 2025)
 - [Homomorphism v.s. Morphism](https://tsuji.tech/homomorphism-vs-morphism) ([JP](https://tsuji.tech//jp/homomorphism-vs-morphism)) (Dec 14, 2024)
 - [Right Arrow - Math Symbol](https://tsuji.tech/right-arrow) ([JP](https://tsuji.tech//jp/right-arrow)) (Dec 13, 2024)
@@ -270,6 +270,7 @@ There are 156 [Posts](https://tsuji.tech/posts/).
 
 ### vscode
 
+- [Open Recent Project in VSCode](https://tsuji.tech/open-recent-project-vscode) ([JP](https://tsuji.tech//jp/open-recent-project-vscode)) (Dec 16, 2025)
 - [VSCode Keyboard Shortcuts Settings - for Me](https://tsuji.tech/vscode-keyboard-shortcut-settings-for-me) ([JP](https://tsuji.tech//jp/vscode-keyboard-shortcut-settings-for-me)) (Nov 28, 2025)
 - [VSCode Keyboard Shortcuts Settings](https://tsuji.tech/vscode-keyboard-shortcuts-settings) ([JP](https://tsuji.tech//jp/vscode-keyboard-shortcuts-settings)) (Oct 22, 2025)
 - [Hide Header in Markdown PDF for VSCode](https://tsuji.tech/hide-header-markdown-pdf-vscode) ([JP](https://tsuji.tech//jp/hide-header-markdown-pdf-vscode)) (Apr 8, 2025)
