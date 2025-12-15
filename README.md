@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 157 [Posts](https://tsuji.tech/posts/).
+There are 158 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -116,6 +116,7 @@ There are 157 [Posts](https://tsuji.tech/posts/).
 
 ### git
 
+- [Git Tag](https://tsuji.tech/git-tag) ([JP](https://tsuji.tech//jp/git-tag)) (Dec 16, 2025)
 - [Git Cherry-Pick No Commit Option](https://tsuji.tech/git-cherry-pick-no-commit-option) ([JP](https://tsuji.tech//jp/git-cherry-pick-no-commit-option)) (Nov 27, 2024)
 - [Git Merge Fast-Forward Options](https://tsuji.tech/git-merge-fast-forward-options) ([JP](https://tsuji.tech//jp/git-merge-fast-forward-options)) (Nov 14, 2024)
 - [Git Diff with Only File Names](https://tsuji.tech/git-diff-name-only) ([JP](https://tsuji.tech//jp/git-diff-name-only)) (Nov 11, 2024)
