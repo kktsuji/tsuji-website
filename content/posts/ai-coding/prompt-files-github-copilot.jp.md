@@ -24,7 +24,7 @@ GUI:
 2. チャットサイドバーの上部にある設定歯車アイコンの"Create New Prompt"をクリックします。
 3. 提供されたインターフェースを使用して、プロンプトの名前、説明、および動作を定義します。
 
-## プロンプトファイルのVSCode設定
+## （任意）プロンプトファイルのVSCode設定
 
 `.vscode/settings.json`を設定して、プロンプトファイルのSUGGESTED ACTIONSを次のように設定できます:
 
@@ -82,4 +82,6 @@ GitHub Copilotのためのプロンプトファイルの作成と設定の詳細
 │   └── namespace.agent-name.agent.md     # カスタムエージェント
 └── prompts/
     └── namespace.prompt-name.prompt.md    # プロンプトファイル
+.vscode/
+    └── settings.json                      # プロンプトファイルのVSCode設定 (任意)
 ```

@@ -24,7 +24,7 @@ GUI:
 2. Click on the "Create New Prompt" in setting gear icon (at the top of the chat sidebar).
 3. Define the prompt's name, description, and behavior using the provided interface.
 
-## VSCode Settings for Prompt Files
+## (Optional) VSCode Settings for Prompt Files
 
 You can configure `.vscode/settings.json` to set SUGGESTED ACTIONS for prompt files as follows:
 
@@ -82,4 +82,6 @@ File Structure:
 │   └── namespace.agent-name.agent.md     # Custom agent
 └── prompts/
     └── namespace.prompt-name.prompt.md    # Prompt file
+.vscode/
+    └── settings.json                      # VSCode settings for prompt files (optional)
 ```
