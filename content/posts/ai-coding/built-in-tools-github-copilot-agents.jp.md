@@ -1,5 +1,5 @@
 ---
-title: "GitHub Copilotエージェントのビルトインツール"
+title: "GitHub Copilotエージェントの組み込みツール"
 description: ""
 date: 2025-12-23T8:00:00+09:00
 lastmod:
@@ -7,13 +7,13 @@ math: true
 draft: false
 ---
 
-## GitHub Copilotエージェントのビルトインツール
+## GitHub Copilotエージェントの組み込みツール
 
-GitHub Copilot エージェントは、その機能を強化できる[ビルトインツール](https://code.visualstudio.com/docs/copilot/chat/chat-tools)の使用をサポートしています。
+GitHub Copilot エージェントは、その機能を強化できる[組み込みツール](https://code.visualstudio.com/docs/copilot/chat/chat-tools)の使用をサポートしています。
 
 ## Configure Tools (GUI)
 
-Visual Studio CodeのGitHub Copilot設定で、AIエージェントに対してどのビルトインツールを有効にするかを設定できます。
+Visual Studio CodeのGitHub Copilot設定で、AIエージェントに対してどの組み込みツールを有効にするかを設定できます。
 
 1. VS Codeでチャットサイドバーを開く
 2. 設定したいエージェントを選択する(チャット入力ボックスの左下のドロップダウン)
@@ -22,12 +22,12 @@ Visual Studio CodeのGitHub Copilot設定で、AIエージェントに対して�
 
 ## Custom Agents Settings
 
-[カスタムエージェント](https://code.visualstudio.com/docs/copilot/customization/custom-agents)を定義する際、エージェント定義ファイル(`.agent.md`)に`tools`セクションを含めることで、エージェントが使用できるビルトインツールを指定できます。
+[カスタムエージェント](https://code.visualstudio.com/docs/copilot/customization/custom-agents)を定義する際、エージェント定義ファイル(`.agent.md`)に`tools`セクションを含めることで、エージェントが使用できる組み込みツールを指定できます。
 
 ```markdown
 ---
 description: aaa
-tools: ["create_directory", "create_file"] # エージェントが使用できるビルトインツールのリスト
+tools: ["create_directory", "create_file"] # エージェントが使用できる組み込みツールのリスト
 handoffs:
   - label: xxx
     agent: yyy
@@ -99,7 +99,7 @@ Available tools:
 
 VS Codeの`Chat Debug View`でそれらの詳細を確認することもできます（[以前の投稿](https://tsuji.tech/jp/chat-debug-view-github-copilot/)を参照）。
 
-- エージェントによって使用されたビルトインツール
-- ビルトインツールに渡された入力パラメータ
-- ビルトインツールから返された出力結果
+- エージェントによって使用された組み込みツール
+- 組み込みツールに渡された入力パラメータ
+- 組み込みツールから返された出力結果
 - など
