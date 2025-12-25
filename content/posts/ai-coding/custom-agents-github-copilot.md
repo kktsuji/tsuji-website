@@ -52,22 +52,22 @@ See the [official documentation](https://code.visualstudio.com/docs/copilot/cust
 2. Select your custom agent from the agent selection dropdown (at the bottom left of the chat input box).
 3. Interact with the agent by typing prompts or commands in the chat input box.
 
-## Custom Prompts vs. Custom Agents
+## Prompt Files vs. Custom Agents
 
-| Feature     | [Custom Prompts](https://code.visualstudio.com/docs/copilot/customization/prompt-files) | [Custom Agents](https://code.visualstudio.com/docs/copilot/customization/custom-agents) |
-| ----------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| Purpose     | Simple triggers to invoke agents                                                        | Full implementation logic for complex tasks                                             |
-| File Type   | `.prompt.md` files                                                                      | `.agent.md` files                                                                       |
-| Complexity  | Minimal frontmatter, just points to an agent                                            | Detailed frontmatter with tools, handoffs, and instructions                             |
-| Use Cases   | Quick commands, simple tasks                                                            | Comprehensive workflows, multi-step processes                                           |
-| Persistence | Just one response per invocation                                                        | Can maintain context over multiple interactions in a session                            |
+| Feature     | [Prompt Files](https://code.visualstudio.com/docs/copilot/customization/prompt-files) | [Custom Agents](https://code.visualstudio.com/docs/copilot/customization/custom-agents) |
+| ----------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Purpose     | Simple triggers to invoke agents                                                      | Full implementation logic for complex tasks                                             |
+| File Type   | `.prompt.md` files                                                                    | `.agent.md` files                                                                       |
+| Complexity  | Minimal frontmatter, just points to an agent                                          | Detailed frontmatter with tools, handoffs, and instructions                             |
+| Use Cases   | Quick commands, simple tasks                                                          | Comprehensive workflows, multi-step processes                                           |
+| Persistence | Just one response per invocation                                                      | Can maintain context over multiple interactions in a session                            |
 
 File Structure:
 
 ```text
 .github/
 ├── agents/
-│   └── speckit.specify.agent.md     # Custom agent
+│   └── namespace.agent-name.agent.md     # Custom agent
 └── prompts/
-    └── speckit.specify.prompt.md    # Custom prompt
+    └── namespace.prompt-name.prompt.md    # Prompt file
 ```

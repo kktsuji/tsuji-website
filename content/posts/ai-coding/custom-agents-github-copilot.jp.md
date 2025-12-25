@@ -52,9 +52,9 @@ GitHub Copilotのカスタムエージェントの作成と設定の詳細につ
 2. agent選択ドロップダウン(チャット入力ボックスの左下)からcustom agentを選択します。
 3. チャット入力ボックスにプロンプトやコマンドを入力して、agentと対話します。
 
-## カスタムプロンプト vs. カスタムエージェント
+## プロンプトファイルvs.カスタムエージェント
 
-| 機能           | [カスタムプロンプト](https://code.visualstudio.com/docs/copilot/customization/prompt-files) | [カスタムエージェント](https://code.visualstudio.com/docs/copilot/customization/custom-agents) |
+| 機能           | [プロンプトファイル](https://code.visualstudio.com/docs/copilot/customization/prompt-files) | [カスタムエージェント](https://code.visualstudio.com/docs/copilot/customization/custom-agents) |
 | -------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | 目的           | agentを呼び出すシンプルなトリガー                                                           | 複雑なタスクのための完全な実装ロジック                                                         |
 | ファイルタイプ | `.prompt.md`ファイル                                                                        | `.agent.md`ファイル                                                                            |
@@ -67,7 +67,7 @@ GitHub Copilotのカスタムエージェントの作成と設定の詳細につ
 ```text
 .github/
 ├── agents/
-│   └── speckit.specify.agent.md     # カスタムエージェント
+│   └── namespace.agent-name.agent.md     # カスタムエージェント
 └── prompts/
-    └── speckit.specify.prompt.md    # カスタムプロンプト
+    └── namespace.prompt-name.prompt.md    # プロンプトファイル
 ```
