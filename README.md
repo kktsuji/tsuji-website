@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 161 [Posts](https://tsuji.tech/posts/).
+There are 162 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -25,6 +25,7 @@ There are 161 [Posts](https://tsuji.tech/posts/).
 
 ### ai-coding
 
+- [Custom Agents for GitHub Copilot](https://tsuji.tech/custom-agents-github-copilot) ([JP](https://tsuji.tech//jp/custom-agents-github-copilot)) (Dec 25, 2025)
 - [Built-in Tools in GitHub Copilot Agents](https://tsuji.tech/built-in-tools-github-copilot-agents) ([JP](https://tsuji.tech//jp/built-in-tools-github-copilot-agents)) (Dec 23, 2025)
 - [Prompt Files vs Custom Agents in GitHub Copilot](https://tsuji.tech/prompt-files-vs-custom-agents-github-copilot) ([JP](https://tsuji.tech//jp/prompt-files-vs-custom-agents-github-copilot)) (Dec 18, 2025)
 - [Standard Docs for Spec Kit Reduce Conflicts of Specifications in Each Feature](https://tsuji.tech/standard-docs-spec-kit) ([JP](https://tsuji.tech//jp/standard-docs-spec-kit)) (Dec 15, 2025)
