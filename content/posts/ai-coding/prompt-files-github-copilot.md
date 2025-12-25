@@ -81,7 +81,7 @@ File Structure:
 ├── agents/
 │   └── namespace.agent-name.agent.md     # Custom agent
 └── prompts/
-    └── namespace.prompt-name.prompt.md    # Prompt file
+    └── namespace.prompt-name.prompt.md   # Prompt file
 .vscode/
-    └── settings.json                      # VSCode settings for prompt files (optional)
+└── settings.json                         # VSCode settings for prompt files (optional)
 ```

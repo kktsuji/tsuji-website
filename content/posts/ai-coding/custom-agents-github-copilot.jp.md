@@ -69,5 +69,7 @@ GitHub Copilotのカスタムエージェントの作成と設定の詳細につ
 ├── agents/
 │   └── namespace.agent-name.agent.md     # カスタムエージェント
 └── prompts/
-    └── namespace.prompt-name.prompt.md    # プロンプトファイル
+    └── namespace.prompt-name.prompt.md   # プロンプトファイル
+.vscode/
+└── settings.json                         # プロンプトファイルのVSCode設定 (任意)
 ```
