@@ -24,20 +24,6 @@ GUI:
 2. チャットサイドバーの上部にある設定歯車アイコンの"Create New Prompt"をクリックします。
 3. 提供されたインターフェースを使用して、プロンプトの名前、説明、および動作を定義します。
 
-## （任意）プロンプトファイルのVSCode設定
-
-`.vscode/settings.json`を設定して、プロンプトファイルのSUGGESTED ACTIONSを次のように設定できます:
-
-```json
-{
-  "chat.promptFilesRecommendations": {
-    "namespace.prompt-name": true
-  }
-}
-```
-
-`chat.promptFilesRecommendations`の下にリストされたプロンプトファイルは、GitHub Copilotチャットサイドバーに推奨アクションとして表示されます。
-
 ## プロンプトファイル定義の例
 
 ```markdown
@@ -57,6 +43,20 @@ tools: ["file_search"]
 ```
 
 GitHub Copilotのためのプロンプトファイルの作成と設定の詳細については、[公式ドキュメント](https://code.visualstudio.com/docs/copilot/customization/prompt-files)を参照してください。
+
+## （任意）プロンプトファイルのVSCode設定
+
+`.vscode/settings.json`を設定して、プロンプトファイルのSUGGESTED ACTIONSを次のように設定できます:
+
+```json
+{
+  "chat.promptFilesRecommendations": {
+    "namespace.prompt-name": true
+  }
+}
+```
+
+`chat.promptFilesRecommendations`の下にリストされたプロンプトファイルは、GitHub Copilotチャットサイドバーに推奨アクションとして表示されます。
 
 ## プロンプトファイルの使用方法
 

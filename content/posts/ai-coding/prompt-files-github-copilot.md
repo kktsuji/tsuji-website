@@ -24,20 +24,6 @@ GUI:
 2. Click on the "Create New Prompt" in setting gear icon (at the top of the chat sidebar).
 3. Define the prompt's name, description, and behavior using the provided interface.
 
-## (Optional) VSCode Settings for Prompt Files
-
-You can configure `.vscode/settings.json` to set SUGGESTED ACTIONS for prompt files as follows:
-
-```json
-{
-  "chat.promptFilesRecommendations": {
-    "namespace.prompt-name": true
-  }
-}
-```
-
-The prompt files listed under `chat.promptFilesRecommendations` will appear as suggested actions in the GitHub Copilot chat sidebar.
-
 ## Example of a Prompt File Definition
 
 ```markdown
@@ -57,6 +43,20 @@ You are a professional translator. Translate the following English text into Fre
 ```
 
 See the [official documentation](https://code.visualstudio.com/docs/copilot/customization/prompt-files) for more details on creating and configuring prompt files for GitHub Copilot.
+
+## (Optional) VSCode Settings for Prompt Files
+
+You can configure `.vscode/settings.json` to set SUGGESTED ACTIONS for prompt files as follows:
+
+```json
+{
+  "chat.promptFilesRecommendations": {
+    "namespace.prompt-name": true
+  }
+}
+```
+
+The prompt files listed under `chat.promptFilesRecommendations` will appear as suggested actions in the GitHub Copilot chat sidebar.
 
 ## How to Use Prompt Files
 
