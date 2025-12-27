@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 162 [Posts](https://tsuji.tech/posts/).
+There are 163 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -283,6 +283,7 @@ There are 162 [Posts](https://tsuji.tech/posts/).
 
 ### windows
 
+- [Solve 'The action can't be completed because the file is open in COM Surrogate': COM Surrogate File Lock Issue in Windows](https://tsuji.tech/solve-com-surrogate-file-lock-issue) ([JP](https://tsuji.tech//jp/solve-com-surrogate-file-lock-issue)) (Dec 27, 2025)
 - [Aero Shake in Windows](https://tsuji.tech/aero-shake-windows) ([JP](https://tsuji.tech//jp/aero-shake-windows)) (Dec 16, 2025)
 - [Remap Caps Lock to Ctrl via Registry Editor on Windows](https://tsuji.tech/remap-caps-lock-ctrl-registry) ([JP](https://tsuji.tech//jp/remap-caps-lock-ctrl-registry)) (Oct 21, 2025)
 - [Copy Microsoft PowerToys Settings](https://tsuji.tech/copy-microsoft-powertoys-settings) ([JP](https://tsuji.tech//jp/copy-microsoft-powertoys-settings)) (Oct 18, 2025)
