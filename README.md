@@ -74,10 +74,10 @@ There are 170 [Posts](https://tsuji.tech/posts/).
 
 - [Entity-Relationship (ER) Diagrams in Database Design](https://tsuji.tech/er-diagrms-database-design) ([JP](https://tsuji.tech//jp/er-diagrms-database-design)) (Dec 31, 2025)
 - [Normalization in Database Design](https://tsuji.tech/normalization-database-design) ([JP](https://tsuji.tech//jp/normalization-database-design)) (Dec 31, 2025)
+- [Three Types of Approaches to Database Design](https://tsuji.tech/three-approaches-database-design) ([JP](https://tsuji.tech//jp/three-approaches-database-design)) (Dec 31, 2025)
 - [Three-schema Architecture in Database Systems](https://tsuji.tech/three-schema-architecture-database) ([JP](https://tsuji.tech//jp/three-schema-architecture-database)) (Dec 31, 2025)
 - [Three-level Data Modeling in Databases Design](https://tsuji.tech/three-lavels-data-modeling) ([JP](https://tsuji.tech//jp/three-lavels-data-modeling)) (Dec 31, 2025)
 - [Top-down vs Bottom-up Database Design](https://tsuji.tech/topdown-vs-bottom-up-database-design) ([JP](https://tsuji.tech//jp/topdown-vs-bottom-up-database-design)) (Dec 31, 2025)
-- [Three Types of Approaches to Database Design](https://tsuji.tech/database-design-three-approaches) ([JP](https://tsuji.tech//jp/database-design-three-approaches)) (Dec 31, 2025)
 
 ### deep-learning
 
