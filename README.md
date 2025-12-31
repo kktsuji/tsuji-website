@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 163 [Posts](https://tsuji.tech/posts/).
+There are 164 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -69,6 +69,9 @@ There are 163 [Posts](https://tsuji.tech/posts/).
 ### data-augmentation
 
 - [Data augmentation: A comprehensive survey of modern approaches](https://tsuji.tech/data-augmentation-array2022) ([JP](https://tsuji.tech//jp/data-augmentation-array2022)) (Sep 29, 2024)
+
+### database
+
 
 ### deep-learning
 
@@ -294,6 +297,7 @@ There are 163 [Posts](https://tsuji.tech/posts/).
 
 ### wsl
 
+- [Disable Windows Environment Variables in WSL](https://tsuji.tech/disable-windows-environment-variables-wsl) ([JP](https://tsuji.tech//jp/disable-windows-environment-variables-wsl)) (Dec 31, 2025)
 - [Network Option for Docker in WSL](https://tsuji.tech/docker-wsl-network-option) ([JP](https://tsuji.tech//jp/docker-wsl-network-option)) (Aug 4, 2025)
 - [Move WSL from C Drive to Other Drive](https://tsuji.tech/move-wsl-to-other-drive) ([JP](https://tsuji.tech//jp/move-wsl-to-other-drive)) (Aug 3, 2025)
 - [Use NVIDIA GPU with WSL Docker](https://tsuji.tech/use-nvidia-gpu-with-wsl-docker) ([JP](https://tsuji.tech//jp/use-nvidia-gpu-with-wsl-docker)) (Mar 28, 2025)
