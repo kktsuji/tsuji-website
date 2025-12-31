@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 166 [Posts](https://tsuji.tech/posts/).
+There are 167 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -74,6 +74,7 @@ There are 166 [Posts](https://tsuji.tech/posts/).
 
 - [Three-schema Architecture in Database Systems](https://tsuji.tech/three-schema-architecture-database) ([JP](https://tsuji.tech//jp/three-schema-architecture-database)) (Dec 31, 2025)
 - [Three-level Data Modeling in Databases Design](https://tsuji.tech/three-lavels-data-modeling) ([JP](https://tsuji.tech//jp/three-lavels-data-modeling)) (Dec 31, 2025)
+- [Three Types of Approaches to Database Design](https://tsuji.tech/database-design-three-approaches) ([JP](https://tsuji.tech//jp/database-design-three-approaches)) (Dec 31, 2025)
 
 ### deep-learning
 
