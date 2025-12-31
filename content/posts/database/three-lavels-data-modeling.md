@@ -1,5 +1,5 @@
 ---
-title: "Three-level Data Modeling in Databases"
+title: "Three-level Data Modeling in Databases Design"
 description: ""
 date: 2025-12-31T11:00:00+09:00
 lastmod:
@@ -7,7 +7,7 @@ math: false
 draft: false
 ---
 
-## Three-level Data Modeling in Databases
+## Three-level Data Modeling in Databases Design
 
 Three-level data modeling is a framework used in database design to separate the different levels of abstraction in data representation. It consists of three levels: the conceptual level, the logical level, and the physical level.
 
