@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 170 [Posts](https://tsuji.tech/posts/).
+There are 171 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -227,6 +227,10 @@ There are 170 [Posts](https://tsuji.tech/posts/).
 - [SAM 2: Segment Anything in Images and Videos](https://tsuji.tech/sam2-arxiv2024) ([JP](https://tsuji.tech//jp/sam2-arxiv2024)) (Sep 17, 2024)
 - [Segment Anything](https://tsuji.tech/sam-arxiv2023) ([JP](https://tsuji.tech//jp/sam-arxiv2023)) (Sep 16, 2024)
 - [Segment Anything in Medical Images](https://tsuji.tech/medical-sam-arxiv2023) ([JP](https://tsuji.tech//jp/medical-sam-arxiv2023)) (Sep 15, 2024)
+
+### software
+
+- [Common Software Architecture Types](https://tsuji.tech/software-architecture-types) ([JP](https://tsuji.tech//jp/software-architecture-types)) (Feb 10, 2026)
 
 ### stable-diffusion
 
