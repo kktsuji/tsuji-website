@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 172 [Posts](https://tsuji.tech/posts/).
+There are 173 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -128,6 +128,7 @@ There are 172 [Posts](https://tsuji.tech/posts/).
 
 ### git
 
+- [Git LFS Setup](https://tsuji.tech/git-lfs-setup) ([JP](https://tsuji.tech//jp/git-lfs-setup)) (Feb 19, 2026)
 - [Gitflow vs. Trunk-based Development](https://tsuji.tech/gitflow-vs-trunk-based-dev) ([JP](https://tsuji.tech//jp/gitflow-vs-trunk-based-dev)) (Feb 17, 2026)
 - [Git Tag](https://tsuji.tech/git-tag) ([JP](https://tsuji.tech//jp/git-tag)) (Dec 16, 2025)
 - [Git Cherry-Pick No Commit Option](https://tsuji.tech/git-cherry-pick-no-commit-option) ([JP](https://tsuji.tech//jp/git-cherry-pick-no-commit-option)) (Nov 27, 2024)
