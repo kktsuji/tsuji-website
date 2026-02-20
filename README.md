@@ -16,7 +16,7 @@ I’m Tsuji, a software engineer specialized in signal processing and camera ima
 
 ## Posts
 
-There are 173 [Posts](https://tsuji.tech/posts/).
+There are 174 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -142,6 +142,7 @@ There are 173 [Posts](https://tsuji.tech/posts/).
 
 ### github
 
+- [GitHub Copilot CLI Configuration for Banner](https://tsuji.tech/github-copilot-cli-banner-config) ([JP](https://tsuji.tech//jp/github-copilot-cli-banner-config)) (Feb 20, 2026)
 - [GitHub SSH Settings for Secure Access](https://tsuji.tech/github-ssh-settings) ([JP](https://tsuji.tech//jp/github-ssh-settings)) (Oct 19, 2025)
 - [Download and Execute Bash Scripts from Github Gist](https://tsuji.tech/download-and-execute-bash-scripts-from-github-gist) ([JP](https://tsuji.tech//jp/download-and-execute-bash-scripts-from-github-gist)) (Feb 17, 2025)
 - [Enable GitHub Copilot Suggestions for Markdown](https://tsuji.tech/github-copilot-markdown) ([JP](https://tsuji.tech//jp/github-copilot-markdown)) (Dec 15, 2024)
