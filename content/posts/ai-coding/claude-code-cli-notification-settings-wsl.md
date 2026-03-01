@@ -58,7 +58,7 @@ New-BurntToastNotification -Text "Test Notification", "BurntToast is working!" -
 
 ## Create Notification Script in WSL via Powershell
 
-Create a script file for example `vim ~/bin/claude-notify.sh` and add the following content:
+Create a script file for example `vim ~/.bin/claude-notify.sh` and add the following content:
 
 ```bash
 #!/bin/bash
@@ -134,7 +134,7 @@ echo -e "\a"
 Make the script executable:
 
 ```bash
-sudo chmod +x ~/bin/claude-notify.sh
+sudo chmod +x ~/.bin/claude-notify.sh
 ```
 
 ## Configure Claude Code to Use Notification Script
@@ -150,7 +150,7 @@ Edit your Claude Code settings with `vim ~/.claude/settings.json`:
         "hooks": [
           {
             "type": "command",
-            "command": "/home/your-username/bin/claude-notify.sh"
+            "command": "/home/your-username/.bin/claude-notify.sh"
           }
         ]
       }
@@ -161,7 +161,7 @@ Edit your Claude Code settings with `vim ~/.claude/settings.json`:
         "hooks": [
           {
             "type": "command",
-            "command": "/home/your-username/bin/claude-notify.sh"
+            "command": "/home/your-username/.bin/claude-notify.sh"
           }
         ]
       }
@@ -170,7 +170,7 @@ Edit your Claude Code settings with `vim ~/.claude/settings.json`:
 }
 ```
 
-Replace `/home/your-username/bin/claude-notify.sh` with the actual path to your notification script.
+Replace `/home/your-username/.bin/claude-notify.sh` with the actual path to your notification script.
 
 In the above configuration, the notification script will be triggered for all `Notification` and `Stop` hooks (when Claude Code needs attention or finishes a task). You can customize the `matcher` field to trigger notifications only for specific events if desired.
 
@@ -199,7 +199,7 @@ If everything is set up correctly, you should see a Windows Toast notification w
 
 If you don't see notifications, check the log at `/tmp/claude-hook-debug.log`.
 
-After confirming the script works, you can remove the debug logging lines from the script `~/bin/claude-notify.sh` to avoid unnecessary logging.
+After confirming the script works, you can remove the debug logging lines from the script `~/.bin/claude-notify.sh` to avoid unnecessary logging.
 
 ```bash
 # Debug log — remove once confirmed working
