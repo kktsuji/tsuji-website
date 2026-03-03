@@ -26,8 +26,6 @@ Paper: Chi et al., Adaptive Bidirectional Displacement for Semi-Supervised Medic
 - Displaced images are treated as new samples.
 - ABC approach an be added to exsisting methods.
 
-Translated with DeepL (https://www.deepl.com/app/?utm_source=ios&utm_medium=app&utm_campaign=share-translation)
-
 ## Performance Evaluation Methods
 
 - Two dataset are used: ACDC and PROMISE12.

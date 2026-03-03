@@ -26,8 +26,6 @@ draft: false
 - 変位された画像は新しいサンプルとして扱われる。
 - ABCアプローチは既存の手法に追加可能である。
 
-Translated with DeepL (https://www.deepl.com/app/?utm_source=ios&utm_medium=app&utm_campaign=share-translation)
-
 ## 性能評価手法
 
 - 2つのデータセットが使用された：ACDCとPROMISE12。
