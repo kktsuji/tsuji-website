@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 176 [Posts](https://tsuji.tech/posts/).
+There are 177 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -70,6 +70,10 @@ There are 176 [Posts](https://tsuji.tech/posts/).
 - [Use Collection as Holdout Mask in Blender](https://tsuji.tech/collection-holdout-mask-blender) ([JP](https://tsuji.tech//jp/collection-holdout-mask-blender)) (Mar 1, 2025)
 - [blender.exe vs. blender-launcher.exe](https://tsuji.tech/blender-exe-vs-blender-launcher-exe) ([JP](https://tsuji.tech//jp/blender-exe-vs-blender-launcher-exe)) (Nov 29, 2024)
 - [Version of Blender .blend File](https://tsuji.tech/blender-blend-file-version) ([JP](https://tsuji.tech//jp/blender-blend-file-version)) (Nov 22, 2024)
+
+### ci
+
+- [CI using Git pre-commit hooks with npm and husky](https://tsuji.tech/ci-git-precommit-hooks-npm-husky) ([JP](https://tsuji.tech//jp/ci-git-precommit-hooks-npm-husky)) (Mar 4, 2026)
 
 ### cpp
 
