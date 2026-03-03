@@ -155,7 +155,7 @@ A Linear support vector machine (SVN) is applied to the classification task usin
 
 [^5]: M. Sadegh Saberian, Kathleen P. Moriarty, Andrea D. Olmstead, Christian Hallgrimson, François Jean, Ivan R. Nabi, Maxwell W. Libbrecht and Ghassan Hamarneh. DEEMD: Drug Efficacy Estimation Against SARS-CoV-2 Based on Cell Morphology With Deep Multiple Instance Learning. _Medical Image Computing and Computer Assisted Intervention – MICCAI 2023_, vol.14227, pp.676, 2023. [doi:10.1109/TMI.2022.3178523](https://ieeexplore.ieee.org/document/9783182)
 
-[^6]: Martin Arjovsky, Soumith Chintala and Léon Bottou. Wasserstein GAN. In _Proceedings of the 34th International Conference on Machine Learning_, PMLR 70:214-223, 2017. [link](https://proceedings.mlr.press/v70/arjovsky17a.html) or [arXiv:1701.07875](https://arxiv.org/abs/1701.07875)
+[^6]: Martin Arjovsky, Soumith Chintala and Léon Bottou. Wasserstein GAN. In _Proceedings of the 34th International Conference on Machine Learning_, PMLR 70:214-223, 2017. [paper](https://proceedings.mlr.press/v70/arjovsky17a.html) or [arXiv:1701.07875](https://arxiv.org/abs/1701.07875)
 
 [^7]: Peter Goldsborough, Nick Pawlowski, Juan C Caicedo, Shantanu Singh and Anne E Carpenter. CytoGAN: Generative Modeling of Cell Images. BioRxiv 2017. [doi:10.1101/227645](https://doi.org/10.1101/227645).
 

@@ -141,7 +141,7 @@ This post introduces the paper "A Morphology Focused Diffusion Probabilistic Mod
 
 [^21]: Tuomas Kynkäänniemi, Tero Karras, Miika Aittala, Timo Aila and Jaakko Lehtinen. The Role of ImageNet Classes in Fréchet Inception Distance. _arXiv preprint [arxiv:2203.06026](https://arxiv.org/abs/2203.06026)_.
 
-[^22]: Tuomas Kynka¨anniemi, Tero Karras, Samuli Laine, Jaakko Lehtinen, and Timo Aila. Improved precision and recall metric for assessing generative models. Advances in Neural Information Processing Systems, 32, 2019. [link](https://proceedings.neurips.cc/paper/2019/hash/0234c510bc6d908b28c70ff313743079-Abstract.html)
+[^22]: Tuomas Kynka¨anniemi, Tero Karras, Samuli Laine, Jaakko Lehtinen, and Timo Aila. Improved precision and recall metric for assessing generative models. Advances in Neural Information Processing Systems, 32, 2019. [paper](https://proceedings.neurips.cc/paper/2019/hash/0234c510bc6d908b28c70ff313743079-Abstract.html)
 
 [^24]: Adrian B Levine, Jason Peng, David Farnell, Mitchell Nursey, Yiping Wang, Julia R Naso, Hezhen Ren, Hossein Farahani, Colin Chen, Derek Chiu, et al. Synthesis of diagnostic quality cancer pathology images by generative adversarial networks. The Journal of pathology, 252(2):178–188, 2020. [doi.org/10.1002/path.5509](https://pathsocjournals.onlinelibrary.wiley.com/doi/10.1002/path.5509).
 
