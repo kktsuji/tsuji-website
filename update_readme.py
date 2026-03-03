@@ -23,6 +23,24 @@ def _make_intro_section():
     return section
 
 
+def _make_setup_section():
+    section = "## Setup\n\n"
+    section += "### Prerequisites\n\n"
+    section += "- [Hugo](https://gohugo.io/) v0.123.7 (extended)\n"
+    section += "- [Node.js](https://nodejs.org/) v24.14.0\n\n"
+    section += "### Steps\n\n"
+    section += "```bash\n"
+    section += "# Clone the repository\n"
+    section += "git clone https://github.com/kktsuji/tsuji-website.git\n"
+    section += "cd tsuji-website\n\n"
+    section += "# Install npm dependencies (also sets up husky pre-commit hooks)\n"
+    section += "npm install\n\n"
+    section += "# Start the local development server\n"
+    section += "hugo server\n"
+    section += "```\n\n"
+    return section
+
+
 def _make_fixed_section():
     section = "## Fixed Pages\n\n"
     section += (
@@ -110,11 +128,13 @@ def _make_posts_section():
 def update_readme():
     """Update README.md with the latest content"""
     intro_section = _make_intro_section()
+    setup_section = _make_setup_section()
     fixed_section = _make_fixed_section()
     posts_section = _make_posts_section()
 
     with open("README.md", mode="w", encoding="utf-8") as f:
         f.write(intro_section)
+        f.write(setup_section)
         f.write(fixed_section)
         f.write(posts_section[:-1])
 

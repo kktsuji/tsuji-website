@@ -6,6 +6,27 @@ This is a repository of my personal website [tsuji.tech](https://tsuji.tech).
 
 I’m Tsuji, a software engineer specialized in signal processing and camera imaging technology about CMOS image sensors. I’ve been working in semiconductor manufacturing field to develop image sensor-related technology from 2018 to the present. For more details, see [about](https://tsuji.tech/about/).
 
+## Setup
+
+### Prerequisites
+
+- [Hugo](https://gohugo.io/) v0.123.7 (extended)
+- [Node.js](https://nodejs.org/) v24.14.0
+
+### Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/kktsuji/tsuji-website.git
+cd tsuji-website
+
+# Install npm dependencies (also sets up husky pre-commit hooks)
+npm install
+
+# Start the local development server
+hugo server
+```
+
 ## Fixed Pages
 
 - [About](https://tsuji.tech/about/)

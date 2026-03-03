@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# 1. Format and lint staged markdown files in content/
+npx lint-staged
+
+# 2. Verify Hugo can build without errors
+hugo --renderToMemory --quiet

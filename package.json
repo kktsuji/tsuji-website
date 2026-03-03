@@ -1,0 +1,35 @@
+{
+  "name": "tsuji-website",
+  "version": "1.0.0",
+  "description": "This is a repository of my personal website [tsuji.tech](https://tsuji.tech).",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "format:md": "prettier --write 'content/**/*.md'",
+    "lint:md": "markdownlint-cli2 'content/**/*.md'"
+  },
+  "lint-staged": {
+    "content/**/*.md": [
+      "prettier --write",
+      "markdownlint-cli2"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kktsuji/tsuji-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kktsuji/tsuji-website/issues"
+  },
+  "homepage": "https://github.com/kktsuji/tsuji-website#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.3.2",
+    "markdownlint-cli2": "^0.21.0",
+    "prettier": "^3.8.1"
+  }
+}
