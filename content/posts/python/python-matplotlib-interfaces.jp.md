@@ -27,7 +27,7 @@ matplotlibを始めるには2つのスタイルがあります。
   - pyplotインターフェースまたは暗黙的インターフェースとも呼ばれます。
   - 対話モードまたは短い簡単なスクリプト用。
 
-### OOスタイルは以下の通りです:
+### OOスタイルは以下の通りです
 
 ```python
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ ax = fig.subplots()
 ax.plot(data_x, data_y)
 ```
 
-### pyplotスタイルは以下の通りです:
+### pyplotスタイルは以下の通りです
 
 ```python
 import matplotlib.pyplot as plt

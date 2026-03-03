@@ -27,7 +27,7 @@ There are 2 styles for get starting matplotlib.
   - Also called a pyplot interface or an implicit interface.
   - For interactive mode or short simple scripts.
 
-### The OO-style is below:
+### The OO-style is below
 
 ```python
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ ax = fig.subplots()
 ax.plot(data_x, data_y)
 ```
 
-### The pyplot style is below:
+### The pyplot style is below
 
 ```python
 import matplotlib.pyplot as plt
