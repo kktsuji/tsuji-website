@@ -19,11 +19,11 @@ echo $PATH
 1. Open or create the WSL configuration file `sudo vim /etc/wsl.conf`.
 2. Add the following lines:
 
-```ini
-[interop]
-enabled = true # Enable to run Windows executables (.exe files) from WSL
-appendWindowsPath = false # Disable importing Windows PATH environment variables
-```
+   ```ini
+   [interop]
+   enabled = true # Enable to run Windows executables (.exe files) from WSL
+   appendWindowsPath = false # Disable importing Windows PATH environment variables
+   ```
 
 3. Save the file and exit the editor.
 4. Restart WSL by running `wsl --shutdown` in PowerShell or Command Prompt.
@@ -46,10 +46,10 @@ You can set up an alias in your shell configuration file to make it easier to ru
 1. Open your shell configuration file (e.g., `~/.bashrc` or `~/.zshrc`).
 2. Add the following line to create an alias like:
 
-```bash
-alias explorer='/mnt/c/Windows/explorer.exe'
-alias code='/mnt/c/Users/YourUsername/AppData/Local/Programs/Microsoft\ VS\ Code/Code.exe'
-alias otherapp='/mnt/c/Path/To/YourApp.exe'
-```
+   ```bash
+   alias explorer='/mnt/c/Windows/explorer.exe'
+   alias code='/mnt/c/Users/YourUsername/AppData/Local/Programs/Microsoft\ VS\ Code/Code.exe'
+   alias otherapp='/mnt/c/Path/To/YourApp.exe'
+   ```
 
 3. Save the file and reload the configuration by running `source ~/.bashrc` or `source ~/.zshrc`.

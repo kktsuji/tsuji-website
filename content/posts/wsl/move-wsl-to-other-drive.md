@@ -26,10 +26,10 @@ The new WSL distribution's login user is set to the root user by default. To cha
 1. Open the WSL distribution `wsl -d Ubuntu-22.04`
 2. Change the login user to your user `vim /etc/wsl.conf` and add the following lines:
 
-```ini
-[user]
-default=your_username
-```
+   ```ini
+   [user]
+   default=your_username
+   ```
 
 3. Save and exit the editor
 4. Restart the WSL distribution `wsl --shutdown` and then `wsl -d Ubuntu-22.04`

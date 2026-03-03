@@ -10,8 +10,8 @@ Enable github copilot suggestions for markdown files:
 
 1. Open Github Copilot settings (VS Code > Extensions > GitHub Copilot > Gear icon > Settings)
 
-![img](https://img.tsuji.tech/github-copilot-markdown-0.jpg)
+   ![img](https://img.tsuji.tech/github-copilot-markdown-0.jpg)
 
 2. Change the "markdown" from false to true
 
-![img](https://img.tsuji.tech/github-copilot-markdown-1.jpg)
+   ![img](https://img.tsuji.tech/github-copilot-markdown-1.jpg)

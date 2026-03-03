@@ -129,12 +129,12 @@ A Linear support vector machine (SVN) is applied to the classification task usin
 - It was proposed that StyleGAN2 can be resistant to mode collapse phenomenon[^6] [^9].
 - W-GANs can be resistant to two problems of training GANs.
   1. Mode collapse
-  - GAN network learns only a subset of the data.
-  - Collapsed distribution generates a single image or a discrete set of images.
-  - It means that model is heavily over-fitted on the paticular subset.
-  - The discriminator is traped in a local minimum and the generator generates same images for this discriminator.
+     - GAN network learns only a subset of the data.
+     - Collapsed distribution generates a single image or a discrete set of images.
+     - It means that model is heavily over-fitted on the paticular subset.
+     - The discriminator is traped in a local minimum and the generator generates same images for this discriminator.
   2. Lack of convergence
-  - The speed of improvement of ether the generator or the discriminator is faster too much than other network, which prevents the mutual improvement.
+     - The speed of improvement of ether the generator or the discriminator is faster too much than other network, which prevents the mutual improvement.
 - W-GANs can reduce these problems to replace the classical discriminator model with a Wasserstein distance based one that scores the realness of a given image.
 - StyleGAN2 is a instance of W-GAN and apply residual connections in both networks.
 - The capability to generate high quality images (= to extract train data's features well) would lead to the one to solve other downstream tasks when its pre-trained features apply to downstream tasks.

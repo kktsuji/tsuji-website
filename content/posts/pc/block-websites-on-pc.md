@@ -11,11 +11,11 @@ draft: false
 1. Backup `C:\Windows\System32\drivers\etc\hosts`
 2. Open `hosts` file and add localhost IP adress `127.0.0.1` and domains of websites that you want to block
 
-```bash
-# Block Lists
-127.0.0.1 twitter.com
-127.0.0.1 x.com
-```
+   ```bash
+   # Block Lists
+   127.0.0.1 twitter.com
+   127.0.0.1 x.com
+   ```
 
 3. Save it
 

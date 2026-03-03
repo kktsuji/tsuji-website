@@ -26,10 +26,10 @@ draft: false
 1. WSLディストリビューションを開く `wsl -d Ubuntu-22.04`
 2. ログインユーザーを自分のユーザーに変更 `vim /etc/wsl.conf`して以下の行を追加：
 
-```ini
-[user]
-default=your_username
-```
+   ```ini
+   [user]
+   default=your_username
+   ```
 
 3. 保存してエディタを終了
 4. WSLディストリビューションを再起動 `wsl --shutdown`してから `wsl -d Ubuntu-22.04`
