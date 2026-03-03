@@ -12,7 +12,7 @@ Microsoft Copilotは研究効率を劇的に向上させることができます
 2. EdgeブラウザでMicrosoft Copilotを開きます（右上のボタン）
 3. 次のプロンプトを入力して論文の要約を生成します：
 
-```
+```bash
 @This page
 Generate page summary according to these formats:
 * Introduction:

@@ -12,7 +12,7 @@ Microsoft Copilot can dramatically improve research efficiency.
 2. Open Microsoft Copilot in Edge browser (top right button).
 3. Enter following prompt to generate paper summary:
 
-```
+```bash
 @This page
 Generate page summary according to these formats:
 * Introduction:

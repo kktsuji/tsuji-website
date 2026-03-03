@@ -15,7 +15,7 @@ draft: false
 - ✅ Simple, familiar, separation of concerns
 - ❌ Tight coupling between layers, changes cascade down
 
-```
+```bash
 src/
 ├── presentation/    # Controllers, Views
 ├── business/        # Services, Business Logic
@@ -30,7 +30,7 @@ src/
 - ✅ Highly testable, domain-centric, swappable infrastructure
 - ❌ More complex setup, overkill for simple apps
 
-```
+```bash
 src/
 ├── domain/          # Core business logic
 │   ├── models/
@@ -50,7 +50,7 @@ src/
 - ✅ Low coupling between features, easier to understand single features
 - ❌ Potential code duplication, harder to enforce consistency
 
-```
+```bash
 src/
 ├── features/
 │   ├── create-order/
@@ -71,7 +71,7 @@ src/
 - ✅ Framework-independent, highly testable, flexible
 - ❌ Steep learning curve, lots of boilerplate
 
-```
+```bash
 src/
 ├── entities/        # Enterprise business rules
 ├── usecases/        # Application business rules
@@ -90,7 +90,7 @@ src/
 - ✅ Independent scaling/deployment, tech flexibility, fault isolation
 - ❌ Network complexity, distributed system challenges, operational overhead
 
-```
+```bash
 services/
 ├── user-service/
 │   ├── src/
@@ -111,7 +111,7 @@ services/
 - ✅ Simple deployment, easy debugging, low latency
 - ❌ Scaling limitations, large codebase, deployment risk
 
-```
+```bash
 src/
 ├── controllers/
 ├── services/
@@ -128,7 +128,7 @@ src/
 - ✅ Loose coupling, scalable, real-time processing
 - ❌ Debugging complexity, eventual consistency, event ordering challenges
 
-```
+```bash
 src/
 ├── events/
 │   ├── definitions/     # Event schemas
@@ -145,7 +145,7 @@ src/
 - ✅ Optimized read/write performance, scalable
 - ❌ Increased complexity, eventual consistency
 
-```
+```bash
 src/
 ├── commands/            # Write operations
 │   ├── handlers/
@@ -164,7 +164,7 @@ src/
 - ✅ Aligns code with business, handles complex logic well
 - ❌ Steep learning curve, overkill for simple CRUD apps
 
-```
+```bash
 src/
 ├── bounded-contexts/
 │   ├── ordering/
