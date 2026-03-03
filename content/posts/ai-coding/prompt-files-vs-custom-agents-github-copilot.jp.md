@@ -120,7 +120,7 @@ graph TB
     linkStyle default stroke:#ffffff
 ```
 
-### 使用例
+### 両者の使用例
 
 以下のようなものを持つことができます:
 
