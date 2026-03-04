@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 177 [Posts](https://tsuji.tech/posts/).
+There are 178 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -337,6 +337,7 @@ There are 177 [Posts](https://tsuji.tech/posts/).
 
 ### wsl
 
+- [Unix vs. Linux](https://tsuji.tech/unix-vs-linux) ([JP](https://tsuji.tech//jp/unix-vs-linux)) (Mar 4, 2026)
 - [Disable Windows Environment Variables in WSL](https://tsuji.tech/disable-windows-environment-variables-wsl) ([JP](https://tsuji.tech//jp/disable-windows-environment-variables-wsl)) (Dec 31, 2025)
 - [Network Option for Docker in WSL](https://tsuji.tech/docker-wsl-network-option) ([JP](https://tsuji.tech//jp/docker-wsl-network-option)) (Aug 4, 2025)
 - [Move WSL from C Drive to Other Drive](https://tsuji.tech/move-wsl-to-other-drive) ([JP](https://tsuji.tech//jp/move-wsl-to-other-drive)) (Aug 3, 2025)
