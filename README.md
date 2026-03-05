@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 180 [Posts](https://tsuji.tech/posts/).
+There are 181 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -169,6 +169,7 @@ There are 180 [Posts](https://tsuji.tech/posts/).
 
 ### github
 
+- [Two-tier branch protection: managing who can push in GitHub](https://tsuji.tech/two-tier-branch-protection-push-github) ([JP](https://tsuji.tech//jp/two-tier-branch-protection-push-github)) (Mar 5, 2026)
 - [Automatic Code Review by Copilot for GitHub Pull Request](https://tsuji.tech/automatic-copilot-code-reviwe-github-pull-request) ([JP](https://tsuji.tech//jp/automatic-copilot-code-reviwe-github-pull-request)) (Mar 4, 2026)
 - [Branch Protection Settings for GitHub Flow in Small Open Source Projects](https://tsuji.tech/oss-github-flow-branch-protection-settings) ([JP](https://tsuji.tech//jp/oss-github-flow-branch-protection-settings)) (Mar 3, 2026)
 - [GitHub Copilot CLI Configuration for Banner](https://tsuji.tech/github-copilot-cli-banner-config) ([JP](https://tsuji.tech//jp/github-copilot-cli-banner-config)) (Feb 20, 2026)
