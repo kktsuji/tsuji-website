@@ -41,7 +41,13 @@ node --version
 npm --version
 ```
 
-## Setup Project
+## Set up Project
+
+After setting up the project, whenever you try to commit changes, the pre-commit hook will run `npm test` before allowing the commit to proceed. You can replace `npm test` with any command you want to run as part of your pre-commit checks.
+
+### Initialize npm project and install husky
+
+If you haven't already set up a project, you can do so with the following commands:
 
 ```bash
 cd your-project
@@ -68,4 +74,11 @@ And add the test script manually to `package.json`:
 }
 ```
 
-Now, whenever you try to commit changes, the pre-commit hook will run `npm test` before allowing the commit to proceed. You can replace `npm test` with any command you want to run as part of your pre-commit checks.
+### Set up the existing settings
+
+If the project already has a `package.json` with husky configured, you can simply run:
+
+```bash
+# Install dependencies
+npm install
+```
