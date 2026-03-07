@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 181 [Posts](https://tsuji.tech/posts/).
+There are 182 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -46,7 +46,6 @@ There are 181 [Posts](https://tsuji.tech/posts/).
 
 ### ai-coding
 
-- [Claude Code CLI Notification Settings in WSL](https://tsuji.tech/claude-code-cli-notification-settings-wsl) ([JP](https://tsuji.tech//jp/claude-code-cli-notification-settings-wsl)) (Mar 1, 2026)
 - [Custom Slash Command Definition in Prompt Files for GitHub Copilot](https://tsuji.tech/prompt-files-github-copilot) ([JP](https://tsuji.tech//jp/prompt-files-github-copilot)) (Dec 26, 2025)
 - [Custom Agents for GitHub Copilot](https://tsuji.tech/custom-agents-github-copilot) ([JP](https://tsuji.tech//jp/custom-agents-github-copilot)) (Dec 25, 2025)
 - [Built-in Tools in GitHub Copilot Agents](https://tsuji.tech/built-in-tools-github-copilot-agents) ([JP](https://tsuji.tech//jp/built-in-tools-github-copilot-agents)) (Dec 23, 2025)
@@ -74,6 +73,10 @@ There are 181 [Posts](https://tsuji.tech/posts/).
 ### ci
 
 - [CI using Git pre-commit hooks with npm and husky](https://tsuji.tech/ci-git-precommit-hooks-npm-husky) ([JP](https://tsuji.tech//jp/ci-git-precommit-hooks-npm-husky)) (Mar 4, 2026)
+
+### claude-code
+
+- [Claude Code CLI Notification Settings in WSL](https://tsuji.tech/claude-code-cli-notification-settings-wsl) ([JP](https://tsuji.tech//jp/claude-code-cli-notification-settings-wsl)) (Mar 1, 2026)
 
 ### cpp
 
@@ -169,6 +172,7 @@ There are 181 [Posts](https://tsuji.tech/posts/).
 
 ### github
 
+- [Fix Required Status Check Deadlock with a paths-ignore Skip Workflow in GitHub Actions](https://tsuji.tech/fix-status-check-deadlock-paths-ignore-github-actions) ([JP](https://tsuji.tech//jp/fix-status-check-deadlock-paths-ignore-github-actions)) (Mar 7, 2026)
 - [Two-tier branch protection: managing who can push in GitHub](https://tsuji.tech/two-tier-branch-protection-push-github) ([JP](https://tsuji.tech//jp/two-tier-branch-protection-push-github)) (Mar 5, 2026)
 - [Automatic Code Review by Copilot for GitHub Pull Request](https://tsuji.tech/automatic-copilot-code-reviwe-github-pull-request) ([JP](https://tsuji.tech//jp/automatic-copilot-code-reviwe-github-pull-request)) (Mar 4, 2026)
 - [Branch Protection Settings for GitHub Flow in Small Open Source Projects](https://tsuji.tech/oss-github-flow-branch-protection-settings) ([JP](https://tsuji.tech//jp/oss-github-flow-branch-protection-settings)) (Mar 3, 2026)
