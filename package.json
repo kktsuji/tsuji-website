@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "prepare": "husky",
+    "lint": "npm run lint:md",
+    "format": "npm run format:md",
     "format:md": "prettier --write 'content/**/*.md'",
     "lint:md": "markdownlint-cli2 'content/**/*.md'"
   },
