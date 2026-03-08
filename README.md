@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 182 [Posts](https://tsuji.tech/posts/).
+There are 183 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -77,6 +77,7 @@ There are 182 [Posts](https://tsuji.tech/posts/).
 ### claude-code
 
 - [Claude Code CLI Notification Settings in WSL](https://tsuji.tech/claude-code-cli-notification-settings-wsl) ([JP](https://tsuji.tech//jp/claude-code-cli-notification-settings-wsl)) (Mar 1, 2026)
+- [Auto-generated Claude Code Review Workflow Bug - No Summary Comments Generated](https://tsuji.tech/auto-generated-claude-code-review-workflow-bug) ([JP](https://tsuji.tech//jp/auto-generated-claude-code-review-workflow-bug)) (Mar 1, 2026)
 
 ### cpp
 
