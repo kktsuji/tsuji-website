@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 183 [Posts](https://tsuji.tech/posts/).
+There are 184 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -46,6 +46,7 @@ There are 183 [Posts](https://tsuji.tech/posts/).
 
 ### ai-coding
 
+- [Github Copilot CLI Notification Settings in WSL](https://tsuji.tech/github-copilot-cli-notification-settings-wsl) ([JP](https://tsuji.tech//jp/github-copilot-cli-notification-settings-wsl)) (Mar 12, 2026)
 - [Custom Slash Command Definition in Prompt Files for GitHub Copilot](https://tsuji.tech/prompt-files-github-copilot) ([JP](https://tsuji.tech//jp/prompt-files-github-copilot)) (Dec 26, 2025)
 - [Custom Agents for GitHub Copilot](https://tsuji.tech/custom-agents-github-copilot) ([JP](https://tsuji.tech//jp/custom-agents-github-copilot)) (Dec 25, 2025)
 - [Built-in Tools in GitHub Copilot Agents](https://tsuji.tech/built-in-tools-github-copilot-agents) ([JP](https://tsuji.tech//jp/built-in-tools-github-copilot-agents)) (Dec 23, 2025)
@@ -76,8 +77,8 @@ There are 183 [Posts](https://tsuji.tech/posts/).
 
 ### claude-code
 
+- [Auto-generated Claude Code Review Workflow Bug - No Summary Comments Generated](https://tsuji.tech/auto-generated-claude-code-review-workflow-bug) ([JP](https://tsuji.tech//jp/auto-generated-claude-code-review-workflow-bug)) (Mar 8, 2026)
 - [Claude Code CLI Notification Settings in WSL](https://tsuji.tech/claude-code-cli-notification-settings-wsl) ([JP](https://tsuji.tech//jp/claude-code-cli-notification-settings-wsl)) (Mar 1, 2026)
-- [Auto-generated Claude Code Review Workflow Bug - No Summary Comments Generated](https://tsuji.tech/auto-generated-claude-code-review-workflow-bug) ([JP](https://tsuji.tech//jp/auto-generated-claude-code-review-workflow-bug)) (Mar 1, 2026)
 
 ### cpp
 
