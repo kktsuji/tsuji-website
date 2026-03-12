@@ -174,6 +174,8 @@ Replace `/home/your-username/.bin/claude-notify.sh` with the actual path to your
 
 In the above configuration, the notification script will be triggered for all `Notification` and `Stop` hooks (when Claude Code needs attention or finishes a task). You can customize the `matcher` field to trigger notifications only for specific events if desired.
 
+For more details, see [Claude Code Hooks reference](https://code.claude.com/docs/en/hooks).
+
 ## Test with Claude Code CLI
 
 Go to your project directory and execute a Claude Code CLI:

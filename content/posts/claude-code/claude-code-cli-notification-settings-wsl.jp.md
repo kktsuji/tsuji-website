@@ -174,6 +174,8 @@ sudo chmod +x ~/.bin/claude-notify.sh
 
 上記の設定では、すべての`Notification`と`Stop`のhook（Claude Codeが注意を必要とする時やタスクが完了した時）で通知スクリプトがトリガーされます。特定のイベントのみで通知をトリガーしたい場合は、`matcher`フィールドをカスタマイズできます。
 
+詳細は、[Claude Code Hooks reference](https://code.claude.com/docs/en/hooks)を参照ください。
+
 ## Claude Code CLIでテスト
 
 プロジェクトディレクトリに移動し、Claude Code CLIを実行します:
