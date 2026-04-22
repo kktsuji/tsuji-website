@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 184 [Posts](https://tsuji.tech/posts/).
+There are 185 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -46,6 +46,7 @@ There are 184 [Posts](https://tsuji.tech/posts/).
 
 ### ai-coding
 
+- [Github Copilot CLI Notification Settings in Windows](https://tsuji.tech/github-copilot-cli-notification-settings-win) ([JP](https://tsuji.tech//jp/github-copilot-cli-notification-settings-win)) (Apr 22, 2026)
 - [Github Copilot CLI Notification Settings in WSL](https://tsuji.tech/github-copilot-cli-notification-settings-wsl) ([JP](https://tsuji.tech//jp/github-copilot-cli-notification-settings-wsl)) (Mar 12, 2026)
 - [Custom Slash Command Definition in Prompt Files for GitHub Copilot](https://tsuji.tech/prompt-files-github-copilot) ([JP](https://tsuji.tech//jp/prompt-files-github-copilot)) (Dec 26, 2025)
 - [Custom Agents for GitHub Copilot](https://tsuji.tech/custom-agents-github-copilot) ([JP](https://tsuji.tech//jp/custom-agents-github-copilot)) (Dec 25, 2025)
