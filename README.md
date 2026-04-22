@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 185 [Posts](https://tsuji.tech/posts/).
+There are 186 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -160,6 +160,7 @@ There are 185 [Posts](https://tsuji.tech/posts/).
 
 ### git
 
+- [Global Gitignore Settings](https://tsuji.tech/global-gitignore-settings) ([JP](https://tsuji.tech//jp/global-gitignore-settings)) (Apr 22, 2026)
 - [Git Option: --force vs --force-with-lease](https://tsuji.tech/git-option-force-vs-force-with-lease) ([JP](https://tsuji.tech//jp/git-option-force-vs-force-with-lease)) (Mar 5, 2026)
 - [Git LFS Setup](https://tsuji.tech/git-lfs-setup) ([JP](https://tsuji.tech//jp/git-lfs-setup)) (Feb 19, 2026)
 - [Gitflow vs. Trunk-based Development](https://tsuji.tech/gitflow-vs-trunk-based-dev) ([JP](https://tsuji.tech//jp/gitflow-vs-trunk-based-dev)) (Feb 17, 2026)
