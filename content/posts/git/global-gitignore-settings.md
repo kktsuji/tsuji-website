@@ -35,7 +35,7 @@ git config --global core.excludesfile $env:USERPROFILE\.gitignore_global
 New-Item -ItemType File -Path $env:USERPROFILE\.gitignore_global -Force
 
 # Add patterns to the global gitignore file
-Add-Content -Path $env:USERPROFILE\.gitignore_global -Value ".local-tmp/"
+Add-Content -Path $env:USERPROFILE\.gitignore_global -Value ".local-tmp/`n" -NoNewline
 
 # Verify the global gitignore settings
 git config --global core.excludesfile

@@ -35,7 +35,7 @@ git config --global core.excludesfile $env:USERPROFILE\.gitignore_global
 New-Item -ItemType File -Path $env:USERPROFILE\.gitignore_global -Force
 
 # グローバルなgitignoreファイルにパターンを追加する
-Add-Content -Path $env:USERPROFILE\.gitignore_global -Value ".local-tmp/"
+Add-Content -Path $env:USERPROFILE\.gitignore_global -Value ".local-tmp/`n" -NoNewline
 
 # グローバルなgitignore設定を確認する
 git config --global core.excludesfile
