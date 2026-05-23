@@ -10,35 +10,35 @@ draft: false
 
 First, send a ping from the client to the remote Windows machine's IP address to confirm that network connectivity is established.
 
-When the remote PC name is `<PC_NAME>`:
+When the remote PC name is `<hostname>`:
 
 ```powershell
 # Between Windows machines
-ping <PC_NAME>
+ping <hostname>
 
 # Using mDNS (macOS / Linux / WSL, etc.)
-ping <PC_NAME>.local
+ping <hostname>.local
 ```
 
 You can also use the remote IP address directly:
 
 ```powershell
 # After checking the IP address on the remote with `ipconfig`
-ping <IP_ADDRESS>
+ping <ip-address>
 ```
 
 ### When to use `.local` and when not to
 
 `.local` is a special domain used by mDNS (Multicast DNS, RFC 6762), which allows name resolution within a LAN without going through a DNS server. Choose whether to use it based on the client environment.
 
-When to use `ping <PC_NAME>` (without `.local`):
+When to use `ping <hostname>` (without `.local`):
 
 - The client is Windows and the remote is also Windows (on the same LAN)
   - Resolved by NetBIOS over TCP/IP or LLMNR
 - Environments where the PC name is registered on an internal DNS server (e.g. domain-joined PCs)
-- Environments where a DNS suffix (e.g. `corp.example.com`) is configured, so `<PC_NAME>` alone is completed into an FQDN
+- Environments where a DNS suffix (e.g. `corp.example.com`) is configured, so `<hostname>` alone is completed into an FQDN
 
-When to use `ping <PC_NAME>.local`:
+When to use `ping <hostname>.local`:
 
 - Reaching a Windows machine from a macOS / Linux / iOS / Android client
   - Bonjour (macOS) / Avahi (Linux) resolves it via mDNS
@@ -124,7 +124,7 @@ If the status shows `Status: Running`, the SSH server is up and running on the r
 To SSH into the remote Windows machine from the client, use the following command.
 
 ```bash
-ssh <username>@<PC_NAME>  # or <username>@<PC_NAME>.local
+ssh <username>@<hostname>  # or <username>@<hostname>.local
 ```
 
 Specify the account name on the remote Windows machine as the username. On a successful connection, you can access the remote Windows command prompt or PowerShell.
@@ -144,14 +144,14 @@ This creates `~/.ssh/id_ed25519` (private key) and `~/.ssh/id_ed25519.pub` (publ
 
 ```powershell
 # Copy the public key to the remote Windows machine
-type ~/.ssh/id_ed25519.pub | ssh <username>@<PC_NAME> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+type ~/.ssh/id_ed25519.pub | ssh <username>@<hostname> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
 Or you can copy it directly with the following commands.
 
 ```powershell
 # SSH into the remote
-ssh <username>@<PC_NAME>
+ssh <username>@<hostname>
 
 # Create the ".ssh" folder on the remote
 New-Item -ItemType Directory -Path "$HOME\.ssh" -Force
@@ -182,4 +182,21 @@ Set-Content -Path "$env:ProgramData\ssh\administrators_authorized_keys" -Value "
 
 # Set permissions on the public key (grant Full Control to Administrators and SYSTEM)
 icacls "$env:ProgramData\ssh\administrators_authorized_keys" /inheritance:r /grant:r "Administrators:F" /grant:r "SYSTEM:F"
+```
+
+## SSH Configuration on the Client
+
+To simplify SSH connections on the client side, you can add the remote Windows settings to the `~/.ssh/config` file.
+
+```bash
+Host remote-win
+  HostName <hostname>  # or <hostname>.local or <ip-address>
+  User <username>
+```
+
+This allows you to easily connect via SSH with the following command.
+
+```bash
+# You can connect with the following instead of ssh <username>@<hostname>
+ssh remote-win
 ```

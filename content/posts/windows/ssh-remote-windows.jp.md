@@ -10,35 +10,35 @@ draft: false
 
 まず、クライアントからリモートWindowsのIPアドレスに対してPingを送信して、ネットワーク接続が確立されているか確認します。
 
-リモートのPC名が<PC_NAME>のとき：
+リモートのPC名が<hostname>のとき：
 
 ```powershell
 # Windows同士の場合
-ping <PC_NAME>
+ping <hostname>
 
 # mDNSを使う場合（macOS/Linux/WSLなど）
-ping <PC_NAME>.local
+ping <hostname>.local
 ```
 
 リモートのIPアドレスでも確認できます：
 
 ```powershell
 # リモートで `ipconfig` でIPアドレスを確認した後
-ping <IP_ADDRESS>
+ping <ip-address>
 ```
 
 ### `.local`の有無による使い分け
 
 `.local` はmDNS（Multicast DNS、RFC 6762）で使われる特別なドメインで、LAN内でDNSサーバーを介さずに名前解決ができます。クライアントの環境によって使い分けます。
 
-`ping <PC_NAME>`（`.local`なし）を使う場面：
+`ping <hostname>`（`.local`なし）を使う場面：
 
 - クライアントがWindowsで、リモートもWindows（同じLAN内）
   - NetBIOS over TCP/IPまたはLLMNRで解決される
 - 社内DNSサーバーにPC名が登録されている環境（ドメイン参加PCなど）
-- DNSサフィックス（例：`corp.example.com`）が設定済みで、`<PC_NAME>` だけでFQDNに補完される
+- DNSサフィックス（例：`corp.example.com`）が設定済みで、`<hostname>` だけでFQDNに補完される
 
-`ping <PC_NAME>.local` を使う場面：
+`ping <hostname>.local` を使う場面：
 
 - クライアントが macOS / Linux / iOS / Android からWindowsを探す
   - Bonjour (macOS) / Avahi (Linux) が mDNSで解決
@@ -124,7 +124,7 @@ Get-Service -Name sshd
 クライアントからリモートWindowsにSSH接続するには、以下のコマンドを使用します。
 
 ```bash
-ssh <ユーザー名>@<PC_NAME>  # または <ユーザー名>@<PC_NAME>.local
+ssh <username>@<hostname>  # または <username>@<hostname>.local
 ```
 
 ユーザー名はリモートWindowsのアカウント名を指定します。接続が成功すると、リモートWindowsのコマンドプロンプトやPowerShellにアクセスできます。
@@ -144,14 +144,14 @@ ssh-keygen -t ed25519
 
 ```powershell
 # 公開鍵をリモートWindowsにコピー
-type ~/.ssh/id_ed25519.pub | ssh <ユーザー名>@<PC_NAME> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+type ~/.ssh/id_ed25519.pub | ssh <username>@<hostname> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
 もしくは以下のコマンドで直接コピーすることもできます。
 
 ```powershell
 # リモートへssh接続
-ssh <ユーザー名>@<PC_NAME>
+ssh <username>@<hostname>
 
 # リモート側に「.ssh」フォルダ作成
 New-Item -ItemType Directory -Path "$HOME\.ssh" -Force
@@ -182,4 +182,21 @@ Set-Content -Path "$env:ProgramData\ssh\administrators_authorized_keys" -Value "
 
 # 公開鍵の権限を設定（管理者とSYSTEMにフルコントロールを付与）
 icacls "$env:ProgramData\ssh\administrators_authorized_keys" /inheritance:r /grant:r "Administrators:F" /grant:r "SYSTEM:F"
+```
+
+## クライアントのSSH設定
+
+クライアント側でSSH接続を簡略化するために、`~/.ssh/config`ファイルにリモートWindowsの設定を追加することができます。
+
+```bash
+Host remote-win
+  HostName <hostname>  # または <hostname>.local or <ip-address>
+  User <username>
+```
+
+これにより、以下のコマンドで簡単にSSH接続できるようになります。
+
+```bash
+# ssh <username>@<hostname> の代わりに以下で接続可能
+ssh remote-win
 ```
