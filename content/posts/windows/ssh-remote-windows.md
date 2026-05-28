@@ -200,3 +200,23 @@ This allows you to easily connect via SSH with the following command.
 # You can connect with the following instead of ssh <username>@<hostname>
 ssh remote-win
 ```
+
+## Set PowerShell as the Default for SSH Connections
+
+Check the PowerShell path on the remote Windows machine.
+
+```powershell
+# For Command Prompt
+where powershell
+
+# For PowerShell
+Get-Command powershell | Select-Object -ExpandProperty Source
+```
+
+It is usually `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`.
+
+Run the following command in PowerShell with administrator privileges to change the default shell for SSH connections to PowerShell.
+
+```powershell
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+```

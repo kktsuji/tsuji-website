@@ -200,3 +200,23 @@ Host remote-win
 # ssh <username>@<hostname> の代わりに以下で接続可能
 ssh remote-win
 ```
+
+## PowerShellをSSH接続時のデフォルトへ設定
+
+リモートWindowsのPowerShellのPathを確認してください。
+
+```powershell
+# Command Promptの場合
+where powershell
+
+# PowerShellの場合
+Get-Command powershell | Select-Object -ExpandProperty Source
+```
+
+通常は `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe` です。
+
+管理者権限のPowerShellで以下のコマンドを実行して、SSH接続時のデフォルトシェルをPowerShellに変更します。
+
+```powershell
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+```
