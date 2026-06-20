@@ -268,184 +268,364 @@ Finally, we state an outlook. First, the two-stage pipeline for RAW images propo
 
 ## References
 
-The type of each reference (peer-reviewed / preprint / vendor official documentation / industry report / standard or tertiary source) is noted alongside it. The access date for all vendor official documentation, standards, and tertiary sources is June 19, 2026.
+The type of each reference (peer-reviewed / preprint / vendor official documentation / industry report / standard or tertiary source) is noted alongside it. The access date for all vendor official documentation, standards, and tertiary sources is June 19, 2026. Each entry is followed by a brief summary of what the work actually presents.
 
 [1] McKinsey & Company. The economic potential of generative AI: The next productivity frontier. Industry report, 2023. [Link](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier) (Industry report. The full text of the report itself was not obtained; only figures confirmable from the public summary and third-party reporting were used.)
 
+> An industry report by McKinsey & Company estimates that generative AI could add USD 2.6-4.4 trillion in value annually across the 63 use cases analyzed, with roughly 75% of this value concentrated in four areas: customer operations, marketing and sales, software development, and research and development.
+
 [2] Deloitte. 2025 Smart Manufacturing and Operations Survey. Industry report, 2025. [Link](https://www.deloitte.com/us/en/insights/industry/manufacturing/2025-smart-manufacturing-survey.html) (Industry survey.)
+
+> A Deloitte industry survey of 600 executives at major U.S. manufacturers found that 92% regard smart manufacturing as the key driver of competitiveness over the next three years, with adoption yielding 10-20% gains in production volume and 7-20% gains in workforce productivity; 65% rank operational risk among their top concerns.
 
 [3] Samsung Electronics. Samsung Electronics Announces Strategy To Transition Global Manufacturing Into 'AI-Driven Factories' by 2030. Official press release, March 2026. [Link](https://news.samsung.com/global/samsung-electronics-announces-strategy-to-transition-global-manufacturing-into-ai-driven-factories-by-2030) (Official corporate announcement. Includes forward-looking vision.)
 
+> An official Samsung Electronics press release announcing a strategy to transform all manufacturing sites into AI-driven factories by 2030, integrating AI across the entire production value chain from procurement logistics to quality inspection and shipment, with the deployment of digital twins and dedicated AI agents.
+
 [4] Lewis, P., Perez, E., Piktus, A., et al. Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. NeurIPS 2020. arXiv:2005.11401. Peer-reviewed paper.
+
+> This work proposes Retrieval-Augmented Generation (RAG), which combines a pre-trained seq2seq model (parametric memory) with a dense Wikipedia index accessed by a DPR retriever (non-parametric memory) and fine-tunes the retriever and generator end-to-end. It achieved state-of-the-art accuracy on several open-domain QA benchmarks and demonstrated that knowledge can be updated by swapping the non-parametric memory.
 
 [5] Karpukhin, V., Oğuz, B., Min, S., et al. Dense Passage Retrieval for Open-Domain Question Answering. EMNLP 2020. arXiv:2004.04906. Peer-reviewed paper.
 
+> This work proposes Dense Passage Retrieval (DPR), a bi-encoder approach that embeds questions and passages into dense vectors using two BERT encoders and learns inner-product similarity. It outperformed BM25 by 9-19 absolute points in Top-20 retrieval accuracy and surpassed ORQA in end-to-end QA (41.5% vs. 33.3% on Natural Questions).
+
 [6] Ji, Z., Lee, N., Frieske, R., et al. Survey of Hallucination in Natural Language Generation. ACM Computing Surveys, Vol.55, No.12, 2023. DOI:10.1145/3571730 (arXiv:2202.03629). Peer-reviewed paper (survey).
+
+> A comprehensive survey of hallucination in deep-learning-based natural language generation, classifying it into intrinsic hallucination (output contradicting the input) and extrinsic hallucination (output unverifiable from the input). It also presents a dichotomy of data-related versus training-and-inference-related causes and organizes evaluation metrics and mitigation methods by task.
 
 [7] Huang, L., Yu, W., Ma, W., et al. A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. Preprint, 2023. arXiv:2311.05232. Preprint (not peer-reviewed).
 
+> A survey presenting a hallucination taxonomy tailored to the LLM era, distinguishing factuality hallucination (inconsistency with real-world facts) from faithfulness hallucination (deviation from user input, context, or self-consistency). It organizes causes across the data, training, and inference stages and discusses RAG as a mitigation method along with its limitations.
+
 [8] Lee, K., Chang, M.-W., Toutanova, K. Latent Retrieval for Weakly Supervised Open Domain Question Answering (ORQA). ACL 2019. arXiv:1906.00300. Peer-reviewed paper.
+
+> This work proposes ORQA, the first open-retrieval QA system that jointly trains a retriever and a reader using only question-answer string pairs, pre-training the retriever with the Inverse Cloze Task. On datasets where users genuinely seek unknown answers, learned retrieval proved decisive, outperforming BM25 by 6-19 points in exact match.
 
 [9] Guu, K., Lee, K., Tung, Z., Pasupat, P., Chang, M.-W. REALM: Retrieval-Augmented Language Model Pre-Training. ICML 2020. arXiv:2002.08909. Peer-reviewed paper.
 
+> This work proposes REALM, a retrieval-augmented language model that incorporates a latent knowledge retriever into language model pre-training to retrieve and attend over documents from a large text corpus. It outperformed prior methods by 4-16 absolute points on three open-domain QA benchmarks while offering advantages in interpretability and modularity.
+
 [10] Khandelwal, U., Levy, O., Jurafsky, D., Zettlemoyer, L., Lewis, M. Generalization through Memorization: Nearest Neighbor Language Models. ICLR 2020. arXiv:1911.00172. Peer-reviewed paper.
+
+> This work proposes kNN-LM, which linearly interpolates a pre-trained language model's predictions with the results of k-nearest-neighbor retrieval. By building a datastore that maps context embeddings (keys) to next tokens (values), it can explicitly reference rare patterns without additional training, achieving a perplexity of 15.79 on WIKITEXT-103 and setting a new state of the art.
 
 [11] Izacard, G., Grave, E. Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering (Fusion-in-Decoder). EACL 2021. arXiv:2007.01282. Peer-reviewed paper.
 
+> This work proposes Fusion-in-Decoder (FiD), which processes each retrieved passage independently with the encoder alongside the question and lets the decoder attend over the concatenation of all representations to generate an answer. It achieved state-of-the-art results on Natural Questions and TriviaQA (NQ EM 51.4, TriviaQA EM 67.6) and showed that performance improves as the number of retrieved passages increases up to 100.
+
 [12] Izacard, G., Lewis, P., Lomeli, M., et al. Atlas: Few-shot Learning with Retrieval Augmented Language Models. JMLR Vol.24, 2023. arXiv:2208.03299. Peer-reviewed paper.
+
+> This work proposes Atlas, a retrieval-augmented language model combining a Contriever-based dense retriever with a Fusion-in-Decoder generator and using retrieval in both pre-training and fine-tuning. With 11B parameters and only 64 examples, it achieved 42.4% accuracy on Natural Questions, outperforming the 50-times-larger 540B PaLM by about 3 points.
 
 [13] Borgeaud, S., Mensch, A., Hoffmann, J., et al. Improving Language Models by Retrieving from Trillions of Tokens (RETRO). ICML 2022. arXiv:2112.04426. Peer-reviewed paper.
 
+> This work proposes RETRO (Retrieval-Enhanced Transformer), a retrieval-augmented autoregressive model that retrieves document chunks similar to preceding chunks from a large corpus and incorporates them via a chunked cross-attention mechanism. Using a 2-trillion-token database, it matched the performance of GPT-3 and Jurassic-1 on The Pile with 25 times fewer parameters.
+
 [14] Shi, W., Min, S., Yasunaga, M., Seo, M., James, R., Lewis, M., Zettlemoyer, L., Yih, W.-t. REPLUG: Retrieval-Augmented Black-Box Language Models. NAACL 2024. arXiv:2301.12652. Peer-reviewed paper.
+
+> This work proposes REPLUG, a retrieval-augmented framework that keeps the language model frozen as a black box and simply prepends retrieved documents to the input, along with REPLUG LSR, which fine-tunes the retriever using the language model's predictions as a supervisory signal. With the tuned retriever, it improved GPT-3 (175B) language modeling by 6.3% and Codex's MMLU by 4.5%.
 
 [15] Ram, O., Levine, Y., Dalmedigos, I., Muhlgay, D., Shashua, A., Leyton-Brown, K., Shoham, Y. In-Context Retrieval-Augmented Language Models. TACL Vol.11, 2023. arXiv:2302.00083. Peer-reviewed paper.
 
+> This work proposes In-Context RALM, which leaves the language model architecture entirely unchanged and simply concatenates retrieved documents before the input prefix. Usable with off-the-shelf general-purpose language models and retrievers, it achieved language-modeling improvements equivalent to a 2-3x increase in parameter count across all corpora tested.
+
 [16] Gao, Y., Xiong, Y., Gao, X., et al. Retrieval-Augmented Generation for Large Language Models: A Survey. Preprint, 2023/2024. arXiv:2312.10997. Preprint (a widely cited central survey).
+
+> A survey reviewing over 100 RAG studies and organizing their development into three paradigms—Naive RAG, Advanced RAG, and Modular RAG. It analyzes each stage through the three components of Retrieval, Generation, and Augmentation, and reports that RAG consistently outperforms unsupervised fine-tuning.
 
 [17] Gao, Y., Xiong, Y., Wang, M., Wang, H. Modular RAG: Transforming RAG Systems into LEGO-like Reconfigurable Frameworks. Preprint, 2024. arXiv:2407.21059. Preprint (not peer-reviewed).
 
+> Proposes the Modular RAG framework, which decomposes increasingly complex RAG systems into independent modules and dedicated operators that can be reconfigured like LEGO blocks. Going beyond the conventional linear structure, it integrates routing, scheduling, and fusion mechanisms and identifies common RAG patterns such as linear, conditional, branching, and looping.
+
 [18] Asai, A., Wu, Z., Wang, Y., Sil, A., Hajishirzi, H. Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. ICLR 2024. arXiv:2310.11511. Peer-reviewed paper.
+
+> Proposes Self-RAG, which trains a single LM end-to-end to generate "reflection tokens" that judge whether retrieval is needed and assess the relevance, support, and output quality of retrieved passages. Its 7B and 13B models significantly outperform ChatGPT and retrieval-augmented Llama2-chat on open-domain QA, reasoning, and fact verification, substantially improving factuality and citation accuracy in long-form generation.
 
 [19] Yan, S.-Q., Gu, J.-C., Zhu, Y., Ling, Z.-H. Corrective Retrieval Augmented Generation (CRAG). Preprint, 2024. arXiv:2401.15884. Preprint (not peer-reviewed).
 
+> Proposes Corrective RAG (CRAG), in which a lightweight retrieval evaluator assesses the quality of retrieved documents and triggers different knowledge-acquisition actions—Correct, Incorrect, or Ambiguous—based on confidence. With integrated web search and a decompose-then-recompose extraction step, it significantly improves over standard RAG and Self-RAG across four datasets.
+
 [20] Peng, B., Zhu, Y., Liu, Y., et al. Graph Retrieval-Augmented Generation: A Survey. Preprint, 2024. arXiv:2408.08921. Preprint (not peer-reviewed).
+
+> The first systematic survey of GraphRAG, formalizing its workflow into three stages: Graph-Based Indexing, Graph-Guided Retrieval, and Graph-Enhanced Generation. To capture structural and relational knowledge among entities that semantic similarity alone misses, it analyzes the model choices, method designs, and enhancement strategies at each stage.
 
 [21] Edge, D., Trinh, H., Cheng, N., et al. From Local to Global: A Graph RAG Approach to Query-Focused Summarization (Microsoft GraphRAG). Preprint, 2024. arXiv:2404.16130. Preprint (not peer-reviewed).
 
+> Proposes Microsoft GraphRAG, which uses an LLM to build an entity knowledge graph from source documents, pre-generates summaries for each community of related entities, and answers global queries via a map-reduce process. On sensemaking questions over million-token datasets, it substantially outperforms conventional vector RAG in both comprehensiveness and diversity of answers when using GPT-4.
+
 [22] Sarthi, P., Abdullah, S., Tuli, A., Khanna, S., Goldie, A., Manning, C. D. RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval. ICLR 2024. arXiv:2401.18059. Peer-reviewed paper.
+
+> Proposes RAPTOR, which recursively embeds, clusters, and summarizes chunks to build a tree of summaries at varying levels of abstraction in a bottom-up manner. By retrieving from multiple tree layers at inference time, it can grasp an entire document holistically, and RAPTOR combined with GPT-4 improves the best result on the QuALITY benchmark by 20% in absolute accuracy.
 
 [23] Jiang, Z., Xu, F. F., Gao, L., Sun, Z., Liu, Q., Dwivedi-Yu, J., Yang, Y., Callan, J., Neubig, G. Active Retrieval Augmented Generation (FLARE). EMNLP 2023. arXiv:2305.06983. Peer-reviewed paper.
 
+> Generalizes active retrieval-augmented generation, which actively decides when and what to retrieve during generation, and proposes the concrete method FLARE. By tentatively generating the upcoming sentence to look ahead and re-retrieving using that sentence as a query when it contains low-confidence tokens, FLARE achieves superior or competitive performance across all four long-form, knowledge-intensive generation tasks.
+
 [24] Trivedi, H., Balasubramanian, N., Khot, T., Sabharwal, A. Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions (IRCoT). ACL 2023. arXiv:2212.10509. Peer-reviewed paper.
+
+> Proposes IRCoT, which interleaves retrieval and chain-of-thought (CoT) steps, using CoT to guide retrieval and retrieval results to refine the CoT iteratively. With GPT-3, IRCoT improves retrieval by up to 21 points and downstream QA by up to 15 points across four multi-hop QA datasets while reducing hallucination.
 
 [25] Singh, A., Ehtesham, A., Kumar, S., Talaei Khoei, T. Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG. Preprint, 2025. arXiv:2501.09136. Preprint (not peer-reviewed).
 
+> A survey providing an analytical overview of Agentic RAG, which embeds autonomous AI agents into the RAG pipeline. It organizes design patterns such as reflection, planning, tool use, and multi-agent collaboration along with various workflow patterns, and presents a principled taxonomy based on the number of agents, control structure, autonomy, and knowledge representation.
+
 [26] Towards Agentic RAG with Deep Reasoning: A Survey of RAG-Reasoning Systems in LLMs. Preprint, 2025. arXiv:2507.09477. Preprint (not peer-reviewed).
+
+> A survey that organizes retrieval and reasoning under a unified perspective, presenting a taxonomy that classifies methods, datasets, and challenges into three types: Reasoning-Enhanced RAG, RAG-Enhanced Reasoning, and Synergized (agentic) RAG-Reasoning that iteratively coordinates the two. It discusses the developmental direction of iterative coordination between retrieval and reasoning.
 
 [27] Reimers, N., Gurevych, I. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. EMNLP-IJCNLP 2019. arXiv:1908.10084. Peer-reviewed paper.
 
+> Proposes Sentence-BERT, which fine-tunes BERT/RoBERTa with siamese and triplet structures and applies pooling to produce fixed-length sentence embeddings comparable by cosine similarity. It reduces the search for the most similar pair among 10,000 sentences from about 65 hours to roughly 5 seconds and outperforms InferSent by 11.7 points on average across seven STS tasks.
+
 [28] Wang, L., Yang, N., Huang, X., et al. Text Embeddings by Weakly-Supervised Contrastive Pre-training (E5). Preprint, 2022. arXiv:2212.03533. Preprint (not peer-reviewed).
+
+> Trains the general-purpose embedding model E5 via weakly supervised contrastive pre-training with in-batch negatives, using a large set of text pairs (CCPairs) selected by a consistency-based filter. Evaluated on 56 datasets including BEIR and MTEB, it becomes the first model to surpass BM25 in a zero-shot setting without any labels.
 
 [29] Xiao, S., Liu, Z., Zhang, P., Muennighoff, N., et al. C-Pack: Packed Resources For General Chinese Embeddings (BGE). SIGIR 2024. arXiv:2309.07597. Peer-reviewed paper.
 
+> Develops and releases C-Pack, a resource package for general-purpose Chinese embeddings comprising the C-MTEB evaluation benchmark, the large-scale C-MTP training data, the BGE family of embedding models, and a three-stage training recipe. BGE outperforms existing Chinese embeddings by over 10% on C-MTEB at release and is offered in small, base, and large sizes.
+
 [30] Malkov, Yu. A., Yashunin, D. A. Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs (HNSW). IEEE TPAMI, Vol.42, No.4, 2020. arXiv:1603.09320. Peer-reviewed paper.
+
+> Proposes HNSW, an approximate nearest-neighbor search that incrementally builds a multi-layer proximity graph in which elements are assigned to layers by an exponentially decaying probability distribution and links are separated by characteristic distance scale. By starting the search from upper layers, it achieves logarithmic complexity scaling and substantially outperforms the state-of-the-art vector-specific methods of its time in the speed-recall trade-off.
 
 [31] Khattab, O., Zaharia, M. ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT. SIGIR 2020. arXiv:2004.12832. Peer-reviewed paper.
 
+> ColBERT independently encodes queries and documents into sets of contextualized embeddings and estimates relevance through cheap late interaction via MaxSim. It matches BERT-based methods in effectiveness while achieving over 170x speedup and four orders of magnitude fewer FLOPs in reranking.
+
 [32] Nogueira, R., Jiang, Z., Pradeep, R., Lin, J. Document Ranking with a Pretrained Sequence-to-Sequence Model (monoT5). Findings of EMNLP 2020. arXiv:2003.06713. Peer-reviewed paper.
+
+> monoT5 adapts the sequence-to-sequence model T5 as a reranker, generating "true/false" from query-document pairs and ranking by the probability of those logits. It reaches MRR@10 of .383 on MS MARCO, surpassing BERT-large (.372), and shows particular strength under data-scarce conditions.
 
 [33] Robertson, S., Zaragoza, H. The Probabilistic Relevance Framework: BM25 and Beyond. Foundations and Trends in Information Retrieval, Vol.3, No.4, 2009. DOI:10.1561/1500000019. Peer-reviewed paper.
 
+> This expository work systematizes the probabilistic relevance framework, which probabilistically estimates relevance in information retrieval and ranks documents by descending probability of relevance, presenting in unified form the term-weighting function BM25 and BM25F derived from the binary independence model and relevance feedback. It is the canonical reference for the sparse side of hybrid retrieval.
+
 [34] Cormack, G. V., Clarke, C. L. A., Büttcher, S. Reciprocal Rank Fusion Outperforms Condorcet and Individual Rank Learning Methods (RRF). SIGIR 2009, pp.758–759. DOI:10.1145/1571941.1572114. Peer-reviewed paper.
+
+> Reciprocal Rank Fusion (RRF) scores each document by summing the reciprocal ranks 1/(k+r) across all systems. It fuses rankings using only rank positions and no training examples, outperforming the best individual systems and methods such as CombMNZ by 4-5% on average across TREC tasks (with k=60 optimal).
 
 [35] Gao, L., Ma, X., Lin, J., Callan, J. Precise Zero-Shot Dense Retrieval without Relevance Labels (HyDE). ACL 2023. arXiv:2212.10496. Peer-reviewed paper.
 
+> HyDE has an instruction-following LLM generate a hypothetical document answering the query, then embeds it with an unsupervised encoder to retrieve neighbors of real documents. Requiring no labels in a zero-shot setting, it reaches nDCG@10 of 61.3 on TREC DL19, far exceeding Contriever (44.5) and BM25 (50.6).
+
 [36] Chen, T., Wang, H., Chen, S., et al. Dense X Retrieval: What Retrieval Granularity Should We Use? EMNLP 2024. arXiv:2312.06648. Peer-reviewed paper.
+
+> This work proposes the "proposition"—a minimal, self-contained factual unit—as a new retrieval unit and builds FactoidWiki by segmenting English Wikipedia at three granularities. Proposition-level retrieval improves unsupervised retrievers' Recall@5 by +9 to +12 points on average and also raises downstream QA EM@500.
 
 [37] Duarte, A. V., Marques, J., Graça, M., et al. LumberChunker: Long-Form Narrative Document Segmentation. Findings of EMNLP 2024. arXiv:2406.17526. Peer-reviewed paper.
 
+> LumberChunker is a dynamic chunking method that has an LLM judge content shift points to split documents into variable-length segments. It outperforms the most competitive baseline by 7.37% in retrieval performance (DCG@20) and, when integrated into a RAG pipeline, is more effective than other chunking methods and Gemini 1.5 Pro.
+
 [38] Günther, M., Mohr, I., Williams, D. J., Wang, B., Xiao, H. Late Chunking: Contextual Chunk Embeddings Using Long-Context Embedding Models. Preprint, 2024. arXiv:2409.04701. Preprint (not peer-reviewed).
+
+> Late chunking first embeds the entire document with a long-context embedding model and only then pools at the chunk level, rather than splitting into chunks before embedding. Each chunk embedding thus retains the document-wide context, improving nDCG@10 by a relative 2.7 to 3.6% over naive splitting.
 
 [39] Qu, R., Tu, R., Bao, F. S. Is Semantic Chunking Worth the Computational Cost? Findings of NAACL 2025. arXiv:2410.13070. Peer-reviewed paper.
 
+> This study evaluates at scale, across three proxy tasks (document retrieval, evidence retrieval, and answer generation), whether semantic chunking yields performance gains commensurate with its added computational cost. It concludes that the gains are highly task-dependent, inconsistent, and often fail to justify the extra cost, serving as a counterpoint on the cost-effectiveness of advanced chunking.
+
 [40] Li, Z., Li, C., Zhang, M., Mei, Q., Bendersky, M. Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach. EMNLP 2024 (Industry Track). arXiv:2407.16833. Peer-reviewed paper.
+
+> Using state-of-the-art LLMs, this work systematically compares RAG with long-context (LC) and proposes Self-Route, a hybrid that first processes queries cheaply with RAG and routes only the queries RAG is unconfident about to LC. While LC outperforms RAG in nearly all settings, Self-Route achieves LC-equivalent performance at substantially lower cost.
 
 [41] Yu, T., Xu, A., Akkiraju, R. In Defense of RAG in the Era of Long-Context Language Models. Preprint, 2024. arXiv:2409.01666. Preprint (not peer-reviewed).
 
+> Order-preserve RAG (OP-RAG) arranges retrieved chunks in their original order of appearance in the document rather than by relevance. Answer quality follows an inverted-U curve as the number of retrieved chunks grows, and OP-RAG attains higher answer quality with far fewer tokens than feeding the full context to a long-context LLM.
+
 [42] Mathew, M., Karatzas, D., Jawahar, C. V. DocVQA: A Dataset for VQA on Document Images. WACV 2021. arXiv:2007.00398. Peer-reviewed paper.
+
+> DocVQA is an extractive QA dataset built from real industrial documents, requiring interpretation of structure such as layout, tables, forms, and figures to answer. It comprises 50,000 questions over 12,767 document images and shows that a large gap remains between existing models and human performance (94.36% accuracy).
 
 [43] Scaling Beyond Context: A Survey of Multimodal Retrieval-Augmented Generation for Document Understanding. Preprint, 2025. arXiv:2510.15253. Preprint (not peer-reviewed).
 
+> This is the first systematic survey of multimodal RAG for document understanding, classifying methods by domain, retrieval modality, granularity, graph integration, and agentic extensions. It notes that representative document-RAG benchmarks require 20-200M visual tokens, far exceeding existing MLLMs' context lengths, and that the number of papers surged from 2024.
+
 [44] Xu, Y., Li, M., Cui, L., Huang, S., Wei, F., Zhou, M. LayoutLM: Pre-training of Text and Layout for Document Image Understanding. KDD 2020. arXiv:1912.13318. Peer-reviewed paper.
+
+> LayoutLM is the first model to jointly pre-train text and layout (2D positional embeddings) within a single framework. It improves form understanding (FUNSD) from 70.72 to 79.27 and document image classification (RVL-CDIP) from 93.07 to 94.42, achieving new state-of-the-art on multiple document understanding tasks.
 
 [45] Xu, Y., Xu, Y., Lv, T., Cui, L., Wei, F., et al. LayoutLMv2: Multi-modal Pre-training for Visually-Rich Document Understanding. ACL-IJCNLP 2021. arXiv:2012.14740. Peer-reviewed paper.
 
+> LayoutLMv2 integrates text, vision, and layout via a multimodal Transformer from the pre-training stage, introducing new Text-Image Alignment and Matching tasks and a spatial-aware self-attention mechanism. It surpasses the original on six tasks, including FUNSD and DocVQA (0.7295 to 0.8672), achieving state-of-the-art.
+
 [46] Huang, Y., Lv, T., Cui, L., Lu, Y., Wei, F. LayoutLMv3: Pre-training for Document AI with Unified Text and Image Masking. ACM MM 2022. arXiv:2204.08387. Peer-reviewed paper.
+
+> LayoutLMv3 is the first document-AI multimodal model free of CNN dependence, pre-training text and image with unified masking (MLM plus MIM) and learning cross-modal alignment via Word-Patch Alignment. It achieves F1=92.08 on FUNSD and mAP 95.1 on PubLayNet layout analysis, reaching state of the art on both text-centric and image-centric tasks.
 
 [47] Kim, G., Hong, T., Yim, M., et al. OCR-free Document Understanding Transformer (Donut). ECCV 2022. arXiv:2111.15664. Peer-reviewed paper.
 
+> Donut is an end-to-end Transformer (Swin Transformer encoder plus BART decoder) that generates structured output directly from raw images without OCR. It surpasses OCR-dependent methods in accuracy, speed, and memory to reach state of the art, offering a strong approach for unstructured data on which OCR is unreliable.
+
 [48] Appalaraju, S., Jasani, B., Urala Kota, B., Xie, Y., Manmatha, R. DocFormer: End-to-End Transformer for Document Understanding. ICCV 2021. arXiv:2106.11539. Peer-reviewed paper.
+
+> DocFormer is an encoder-only Transformer with a novel multimodal self-attention layer that shares spatial embeddings across modalities, fusing the visual, textual, and spatial modalities for document understanding without relying on object detectors or custom OCR. It achieves state of the art on four datasets, on some tasks surpassing models roughly four times its size.
 
 [49] Blecher, L., Cucurull, G., Scialom, T., Stojnic, R. Nougat: Neural Optical Understanding for Academic Documents. Preprint, 2023. arXiv:2308.13418. Preprint (not peer-reviewed).
 
+> Nougat is a Visual Transformer (Swin Transformer encoder plus mBART decoder) that converts document page images into lightweight markup (Markdown). Trained as a 350M-parameter model on data built from arXiv papers, it demonstrates the conversion of scientific documents containing equations into structured text.
+
 [50] Li, M., Cui, L., Huang, S., Wei, F., Zhou, M., Li, Z. TableBank: Table Benchmark for Image-based Table Detection and Recognition. LREC 2020. arXiv:1903.01949. Peer-reviewed paper.
+
+> TableBank is a large-scale table dataset built by automatically applying markup as weak supervision to the source code of Word and LaTeX documents. Containing 417,234 labeled tables, it achieves F1=0.9625 on ICDAR2013 and shows that cross-domain training aids generalization in table detection and recognition.
 
 [51] Zhong, X., ShafieiBavani, E., Jimeno Yepes, A. Image-based Table Recognition: Data, Model, and Evaluation (PubTabNet / EDD). ECCV 2020. arXiv:1911.10683. Peer-reviewed paper.
 
+> This work releases PubTabNet, one of the largest public table-recognition datasets (about 568k images with HTML representations) derived from PubMed Central, and proposes the Encoder-Dual-Decoder (EDD), comprising a structure decoder and a cell decoder, along with TEDS, a tree-edit-distance-based metric. EDD surpasses the prior state of the art by an absolute 9.7% in TEDS.
+
 [52] Nassar, A., Livathinos, N., Lysak, M., Staar, P. TableFormer: Table Structure Understanding with Transformers. CVPR 2022. arXiv:2203.01017. Peer-reviewed paper.
+
+> TableFormer is a Transformer-based model that jointly predicts table structure and cell bounding boxes end to end, avoiding the training of a custom OCR and remaining language-independent so as to handle non-English tables. It improves TEDS to 98.5% for simple tables and 95% for complex tables, surpassing the prior state of the art.
 
 [53] Smock, B., Pesala, R., Abraham, R. PubTables-1M: Towards Comprehensive Table Extraction From Unstructured Documents. CVPR 2022. arXiv:2110.00061. Peer-reviewed paper.
 
+> PubTables-1M is a large-scale dataset of about one million tables (948K) built from PMCOA, covering the three tasks of table detection, structure recognition, and functional analysis and annotating all rows, columns, and cells including empty ones. It introduces a canonicalization procedure to correct oversegmentation and first applies DETR to the three tasks, demonstrating its effectiveness.
+
 [54] Masry, A., Do, X. L., Tan, J. Q., Joty, S., Hoque, E. ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning. Findings of ACL 2022. arXiv:2203.10244. Peer-reviewed paper.
+
+> ChartQA is a large-scale benchmark for question answering over bar, line, and pie charts that addresses compositional visual and logical reasoning, comprising 32,719 questions over 20,882 charts collected from four real-world sources. It proposes a Transformer-based QA model that integrates visual features with structured data tables extracted from the charts.
 
 [55] Liu, F., Eisenschlos, J. M., Piccinno, F., et al. DePlot: One-shot Visual Language Reasoning by Plot-to-Table Translation. Findings of ACL 2023. arXiv:2212.10505. Peer-reviewed paper.
 
+> DePlot decomposes visual-language reasoning into plot-to-table translation and LLM reasoning over the translated table, proposing a module that converts plots into linearized tables and plugs into existing LLMs. In a one-shot setting it achieves a 29.4% improvement on human-written questions over the then state of the art fine-tuned on thousands of examples.
+
 [56] Liu, F., Piccinno, F., Krichene, S., et al. MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering. ACL 2023. arXiv:2212.09662. Peer-reviewed paper.
+
+> MatCha strengthens visual-language pre-training by introducing two families of pre-training tasks, chart derendering and mathematical reasoning, starting from Pix2Struct. On ChartQA and PlotQA it surpasses even state-of-the-art models assuming access to the underlying data table, exceeding the prior state of the art without data tables by up to roughly 20%.
 
 [57] Smith, R. An Overview of the Tesseract OCR Engine. ICDAR 2007, pp.629–633. DOI:10.1109/ICDAR.2007.4376991. Peer-reviewed paper.
 
+> Tesseract is an OCR engine adopting a staged pipeline that begins with connected-component analysis (line finding, baseline fitting, character segmentation, and two-pass recognition with an adaptive classifier). On the UNLV Fourth Annual OCR Accuracy Test its new version improves the overall character error rate by 7.31% and the word error rate by 5.39% over the prior version, serving as a foundational technology for extracting text from unstructured documents.
+
 [58] OpenAI. GPT-4V(ision) System Card. Vendor technical report, 2023. [Link](https://cdn.openai.com/papers/GPTV_System_Card.pdf) (Not peer-reviewed.)
+
+> The GPT-4V System Card evaluates and mitigates multimodal-specific safety concerns and limitations such as hallucination, person identification, and jailbreaks for the deployment of image-capable GPT-4V. In internal evaluation it refuses over 98% of person-identification requests and, combined with a refusal system, reaches a 100% refusal rate for image jailbreaks, while also reporting limitations such as reading specialized documents yet erroneously merging nearby texts.
 
 [59] Liu, H., Li, C., Wu, Q., Lee, Y. J. Visual Instruction Tuning (LLaVA). NeurIPS 2023. arXiv:2304.08485. Peer-reviewed paper.
 
+> LLaVA is a multimodal LLM trained end to end by connecting CLIP's visual encoder and Vicuna via a linear projection, using multimodal instruction-following data (158K instances total) generated with the language-only GPT-4. It attains a relative score of 85.1% against GPT-4 on synthetic data and, combined with GPT-4 on Science QA, achieves a new state-of-the-art accuracy of 92.53%.
+
 [60] Bai, J., Bai, S., Yang, S., et al. Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond. Preprint, 2023. arXiv:2308.12966. Preprint (not peer-reviewed).
+
+> Qwen-VL is a 9.6B-parameter vision-language model built on Qwen-7B that introduces a ViT visual encoder and a position-aware cross-attention adapter compressing image features into a fixed length of 256, trained through a three-stage pipeline on a multilingual multimodal corpus. Equipped with grounding and text-reading abilities, it sets a new general-purpose VL state of the art at its scale across a wide range of benchmarks such as ChartQA and TextVQA.
 
 [61] Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., et al. Learning Transferable Visual Models From Natural Language Supervision (CLIP). ICML 2021. arXiv:2103.00020. Peer-reviewed paper.
 
+> The international standard ISO 12234-4:2026, published in March 2026, specifies Adobe's DNG (Digital Negative) format as the standard file format for RAW image storage. It retains unprocessed sensor data and enables post-capture adjustment of white balance and tone mapping, and in this essay it serves as the primary technical source for treating RAW images as a representative example of unstructured data.
+
 [62] Faysse, M., Sibille, H., Wu, T., et al. ColPali: Efficient Document Retrieval with Vision Language Models. ICLR 2025. arXiv:2407.01449. Peer-reviewed paper.
+
+> A tertiary reference outlining the RAW image format, explaining that a RAW file stores unprocessed mosaic sensor data captured through a color filter array (typically a Bayer filter) at high bit depth (usually 12 or 14 bits), deferring demosaicing and white-balance processing to later stages to maximize adjustment flexibility. In this essay it is used as a supplementary source for background on RAW images and sensor formats.
 
 [63] ISO. ISO 12234-4:2026 — Digital imaging — Image storage — Part 4: Digital negative format. International standard, March 2026. [Link](https://www.iso.org/standard/86123.html) (Paid standard. Referenced within the scope of catalog information.)
 
+> The international standard ISO 12234-4:2026, published in March 2026, specifies Adobe's DNG (Digital Negative) format as the standard file format for creating, processing, managing, and archiving RAW images. It emphasizes that the RAW format retains unprocessed sensor data and enables post-capture adjustment, and in this essay it serves as the primary source for treating RAW images (DNG) as a representative example of unstructured data.
+
 [64] Wikipedia contributors. Raw image format. Tertiary source. [Link](https://en.wikipedia.org/wiki/Raw_image_format) (Non-peer-reviewed tertiary source. Used only for background explanation.)
+
+> A tertiary reference outlining the RAW image format, explaining that a RAW file stores unprocessed mosaic sensor data captured through a color filter array (typically a Bayer filter) at high bit depth (usually 12 or 14 bits), intentionally deferring processing to later stages to maximize the flexibility of adjustments such as white balance and tone mapping. In this essay it is used as a supplementary source for background on sensor formats.
 
 [65] Ignatov, A., Van Gool, L., Timofte, R. Replacing Mobile Camera ISP with a Single Deep Learning Model (PyNET). CVPRW 2020. arXiv:2002.05509. Peer-reviewed paper.
 
+> PyNET is an inverted-pyramid CNN that directly converts RAW Bayer data into RGB images without prior knowledge of the sensor or optics, jointly learning ISP stages such as demosaicing, color correction, and denoising in a single end-to-end model. On the Zurich RAW to RGB dataset it achieves PSNR 21.19 and MS-SSIM 0.8620, and in a user study it scored 2.77, surpassing the Huawei P20's built-in ISP (MOS 2.56).
+
 [66] Chen, C., Chen, Q., Xu, J., Koltun, V. Learning to See in the Dark. CVPR 2018. arXiv:1805.01934. Peer-reviewed paper.
+
+> Learning to See in the Dark replaces the entire conventional ISP pipeline with an end-to-end fully convolutional network (U-Net) that takes extremely low-light short-exposure RAW images directly as input, with the amplification ratio supplied as an external parameter. It introduces the SID dataset of 5,094 RAW images captured with Sony and Fujifilm cameras, achieving PSNR 28.88 and SSIM 0.787 on the Sony set and winning 92.4% preference over BM3D in perceptual evaluation.
 
 [67] Unstructured Technologies. Unstructured (open-source document ETL library). OSS official documentation. [Link](https://docs.unstructured.io/open-source/introduction/overview) (Not peer-reviewed.)
 
+> Unstructured is an open-source document-preprocessing toolkit that ingests more than 25 document formats—including PDF, HTML, Word, and images—and formats and structures them for LLMs. It provides partitioning of documents into structured elements, cleaning, information extraction, and semantic chunking, and in this essay it is cited as a concrete example of the practical workflow for preparing unstructured data for RAG.
+
 [68] Amazon Web Services. Amazon Textract. Vendor official documentation. [Link](https://docs.aws.amazon.com/textract/latest/dg/what-is.html) (Not peer-reviewed.)
+
+> Amazon Textract is an AWS managed service that extracts text, tables, and forms from images and PDFs without requiring machine-learning expertise. In addition to OCR detection of printed and handwritten text, it offers table and form extraction, targeted extraction via Queries, AnalyzeExpense for invoices and receipts, and AnalyzeID for identity documents, and in this essay it is cited as a practical example of a service for structuring unstructured documents.
 
 [69] Amazon Web Services. Amazon Bedrock Knowledge Bases. Vendor official documentation. [Link](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html) (Not peer-reviewed.)
 
+> Amazon Bedrock Knowledge Bases is an AWS managed RAG platform that integrates proprietary data into generative-AI applications to improve the relevance and accuracy of responses via RAG. It offers a Managed type that handles ingestion, embedding, indexing, and retrieval, as well as a Self-managed type, and supports automatic per-document-type parsing, multi-hop reasoning, cited responses, and reranking. In this essay it is cited as an example of integrating ingestion through retrieval and generation.
+
 [70] Microsoft. Azure AI Document Intelligence. Vendor official documentation. [Link](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview) (Not peer-reviewed.)
+
+> Azure AI Document Intelligence (formerly Form Recognizer) is a Microsoft Azure cloud service that performs machine-learning-based OCR and intelligent document processing to automate the extraction of key data from forms and documents. It provides a Read model for printed and handwritten text, a Layout model for text, tables, and structure, numerous Prebuilt models for invoices and similar documents, and a custom-trained Custom model, and in this essay it is cited as a cloud document-processing counterpart to Textract.
 
 [71] Microsoft. Azure AI Search — Vector search overview. Vendor official documentation. [Link](https://learn.microsoft.com/en-us/azure/search/vector-search-overview) (Not peer-reviewed.)
 
+> Vector search in Azure AI Search is an information-retrieval approach that supports indexing and querying over embedding vectors of content, enabling semantic-similarity matching across multiple languages and content types. In addition to similarity search, it provides hybrid search that combines vector and keyword search in a single request, as well as multimodal search, and in this essay it is cited as an example of a vector-search platform serving as the retrieval layer of RAG.
+
 [72] Microsoft. Azure AI Search — Integrated vectorization. Vendor official documentation. [Link](https://learn.microsoft.com/en-us/azure/search/vector-search-integrated-vectorization) (Not peer-reviewed.)
+
+> Integrated vectorization in Azure AI Search extends the indexing and query pipeline to perform vectorization automatically at both ingestion and query time. During indexer-driven ingestion it executes chunking via the Text Split skill and embedding generation via the AzureOpenAIEmbedding skill in one pass, and at query time it automatically converts the search string into a vector. In this essay it is cited as an example of reducing effort through automatic vectorization at ingestion time.
 
 [73] Google. Google Cloud Document AI. Vendor official documentation. [Link](https://cloud.google.com/document-ai/docs/overview) (Not peer-reviewed.)
 
+> Google Cloud Document AI is a Google Cloud document-processing platform that converts unstructured data within documents into structured data suitable for databases. It provides processors for Digitize (OCR with quality assessment and deskewing), Extract (value extraction and normalization for forms and tables via Form Parser, Layout Parser, etc.), and Classify (classification and splitting of document types), and in this essay it is cited as a comparison counterpart alongside Textract and Document Intelligence.
+
 [74] Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., Cao, Y. ReAct: Synergizing Reasoning and Acting in Language Models. ICLR 2023. arXiv:2210.03629. Peer-reviewed paper.
+
+> ReAct is a paradigm that interleaves reasoning traces with task-specific actions, using reasoning to guide and update action plans while using actions to interact with external sources such as Wikipedia to acquire knowledge. It suppresses hallucination on HotpotQA and Fever, and on the interactive decision-making benchmarks ALFWorld and WebShop it surpasses prior methods by 34% and 10% in absolute success rate using only one or two in-context examples.
 
 [75] Schick, T., Dwivedi-Yu, J., Dessì, R., et al. Toolformer: Language Models Can Teach Themselves to Use Tools. NeurIPS 2023. arXiv:2302.04761. Peer-reviewed paper.
 
+> Toolformer is an LLM that learns, in a self-supervised manner, which APIs to call, when, with what arguments, and how to incorporate the results, by sampling candidate API calls and retaining only those that actually reduce the next-token prediction loss for fine-tuning. Based on the 6.7B GPT-J, it substantially improves zero-shot performance, often rivaling GPT-3 (175B), and improves by up to 18.6 points on LAMA.
+
 [76] Wang, L., Ma, C., Feng, X., et al. A Survey on Large Language Model based Autonomous Agents. Frontiers of Computer Science, 2023. arXiv:2308.11432. Peer-reviewed paper (survey).
+
+> A comprehensive survey of LLM-based autonomous agents organized along three axes—construction, application, and evaluation—proposing a unified framework comprising four modules: profile, memory, planning, and action. It serves as a reference for surveying the constituent components and application scope of agents.
 
 [77] Anthropic. Tool use with Claude — Overview. Vendor official documentation, 2024–2025. [Link](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview) (Not peer-reviewed.)
 
+> Anthropic's official overview of tool use (function calling), describing how Claude decides on invocations based on the request and tool descriptions, distinguishing client tools from server tools (such as web_search and code_execution). It constitutes an agent loop via returned tool_use blocks and submitted tool_result messages.
+
 [78] Anthropic. Introducing the Model Context Protocol (MCP). Vendor official documentation, November 2024. [Link](https://www.anthropic.com/news/model-context-protocol) (Specification: [Link](https://modelcontextprotocol.io) ) (Not peer-reviewed.)
+
+> Anthropic's official overview of the open standard Model Context Protocol (MCP), which aims to securely connect AI assistants with data sources and replace fragmented bespoke integrations with a single protocol. It provides the protocol specification and SDKs along with prebuilt connectors for Google Drive, Slack, GitHub, PostgreSQL, and others.
 
 [79] Anthropic. Agent Skills — Overview. Vendor official documentation, October 2025. [Link](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) (Not peer-reviewed.)
 
+> Anthropic's official overview of the modular Agent Skills feature, which packages instructions, metadata, and optional scripts or templates that Claude invokes automatically in relevant situations. It employs progressive disclosure, loading from metadata to body instructions incrementally, and serves as a means of supplying domain knowledge to agents.
+
 [80] Brehme, L., Dornauer, B., Ströhle, T., Ehrhart, M., Breu, R. Retrieval-Augmented Generation in Industry: An Interview Study on Use Cases, Requirements, Challenges, and Evaluation. KDIR 2025. arXiv:2508.14066. Peer-reviewed paper (conference).
+
+> A peer-reviewed interview study analyzing the practical adoption of RAG (use cases, requirements, challenges, and evaluation) from semi-structured interviews with 13 industry practitioners, finding that most implementations are QA tasks and that 12 of 13 remain at the prototype stage. Privacy/data protection was rated most important among requirements (8.9), while evaluation was almost entirely manual, with only two cases automated.
 
 [81] Chen, L.-C., Pardeshi, M. S., Liao, Y.-X., Pai, K.-C. Application of retrieval-augmented generation for interactive industrial knowledge management via a large language model. Computer Standards & Interfaces, Vol.94, 103995, 2025. DOI:10.1016/j.csi.2025.103995. Peer-reviewed paper (journal).
 
+> A case study designing and implementing a custom RAG system for interactive knowledge management over industry-specific unstructured documents, retrieving top-k chunks using both BM25 and embeddings, reranking with a BAAI reranker, and generating with GPT-3.5 Turbo. On internal regulation documents it achieved 91.62% recall, 97.97% MRR, and 91.12% mAP.
+
 [82] Heredia Álvaro, J. A., González Barreda, J. An advanced retrieval-augmented generation system for manufacturing quality control. Advanced Engineering Informatics, Vol.64, 103007, 2025 (online publication and DOI dated 2024). DOI:10.1016/j.aei.2024.103007. Peer-reviewed paper (journal).
+
+> Targeting quality control in ceramic tile manufacturing, this work builds an advanced RAG pipeline of preprocessing, indexing, retrieval, post-retrieval, and generation—retrieving with a bi-encoder, reranking with a cross-encoder, and generating with gpt-3.5-turbo-instruct over a defect catalog and academic papers as knowledge sources. It achieved an 85.81% F1 in retrieval and a mean ROUGE-L of 0.61 in generation, outperforming general GPT-4.
 
 [83] Zhang, T., Patil, S. G., Jain, N., Shen, S., Zaharia, M., Stoica, I., Gonzalez, J. E. RAFT: Adapting Language Model to Domain Specific RAG. COLM 2024. arXiv:2403.10131. Peer-reviewed paper.
 
+> Proposes Retrieval Augmented Fine-Tuning (RAFT), a hybrid of RAG and fine-tuning that presents both helpful documents and irrelevant distractors and fine-tunes the model to ignore distractors while quoting relevant documents verbatim and reasoning in chain-of-thought form. It consistently improved over domain-specific fine-tuning and RAG alone on PubMed, HotpotQA, and Gorilla.
+
 [84] Chen, J., Lin, H., Han, X., Sun, L. Benchmarking Large Language Models in Retrieval-Augmented Generation (RGB). AAAI 2024, Vol.38 No.16, pp.17754–17762. arXiv:2309.01431. Peer-reviewed paper.
+
+> Constructs RGB, an English–Chinese benchmark measuring four fundamental abilities required for RAG—noise robustness, negative rejection, information integration, and counterfactual robustness—and evaluates six LLMs. At a noise ratio of 0.8 ChatGPT's accuracy fell from 96.33% to 76.00%, and negative rejection rates reached at most 45% in English, quantifying capability bottlenecks under RAG.
 
 [85] Es, S., James, J., Espinosa-Anke, L., Schockaert, S. Ragas: Automated Evaluation of Retrieval Augmented Generation. EACL 2024 (System Demonstrations). arXiv:2309.15217. Peer-reviewed paper (demo paper).
 
+> Proposes Ragas, a reference-free automated evaluation framework for RAG that measures three axes—faithfulness, answer relevance, and context relevance—via LLM prompting. On WikiEval its agreement with human judgments reached 0.95 for faithfulness, 0.78 for answer relevance, and 0.70 for context relevance, surpassing GPT Score and GPT Ranking.
+
 [86] Zeng, S., Zhang, J., He, P., et al. The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG). Findings of ACL 2024. arXiv:2402.16893. Peer-reviewed paper.
+
+> A study examining leakage risks from both the retrieval database and the training data of RAG, demonstrating extraction of confidential retrieval data via structured prompt attacks composed of {information} plus {command}. Llama2-7b-Chat and GPT-3.5-turbo could output retrieval data verbatim with success rates near 50%, and summarization reduced untargeted-attack risk by about 50% but was limited against targeted attacks.
 
 [87] Panasonic Connect. Results of one year of generative AI deployment and future utilization plans. Official press release, June 25, 2024. [Link](https://news.panasonic.com/jp/press/jn240625-1) (Official corporate announcement. Not peer-reviewed.)
 
+> Panasonic Connect's report on one year of deploying its in-house AI assistant 'ConnectAI,' built on an OpenAI LLM and rolled out to about 12,400 employees, which from April 2024 references 630 confidential quality-control documents (11,743 pages) via RAG. Over one year it reduced employee working hours by 186,000 hours, with access counts reaching about 1.4 million over twelve months.
+
 [88] Toyota Motor Corporation, Advanced R&D and Engineering Company; Amazon Web Services. Toyota Motor Corporation — secure RAG environment on AWS. Vendor official customer story, 2024. [Link](https://aws.amazon.com/solutions/case-studies/toyota-jp-case-study/) (Official corporate and vendor announcement. Not peer-reviewed.)
+
+> An AWS case study in which Toyota's Advanced R&D and Engineering Company consolidated departmentally fragmented RAG systems into a company-wide secure RAG infrastructure featuring hybrid search and query expansion on Amazon OpenSearch Service, plus file-level access control via internal authentication integration. It reduced research time by about 20% and the effort for information lookups by about 50%.
 
 [89] Panasonic Connect. Development of a new technology in which an observation-driven AI agent references a knowledge graph for generative AI RAG to answer. Official press release, October 3, 2024 (results accepted at ACL 2024). [Link](https://news.panasonic.com/jp/press/jn241003-2) (Official corporate announcement. Not peer-reviewed.)
 
+> Panasonic Connect's announcement of an observation-driven AI agent technology that uses a knowledge graph rather than text as the reference source for generative-AI RAG, iterating three stages—observation, action, and reflection—to filter information and improve answer accuracy. The technology was accepted at ACL 2024 and achieved best performance on real-time performance.
+
 [90] Fujitsu. Automatically generating specialized generative AI that meets enterprise needs with world-first technology! Providing an enterprise generative AI framework (Fujitsu Kozuchi). Official press release, June 4, 2024. [Link](https://info.archives.global.fujitsu/jp/news/2024/06/4.html) (Official corporate announcement. Not peer-reviewed.)
+
+> Fujitsu's announcement of an enterprise generative-AI framework comprising 'knowledge-graph-enhanced RAG' that structures enterprise data into a knowledge graph to expand the data an LLM can reference to over 10 million tokens, a 'generative-AI mixing technology' that automatically selects optimal models, and a world-first 'generative-AI auditing technology' that verifies compliance of answers with rules and laws. It achieved world-best accuracy on multi-hop QA (HotpotQA).
