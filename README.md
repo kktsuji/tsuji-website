@@ -37,7 +37,7 @@ hugo server
 
 ## Posts
 
-There are 188 [Posts](https://tsuji.tech/posts/).
+There are 190 [Posts](https://tsuji.tech/posts/).
 
 ### Conferences
 
@@ -71,6 +71,10 @@ There are 188 [Posts](https://tsuji.tech/posts/).
 - [Use Collection as Holdout Mask in Blender](https://tsuji.tech/collection-holdout-mask-blender) ([JP](https://tsuji.tech//jp/collection-holdout-mask-blender)) (Mar 1, 2025)
 - [blender.exe vs. blender-launcher.exe](https://tsuji.tech/blender-exe-vs-blender-launcher-exe) ([JP](https://tsuji.tech//jp/blender-exe-vs-blender-launcher-exe)) (Nov 29, 2024)
 - [Version of Blender .blend File](https://tsuji.tech/blender-blend-file-version) ([JP](https://tsuji.tech//jp/blender-blend-file-version)) (Nov 22, 2024)
+
+### career
+
+- [An Engineer's Path in the Age of AI Coding — The Forward Deployed Engineer (FDE) Option](https://tsuji.tech/forward-deployed-engineer) ([JP](https://tsuji.tech//jp/forward-deployed-engineer)) (Jun 20, 2026)
 
 ### ci
 
@@ -262,6 +266,10 @@ There are 188 [Posts](https://tsuji.tech/posts/).
 - [Create Python Numpy Ndarray](https://tsuji.tech/create-python-numpy-ndarray) ([JP](https://tsuji.tech//jp/create-python-numpy-ndarray)) (Apr 3, 2024)
 - [Python Matplotlib Interfaces](https://tsuji.tech/python-matplotlib-interfaces) ([JP](https://tsuji.tech//jp/python-matplotlib-interfaces)) (Apr 2, 2024)
 - [Install opencv-python](https://tsuji.tech/install-opencv-python) ([JP](https://tsuji.tech//jp/install-opencv-python)) (Mar 31, 2024)
+
+### rag
+
+- [The Potential of RAG in DX for the Image Sensor Manufacturing Industry and the Challenge of Unstructured Data](https://tsuji.tech/rag-unstructured-data-manufacturing) ([JP](https://tsuji.tech//jp/rag-unstructured-data-manufacturing)) (Jun 20, 2026)
 
 ### segment-anything-models
 
